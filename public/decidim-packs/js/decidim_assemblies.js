@@ -1,14 +1,14 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$":
-/*!***************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images/ sync ^\.\/.*$ ***!
-  \***************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/*!***********************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  \***********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/assemblies/decidim_assemblies.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images/decidim/assemblies/decidim_assemblies.svg"
+	"./decidim/assemblies/decidim_assemblies.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg"
 };
 
 
@@ -29,32 +29,32 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/entrypoints/decidim_assemblies.js":
-/*!***************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/entrypoints/decidim_assemblies.js ***!
-  \***************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js":
+/*!***********************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js ***!
+  \***********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/assemblies */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/assemblies.js");
+/* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/assemblies */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js");
 /* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_assemblies_orgchart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/orgchart */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/orgchart.js");
+/* harmony import */ var src_decidim_assemblies_orgchart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/orgchart */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js");
 
  // Images
 
-__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$");
+__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/assemblies.js":
-/*!******************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/assemblies.js ***!
-  \******************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js":
+/*!**************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js ***!
+  \**************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
@@ -73,22 +73,16 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/orgchart.js":
-/*!****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/orgchart.js ***!
-  \****************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js":
+/*!************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js ***!
+  \************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/select.js");
-/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/selection/on.js");
-/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/selectAll.js");
-/* harmony import */ var d3_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3-array */ "./node_modules/d3-array/src/index.js");
-/* harmony import */ var d3_hierarchy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-hierarchy */ "./node_modules/d3-hierarchy/src/hierarchy/index.js");
-/* harmony import */ var d3_force__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-force */ "./node_modules/d3-force/src/index.js");
-/* harmony import */ var d3_drag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! d3-drag */ "./node_modules/d3-drag/src/drag.js");
-/* harmony import */ var d3_fetch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! d3-fetch */ "./node_modules/d3-fetch/src/json.js");
+/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3 */ "./node_modules/d3/index.js");
+/* harmony import */ var src_decidim_vizzs_renders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/vizzs/renders */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js");
 /* eslint-disable require-jsdoc, max-lines, no-return-assign, func-style, id-length, no-plusplus, no-use-before-define, no-negated-condition, init-declarations, no-invalid-this, no-param-reassign, no-ternary, multiline-ternary, no-nested-ternary, no-eval, no-extend-native, prefer-reflect */
 
 /* eslint dot-location: ["error", "property"], no-negated-condition: "error" */
@@ -97,9 +91,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* eslint no-unused-vars: 0 */
 
-
-
-
+/* global d3 */
 
  // lib
 
@@ -149,10 +141,10 @@ var renderOrgCharts = function renderOrgCharts() {
     var _collapse, _expand;
 
     var filter;
-    var _hierarchy = {}; // main chart object
+    var hierarchy = {}; // main chart object
 
-    var main = function main(_selection) {
-      _selection.each(function scope() {
+    var main = function main(selection) {
+      selection.each(function scope() {
         // calculated properties
         var calc = {};
         calc.chartLeftMargin = attrs.marginLeft;
@@ -160,34 +152,34 @@ var renderOrgCharts = function renderOrgCharts() {
         calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
         calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin; // ########################## HIERARCHY STUFF  #########################
 
-        _hierarchy.root = (0,d3_hierarchy__WEBPACK_IMPORTED_MODULE_2__["default"])(attrs.data.root); // ###########################   BEHAVIORS #########################
+        hierarchy.root = d3__WEBPACK_IMPORTED_MODULE_0__.hierarchy(attrs.data.root); // ###########################   BEHAVIORS #########################
 
-        var behaviors = {}; // behaviors.zoom = zoom().scaleExtent([0.75, 100, 8]).on("zoom", zoomed)
+        var behaviors = {}; // behaviors.zoom = d3.zoom().scaleExtent([0.75, 100, 8]).on("zoom", zoomed)
 
-        behaviors.drag = (0,d3_drag__WEBPACK_IMPORTED_MODULE_3__["default"])().on("start", dragstarted).on("drag", dragged).on("end", dragended); // ###########################   LAYOUTS #########################
+        behaviors.drag = d3__WEBPACK_IMPORTED_MODULE_0__.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended); // ###########################   LAYOUTS #########################
 
         var layouts = {}; // custom radial layout
 
         layouts.radial = radial(); // ###########################   FORCE STUFF #########################
 
         var force = {};
-        force.link = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceLink)().id(function (d) {
+        force.link = d3__WEBPACK_IMPORTED_MODULE_0__.forceLink().id(function (d) {
           return d.id;
         });
-        force.charge = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceManyBody)().strength(-240);
-        force.center = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceCenter)(calc.chartWidth / 2, calc.chartHeight / 2); // prevent collide
+        force.charge = d3__WEBPACK_IMPORTED_MODULE_0__.forceManyBody().strength(-240);
+        force.center = d3__WEBPACK_IMPORTED_MODULE_0__.forceCenter(calc.chartWidth / 2, calc.chartHeight / 2); // prevent collide
 
-        force.collide = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceCollide)().radius(function (d) {
+        force.collide = d3__WEBPACK_IMPORTED_MODULE_0__.forceCollide().radius(function (d) {
           // Creates an invented radius based on element measures: diagonal = 2 * radius = sqrt(width^2, height^2)
           var base = (d.bbox || {}).width + attrs.nodeGutter.x * 2;
           var height = (d.bbox || {}).height + attrs.nodeGutter.y * 2;
           var diagonal = Math.sqrt(Math.pow(base, 2) + Math.pow(height, 2));
-          var fakeRadius = diagonal / 2; // return max([attrs.nodeDistance * 3, fakeRadius])
+          var fakeRadius = diagonal / 2; // return d3.max([attrs.nodeDistance * 3, fakeRadius])
 
           return fakeRadius * 1.5;
         }); // manually set x positions (which is calculated using custom radial layout)
 
-        force.x = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceX)().strength(0.5).x(function (d) {
+        force.x = d3__WEBPACK_IMPORTED_MODULE_0__.forceX().strength(0.5).x(function (d) {
           // if node does not have children and is channel (depth=2) , then position it on parent's coordinate
           if (!d.children && d.depth > 2) {
             if (d.parent) {
@@ -197,9 +189,9 @@ var renderOrgCharts = function renderOrgCharts() {
 
 
           return projectCircle(d.proportion, (d.depth - 1) * attrs.distance)[0];
-        }); // manually set y positions (which is calculated using cluster)
+        }); // manually set y positions (which is calculated using d3.cluster)
 
-        force.y = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceY)().strength(0.5).y(function (d) {
+        force.y = d3__WEBPACK_IMPORTED_MODULE_0__.forceY().strength(0.5).y(function (d) {
           // if node does not have children and is channel (depth=2) , then position it on parent's coordinate
           if (!d.children && d.depth > 2) {
             if (d.parent) {
@@ -212,10 +204,10 @@ var renderOrgCharts = function renderOrgCharts() {
         }); // ---------------------------------  INITIALISE FORCE SIMULATION ----------------------------
         // get based on top parameter simulation
 
-        force.simulation = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceSimulation)().force("link", force.link).force("charge", force.charge).force("center", force.center).force("collide", force.collide).force("x", force.x).force("y", force.y); // ###########################   HIERARCHY STUFF #########################
+        force.simulation = d3__WEBPACK_IMPORTED_MODULE_0__.forceSimulation().force("link", force.link).force("charge", force.charge).force("center", force.center).force("collide", force.collide).force("x", force.x).force("y", force.y); // ###########################   HIERARCHY STUFF #########################
         // flatten root
 
-        var arr = flatten(_hierarchy.root); // hide members based on their depth
+        var arr = flatten(hierarchy.root); // hide members based on their depth
 
         arr.forEach(function (d) {
           // Hide fake root node
@@ -230,26 +222,26 @@ var renderOrgCharts = function renderOrgCharts() {
         }); // ####################################  DRAWINGS #######################
         // drawing containers
 
-        var container = (0,d3_selection__WEBPACK_IMPORTED_MODULE_4__["default"])(this); // add svg
+        var container = d3__WEBPACK_IMPORTED_MODULE_0__.select(this); // add svg
 
-        var svg = patternify(container, {
+        var svg = container.patternify({
           tag: "svg",
           selector: "svg-chart-container"
         }).attr("width", attrs.svgWidth).attr("height", attrs.svgHeight); // .call(behaviors.zoom)
         // add container g element
 
-        var chart = patternify(svg, {
+        var chart = svg.patternify({
           tag: "g",
           selector: "chart"
         }).attr("transform", "translate(".concat(calc.chartLeftMargin, ",").concat(calc.chartTopMargin, ")")); // ################################   Chart Content Drawing ##################################
         // link wrapper
 
-        var linksWrapper = patternify(chart, {
+        var linksWrapper = chart.patternify({
           tag: "g",
           selector: "links-wrapper"
         }); // node wrapper
 
-        var nodesWrapper = patternify(chart, {
+        var nodesWrapper = chart.patternify({
           tag: "g",
           selector: "nodes-wrapper"
         });
@@ -261,20 +253,18 @@ var renderOrgCharts = function renderOrgCharts() {
           // Show/hide reset button
           clickedNode ? $btnReset.removeClass("invisible") : $btnReset.addClass("invisible"); // set xy and proportion properties with custom radial layout
 
-          layouts.radial(_hierarchy.root); // nodes and links array
+          layouts.radial(hierarchy.root); // nodes and links array
 
-          var nodesArr = flatten(_hierarchy.root, true).orderBy(function (d) {
+          var nodesArr = flatten(hierarchy.root, true).orderBy(function (d) {
             return d.depth;
           }).filter(function (d) {
             return !d.hidden;
           });
-
-          var linksArr = _hierarchy.root.links().filter(function (d) {
+          var linksArr = hierarchy.root.links().filter(function (d) {
             return !d.source.hidden;
           }).filter(function (d) {
             return !d.target.hidden;
           }); // make new nodes to appear near the parents
-
 
           nodesArr.forEach(function (d) {
             if (clickedNode && clickedNode.id === (d.parent && d.parent.id)) {
@@ -326,7 +316,7 @@ var renderOrgCharts = function renderOrgCharts() {
           }).attr("class", "as-text").attr("dx", function (d) {
             return d.bbox.x + d.bbox.width + attrs.nodeGutter.x;
           }).attr("dy", attrs.childrenIndicatorRadius + 3).text(function (d) {
-            return (0,d3_array__WEBPACK_IMPORTED_MODULE_0__.max)([(d.children || {}).length, (d._children || {}).length]);
+            return d3__WEBPACK_IMPORTED_MODULE_0__.max([(d.children || {}).length, (d._children || {}).length]);
           }); // merge  node groups and style it
 
           nodes = enteredNodes.merge(nodes); // force simulation
@@ -340,7 +330,7 @@ var renderOrgCharts = function renderOrgCharts() {
         // zoom handler
         // function zoomed() {
         //   // get transform event
-        //   let transform = event.transform
+        //   let transform = d3.event.transform
         //   attrs.lastTransform = transform
         //
         //   // apply transform event props to the wrapper
@@ -391,8 +381,8 @@ var renderOrgCharts = function renderOrgCharts() {
 
         function dragged(d) {
           // make dragged node fixed
-          d.fx = d3_selection__WEBPACK_IMPORTED_MODULE_5__.event.x;
-          d.fy = d3_selection__WEBPACK_IMPORTED_MODULE_5__.event.y;
+          d.fx = d3__WEBPACK_IMPORTED_MODULE_0__.event.x;
+          d.fy = d3__WEBPACK_IMPORTED_MODULE_0__.event.y;
         } // -------------------- handle drag end event ---------------
 
 
@@ -402,7 +392,7 @@ var renderOrgCharts = function renderOrgCharts() {
 
         function nodeMouseEnter(d) {
           // get links
-          var _links = _hierarchy.root.links(); // get hovered node connected links
+          var _links = hierarchy.root.links(); // get hovered node connected links
 
 
           var connectedLinks = _links.filter(function (l) {
@@ -502,7 +492,7 @@ var renderOrgCharts = function renderOrgCharts() {
 
 
         function freeNodes() {
-          (0,d3_selection__WEBPACK_IMPORTED_MODULE_6__["default"])(".node").each(function (n) {
+          d3__WEBPACK_IMPORTED_MODULE_0__.selectAll(".node").each(function (n) {
             n.fx = null;
             n.fy = null;
           });
@@ -578,31 +568,27 @@ var renderOrgCharts = function renderOrgCharts() {
     }; // ----------- PROTOTYEPE FUNCTIONS  ----------------------
 
 
-    function patternify(node, _params) {
+    d3__WEBPACK_IMPORTED_MODULE_0__.selection.prototype.patternify = function (_params) {
       var selector = _params.selector;
       var elementTag = _params.tag;
 
       var _data = _params.data || [selector]; // pattern in action
 
 
-      var _selection = node.selectAll(".".concat(selector)).data(_data);
-
-      _selection.exit().remove();
-
-      _selection = _selection.enter().append(elementTag).merge(_selection);
-
-      _selection.attr("class", selector);
-
-      return _selection;
-    } // custom radial layout
+      var selection = this.selectAll(".".concat(selector)).data(_data);
+      selection.exit().remove();
+      selection = selection.enter().append(elementTag).merge(selection);
+      selection.attr("class", selector);
+      return selection;
+    }; // custom radial layout
 
 
     function radial() {
       return function (root) {
         recurse(root, 0, 1);
 
-        function recurse(node, min, _max) {
-          node.proportion = (_max + min) / 2;
+        function recurse(node, min, max) {
+          node.proportion = (max + min) / 2;
 
           if (!node.x) {
             // if node has parent, match entered node positions to it's parent
@@ -624,7 +610,7 @@ var renderOrgCharts = function renderOrgCharts() {
 
 
           if (node.children) {
-            var offset = (_max - min) / node.children.length;
+            var offset = (max - min) / node.children.length;
             node.children.forEach(function (child, i) {
               var newMin = min + offset * i;
               var newMax = newMin + offset;
@@ -699,7 +685,7 @@ var renderOrgCharts = function renderOrgCharts() {
 
 
     main.run = function () {
-      (0,d3_selection__WEBPACK_IMPORTED_MODULE_6__["default"])(attrs.container).call(main);
+      d3__WEBPACK_IMPORTED_MODULE_0__.selectAll(attrs.container).call(main);
       return main;
     };
 
@@ -718,10 +704,9 @@ var renderOrgCharts = function renderOrgCharts() {
     };
 
     main.reset = function () {
-      _hierarchy.root.children.forEach(function (e) {
+      hierarchy.root.children.forEach(function (e) {
         return _collapse(e, true);
       });
-
       main.run();
       return main;
     };
@@ -734,7 +719,7 @@ var renderOrgCharts = function renderOrgCharts() {
     var $container = $(container);
     var width = $container.width();
     var height = width / (16 / 9);
-    (0,d3_fetch__WEBPACK_IMPORTED_MODULE_7__["default"])($container.data("url")).then(function (data) {
+    d3__WEBPACK_IMPORTED_MODULE_0__.json($container.data("url")).then(function (data) {
       // Make a fake previous node if the data entry is not hierarchical
       if (data instanceof Array) {
         fake = true;
@@ -758,18 +743,38 @@ var renderOrgCharts = function renderOrgCharts() {
 };
 
 $(function () {
-  renderOrgCharts();
-  $(document).on("change.zf.tabs", function () {
-    renderOrgCharts();
-  });
+  (0,src_decidim_vizzs_renders__WEBPACK_IMPORTED_MODULE_1__["default"])(renderOrgCharts);
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images/decidim/assemblies/decidim_assemblies.svg":
-/*!******************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/images/decidim/assemblies/decidim_assemblies.svg ***!
-  \******************************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js":
+/*!************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js ***!
+  \************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ renderChart; }
+/* harmony export */ });
+/* eslint-disable require-jsdoc */
+// renderChart receives a chart function as argument and renders it
+// Also captures change.zf.tabs event and re-renders the chart
+function renderChart(chart) {
+  chart();
+  $(document).on("change.zf.tabs", function () {
+    chart();
+  });
+}
+
+/***/ }),
+
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg":
+/*!**************************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg ***!
+  \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
@@ -946,7 +951,7 @@ module.exports = __webpack_require__.p + "media/images/decidim_assemblies-d9571d
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_d3-array_src_index_js-node_modules_d3-collection_src_index_js-node_modul-f618e0","vendors-node_modules_d3-drag_src_drag_js-node_modules_d3-fetch_src_json_js-node_modules_d3-fo-5cde09"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/entrypoints/decidim_assemblies.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_d3_index_js"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

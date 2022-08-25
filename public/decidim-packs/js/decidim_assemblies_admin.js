@@ -1,10 +1,10 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0.rc1/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0.rc1/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
-  \******************************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
+/*!**************************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
+  \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -91,10 +91,10 @@ function createFieldDependentInputs(options) {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assemblies.js":
-/*!************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assemblies.js ***!
-  \************************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js":
+/*!********************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js ***!
+  \********************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
@@ -158,15 +158,15 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assembly_members.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assembly_members.js ***!
-  \******************************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js":
+/*!**************************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js ***!
+  \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0.rc1/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
+/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
 
 $(function () {
   var $assemblyMemberType = $("#assembly_member_existing_user");
@@ -211,10 +211,10 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/src/decidim/slug_form.js":
-/*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/src/decidim/slug_form.js ***!
-  \************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js":
+/*!********************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js ***!
+  \********************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
@@ -300,14 +300,14 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
-/*!*********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/entrypoints/decidim_assemblies_admin.js ***!
-  \*********************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies_admin.js ***!
+  \*****************************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/admin/assemblies */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assemblies.js");
+/* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/admin/assemblies */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js");
 /* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_assemblies_admin_assembly_members__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/admin/assembly_members */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0.rc1/app/packs/src/decidim/assemblies/admin/assembly_members.js");
-/* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/slug_form */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/src/decidim/slug_form.js");
+/* harmony import */ var src_decidim_assemblies_admin_assembly_members__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/admin/assembly_members */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js");
+/* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/slug_form */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js");
 /* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__);
 
 

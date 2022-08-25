@@ -1,14 +1,14 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$":
-/*!***************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images/ sync ^\.\/.*$ ***!
-  \***************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/*!***********************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  \***********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/sortitions/icon.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images/decidim/sortitions/icon.svg"
+	"./decidim/sortitions/icon.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images/decidim/sortitions/icon.svg"
 };
 
 
@@ -29,14 +29,14 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images/decidim/sortitions/icon.svg":
-/*!****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images/decidim/sortitions/icon.svg ***!
-  \****************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images/decidim/sortitions/icon.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images/decidim/sortitions/icon.svg ***!
+  \************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
@@ -85,11 +85,11 @@ module.exports = __webpack_require__.p + "media/images/icon-b430778003d66a91efc0
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-/*!***************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/entrypoints/decidim_sortitions.js ***!
-  \***************************************************************************************************************************************/
+/*!***********************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/entrypoints/decidim_sortitions.js ***!
+  \***********************************************************************************************************************************/
 // Images
-__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-sortitions-0.27.0.rc1/app/packs/images sync recursive ^\\.\\/.*$");
+__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-sortitions-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
 }();
 /******/ })()
 ;

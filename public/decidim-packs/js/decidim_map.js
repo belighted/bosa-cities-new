@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/entrypoints/decidim_map.scss":
-/*!****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/entrypoints/decidim_map.scss ***!
-  \****************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_map.scss":
+/*!************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_map.scss ***!
+  \************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -56,11 +56,11 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-/*!**************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/entrypoints/decidim_map.js ***!
-  \**************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_map.js ***!
+  \**********************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var entrypoints_decidim_map_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! entrypoints/decidim_map.scss */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0.rc1/app/packs/entrypoints/decidim_map.scss");
+/* harmony import */ var entrypoints_decidim_map_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! entrypoints/decidim_map.scss */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_map.scss");
 
 }();
 /******/ })()

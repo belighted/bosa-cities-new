@@ -1,10 +1,10 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-accountability-0.27.0.rc1/app/packs/src/decidim/accountability/admin/index.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-accountability-0.27.0.rc1/app/packs/src/decidim/accountability/admin/index.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-accountability-0.26.2/app/packs/src/decidim/accountability/admin/index.js":
+/*!***********************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-accountability-0.26.2/app/packs/src/decidim/accountability/admin/index.js ***!
+  \***********************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
@@ -92,11 +92,11 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
-/*!*****************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-accountability-0.27.0.rc1/app/packs/entrypoints/decidim_accountability_admin.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-accountability-0.26.2/app/packs/entrypoints/decidim_accountability_admin.js ***!
+  \*************************************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_accountability_admin_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/accountability/admin/index */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-accountability-0.27.0.rc1/app/packs/src/decidim/accountability/admin/index.js");
+/* harmony import */ var src_decidim_accountability_admin_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/accountability/admin/index */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-accountability-0.26.2/app/packs/src/decidim/accountability/admin/index.js");
 /* harmony import */ var src_decidim_accountability_admin_index__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_accountability_admin_index__WEBPACK_IMPORTED_MODULE_0__);
 
 }();

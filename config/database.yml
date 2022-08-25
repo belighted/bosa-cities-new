@@ -24,8 +24,8 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: <%= ENV.fetch("DATABASE_HOST") { "localhost" } %>
   port: <%= ENV.fetch("DATABASE_PORT") { "5432" } %>
-  username: <%= ENV.fetch("DATABASE_USERNAME") { "postgres" } %>
-  password: <%= ENV.fetch("DATABASE_PASSWORD") { "password1" } %>
+  username: <%= ENV.fetch("DATABASE_USERNAME") { "" } %>
+  password: <%= ENV.fetch("DATABASE_PASSWORD") { "" } %>
 
 development:
   <<: *default
@@ -63,7 +63,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: bosa_cities_new_test<%= ENV.fetch('TEST_ENV_NUMBER', "") %>
+  database: bosa_cities_new_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
