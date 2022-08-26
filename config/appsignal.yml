@@ -1,0 +1,7 @@
+default: &defaults
+  name: '<%= ENV.fetch('APPSIGNAL_APP_NAME', 'bosa-cities-new') %>'
+  push_api_key: '<%= ENV['APPSIGNAL_PUSH_API_KEY'] %>'
+
+production:
+  <<: *defaults
+  active: true
