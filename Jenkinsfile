@@ -60,8 +60,7 @@ podTemplate(
                             stage("Compile Assets") {
                                 sh """
                                     docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest bundle exec rake assets:clean
-                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest yarn install --silent --no-progress --no-audit --no-optional
-                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest bundle exec rake assets:precompile
+                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest yarn install --silent --no-progress --no-audit --no-optional && bundle exec rake assets:precompile
                                 """
                             }
                             stage("Build app image"){
