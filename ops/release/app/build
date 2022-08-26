@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+IMAGE_NAME="nexus.asergo.com/2483/apps/bosa-cities-new"
+TAG=${TAG:-"latest"}
+
+runpath="$( cd "$(dirname "$0")" ; pwd -P )"
+
+(cd ${runpath} &&
+     docker build --file ${runpath}/Dockerfile --pull --tag $IMAGE_NAME:$TAG ../../.. )

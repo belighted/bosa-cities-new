@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+IMAGE_NAME="bosa-cities-new-testrunner"
+TAG=${TAG:-"latest"}
+
+runpath="$( cd "$(dirname "$0")" ; pwd -P )"
+(cd ${runpath} &&
+     docker build --file ${runpath}/Dockerfile --pull --tag $IMAGE_NAME:$TAG ../../..)
