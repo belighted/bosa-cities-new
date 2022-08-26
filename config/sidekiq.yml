@@ -1,0 +1,17 @@
+:concurrency: 6
+:queues:
+  - default
+  - mailers
+  - newsletter
+  - newsletters_opt_in
+  - events
+  - metrics
+  - exports
+
+:schedule:
+  CalculateAllMetrics:
+    cron: '0 22 * * *'
+    class: CalculateAllMetricsJob
+  PreloadOpenData:
+    cron: '0 17 * * *'
+    class: PreloadOpenDataJob

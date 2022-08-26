@@ -38,6 +38,8 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.active_job.queue_adapter = :sidekiq
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
@@ -50,7 +52,6 @@ Rails.application.configure do
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
-  
 
   # Suppress logger output for asset requests.
   
