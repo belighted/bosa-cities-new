@@ -6,6 +6,7 @@ ENV RAILS_ENV=test
 
 COPY Gemfile* /app/
 RUN bundle install
+RUN yarn install
 
 ADD . /app/
 
