@@ -6,7 +6,6 @@ ENV RAILS_ENV=test
 
 COPY Gemfile* /app/
 RUN bundle install
-RUN bundle exec rails webpacker:install
 
 ADD . /app/
 
