@@ -52,5 +52,5 @@ group :development do
 end
 
 group :production do
-  gem 'fog-aws'
+  gem "aws-sdk-s3", require: false
 end
