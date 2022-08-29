@@ -50,3 +50,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 4.0"
 end
+
+group :production do
+  gem 'fog-aws'
+end
