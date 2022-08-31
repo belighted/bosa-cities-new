@@ -43,6 +43,7 @@ node_modules/
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/credentials.yml.enc
 
 # Ignore public uploads
 public/uploads
