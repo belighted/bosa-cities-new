@@ -104,39 +104,39 @@ podTemplate(
                         }
                         break
 
-                    //case ~/^\d+\.\d+\.\d+$/:
-                    //    stage('Promot image uat->prod'){
-                    //        promoteImages(
-                    //                "${docker_registry_credId}",
-                    //                "${docker_img_apps}",
-                    //                "${docker_img_prod}",
-                    //                ["bosa-cities-new", "bosa-cities-new-assets"],
-                    //                ["bosa-cities-new", "bosa-cities-new-assets"]
-                    //        )
-                    //    }
-                    //    stage('Deploy app to prod'){
-                    //        kubeDeploy(
-                    //                "v1.20.0",
-                    //                "kube-jenkins-robot-prod",
-                    //                "${kube_conf_url_prod}",
-                    //                "bosa-cities-new",
-                    //                "bosa-prod",
-                    //                ["bosa-cities-new", "bosa-cities-new-assets" ],
-                    //                ["${docker_img_prod}/bosa-cities-new:${job_base_name}", "${docker_img_prod}/bosa-cities-new-assets:${job_base_name}"]
-                    //        )
-                    //    }
-                    //    stage('Deploy sidekiq to prod'){
-                    //        kubeDeploy(
-                    //                "v1.20.0",
-                    //                "kube-jenkins-robot-prod",
-                    //                "${kube_conf_url_prod}",
-                    //                "bosa-cities-new-sidekiq",
-                    //                "bosa-prod",
-                    //                ["bosa-cities-new-sidekiq" ],
-                    //                ["${docker_img_prod}/bosa-cities-new:${job_base_name}"]
-                    //        )
-                    //    }
-                    //    break
+                    case ~/^\d+\.\d+\.\d+$/:
+                        stage('Promot image uat->prod'){
+                            promoteImages(
+                                    "${docker_registry_credId}",
+                                    "${docker_img_apps}",
+                                    "${docker_img_prod}",
+                                    ["bosa-cities-new", "bosa-cities-new-assets"],
+                                    ["bosa-cities-new", "bosa-cities-new-assets"]
+                            )
+                        }
+                        stage('Deploy app to prod'){
+                            kubeDeploy(
+                                    "v1.20.0",
+                                    "kube-jenkins-robot-prod",
+                                    "${kube_conf_url_prod}",
+                                    "bosa-cities-new",
+                                    "bosa-prod",
+                                    ["bosa-cities-new", "bosa-cities-new-assets" ],
+                                    ["${docker_img_prod}/bosa-cities-new:${job_base_name}", "${docker_img_prod}/bosa-cities-new-assets:${job_base_name}"]
+                            )
+                        }
+                        stage('Deploy sidekiq to prod'){
+                            kubeDeploy(
+                                    "v1.20.0",
+                                    "kube-jenkins-robot-prod",
+                                    "${kube_conf_url_prod}",
+                                    "bosa-cities-new-sidekiq",
+                                    "bosa-prod",
+                                    ["bosa-cities-new-sidekiq" ],
+                                    ["${docker_img_prod}/bosa-cities-new:${job_base_name}"]
+                            )
+                        }
+                        break
                 }
             }
         }
