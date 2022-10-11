@@ -1,15 +1,15 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!*********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \*********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg",
-	"./decidim/meetings/decidim_meetings.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/meetings/decidim_meetings.svg"
+	"./decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg",
+	"./decidim/meetings/decidim_meetings.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/meetings/decidim_meetings.svg"
 };
 
 
@@ -30,13 +30,13 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -50,7 +50,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -60,7 +59,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -70,32 +68,24 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint-disable require-jsdoc */
-
-
 var FieldDependentInputsComponent = /*#__PURE__*/function () {
   function FieldDependentInputsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, FieldDependentInputsComponent);
-
     this.controllerField = options.controllerField;
     this.wrapperSelector = options.wrapperSelector;
     this.dependentFieldsSelector = options.dependentFieldsSelector;
     this.dependentInputSelector = options.dependentInputSelector;
     this.enablingCondition = options.enablingCondition;
-
     this._bindEvent();
-
     this._run();
   }
-
   _createClass(FieldDependentInputsComponent, [{
     key: "_run",
     value: function _run() {
       var $controllerField = this.controllerField;
       var $dependentFields = $controllerField.parents(this.wrapperSelector).find(this.dependentFieldsSelector);
       var $dependentInputs = $dependentFields.find(this.dependentInputSelector);
-
       if (this.enablingCondition($controllerField)) {
         $dependentInputs.prop("disabled", false);
         $dependentFields.show();
@@ -108,25 +98,22 @@ var FieldDependentInputsComponent = /*#__PURE__*/function () {
     key: "_bindEvent",
     value: function _bindEvent() {
       var _this = this;
-
       this.controllerField.on("change", function () {
         _this._run();
       });
     }
   }]);
-
   return FieldDependentInputsComponent;
 }();
-
 function createFieldDependentInputs(options) {
   return new FieldDependentInputsComponent(options);
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js":
 /*!*********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js ***!
   \*********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -135,8 +122,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ attachGeocoding; }
 /* harmony export */ });
-/* harmony import */ var _coordinate_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coordinate_input */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js");
+/* harmony import */ var _coordinate_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coordinate_input */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js");
 /* eslint-disable require-jsdoc */
+
 
 /**
  * You can use this method to "attach" front-end geocoding to any forms in the
@@ -202,12 +190,10 @@ function attachGeocoding($input, options, callback) {
   var idPrefix = "".concat(inputIdParts.join("_"));
   var latitudeName = "latitude";
   var longitudeName = "longitude";
-
   if ($input.length > 0) {
     latitudeName = (0,_coordinate_input__WEBPACK_IMPORTED_MODULE_0__["default"])("latitude", $input, attachOptions);
     longitudeName = (0,_coordinate_input__WEBPACK_IMPORTED_MODULE_0__["default"])("longitude", $input, attachOptions);
   }
-
   var config = $.extend({
     latitudeId: "".concat(idPrefix, "_latitude"),
     longitudeId: "".concat(idPrefix, "_longitude"),
@@ -215,58 +201,52 @@ function attachGeocoding($input, options, callback) {
     longitudeName: longitudeName
   }, options);
   var geocoded = false;
-
   var createCoordinateFields = function createCoordinateFields() {
     var $latitude = $("#".concat(config.latitudeId));
-
     if ($latitude.length < 1) {
       $latitude = $("<input type=\"hidden\" name=\"".concat(config.latitudeName, "\" id=\"").concat(config.latitudeId, "\" />"));
       $input.after($latitude);
     }
-
     var $longitude = $("#".concat(config.longitudeId));
-
     if ($longitude.length < 1) {
       $longitude = $("<input type=\"hidden\" name=\"".concat(config.longitudeName, "\" id=\"").concat(config.longitudeId, "\" />"));
       $input.after($longitude);
     }
   };
-
   var clearCoordinateFields = function clearCoordinateFields() {
     if (geocoded) {
       return;
     }
-
     $("#".concat(config.latitudeId)).val("").removeAttr("value");
     $("#".concat(config.longitudeId)).val("").removeAttr("value");
   };
-
   var setCoordinates = function setCoordinates(coordinates) {
     createCoordinateFields();
     $("#".concat(config.latitudeId)).val(coordinates[0]).attr("value", coordinates[0]);
     $("#".concat(config.longitudeId)).val(coordinates[1]).attr("value", coordinates[1]);
-  }; // When the user changes the value of the coordinate field without selecting
+  };
+
+  // When the user changes the value of the coordinate field without selecting
   // any of the geocoding autocomplete results, clear the current latitude and
   // longitude values to let the backend do the geocoding. Once a geocoding
   // autocomplete value has been selected, assume the user just wants to
   // refine the address formatting without changing the location point value.
   // If they want, they can still modify the point in the next step of the
   // proposal creation/editing.
-
-
   $input.on("change.decidim", function () {
     clearCoordinateFields();
-  }); // When we receive the geocoding event on the field, update the coordinate
-  // values.
+  });
 
+  // When we receive the geocoding event on the field, update the coordinate
+  // values.
   $input.on("geocoder-suggest-coordinates.decidim", function (_ev, coordinates) {
     setCoordinates(coordinates);
     geocoded = true;
     callback(coordinates);
-  }); // Set the initial values if the field defines the coordinates
+  });
 
+  // Set the initial values if the field defines the coordinates
   var coordinates = "".concat($input.data("coordinates")).split(",").map(parseFloat);
-
   if (Array.isArray(coordinates) && coordinates.length === 2) {
     setCoordinates(coordinates);
   }
@@ -274,9 +254,9 @@ function attachGeocoding($input, options, callback) {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js":
 /*!*************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js ***!
   \*************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -294,90 +274,79 @@ __webpack_require__.r(__webpack_exports__);
  */
 function getCoordinateInputName(coordinate, $input, options) {
   var key = "".concat(coordinate, "Name");
-
   if (options[key]) {
     return options[key];
   }
-
   var inputName = $input.attr("name");
   var subNameMatch = /\[[^\]]+\]$/;
-
   if (inputName.match(subNameMatch)) {
     return inputName.replace(subNameMatch, "[".concat(coordinate, "]"));
   }
-
   return coordinate;
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/entrypoints/decidim_meetings.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/entrypoints/decidim_meetings.js":
 /*!*******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/entrypoints/decidim_meetings.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/entrypoints/decidim_meetings.js ***!
   \*******************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_meetings_meetings_form__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/meetings/meetings_form */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_form.js");
-/* harmony import */ var src_decidim_meetings_meetings_polls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/meetings/meetings_polls */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_polls.js");
-/* harmony import */ var src_decidim_forms_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/forms/forms */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/forms.js");
+/* harmony import */ var src_decidim_meetings_meetings_form__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/meetings/meetings_form */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_form.js");
+/* harmony import */ var src_decidim_meetings_meetings_polls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/meetings/meetings_polls */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_polls.js");
+/* harmony import */ var src_decidim_forms_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/forms/forms */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/forms.js");
 
 
- // Images
 
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_form.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_form.js":
 /*!*************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_form.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_form.js ***!
   \*************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/attach_input */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js");
-/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
+/* harmony import */ var src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/attach_input */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js");
+/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
 
 
 $(function () {
   // Adds the latitude/longitude inputs after the geocoding is done
   var $meetingAddress = $("#meeting_address");
-
   if ($meetingAddress.length > 0) {
     (0,src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__["default"])($meetingAddress);
   }
-
   var $form = $(".meetings_form");
-
   if ($form.length > 0) {
     var $meetingTypeOfMeeting = $form.find("#meeting_type_of_meeting");
     var $meetingOnlineFields = $form.find(".field[data-meeting-type='online']");
     var $meetingInPersonFields = $form.find(".field[data-meeting-type='in_person']");
     var $meetingOnlineAccessLevelFields = $form.find(".field[data-meeting-type='online-access-level']");
-
     var toggleDependsOnSelect = function toggleDependsOnSelect($target, $showDiv, type) {
       var value = $target.val();
-
       if (value === "hybrid") {
         $showDiv.show();
       } else {
         $showDiv.hide();
-
         if (value === type) {
           $showDiv.show();
         }
       }
     };
-
     $meetingTypeOfMeeting.on("change", function (ev) {
       var $target = $(ev.target);
       var embedTypeValue = $("#meeting_iframe_embed_type").val();
       toggleDependsOnSelect($target, $meetingOnlineFields, "online");
       toggleDependsOnSelect($target, $meetingInPersonFields, "in_person");
-
       if (embedTypeValue === "none") {
         $meetingOnlineAccessLevelFields.hide();
       } else {
@@ -413,27 +382,25 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_polls.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_polls.js":
 /*!**************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/meetings_polls.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/meetings_polls.js ***!
   \**************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_meetings_poll_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/meetings/poll.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/poll.component.js");
+/* harmony import */ var src_decidim_meetings_poll_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/meetings/poll.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/poll.component.js");
 
 var OPEN_CLASS = "is-open";
 $(function () {
   // Mount polls component for users
   var $container = $("[data-decidim-meetings-poll]");
   var $counter = $("#visible-questions-count");
-
   if ($container.length) {
     var poll = new src_decidim_meetings_poll_component__WEBPACK_IMPORTED_MODULE_0__["default"]($container, $container.data("decidim-meetings-poll"), $counter);
     $(".meeting-polls__action-list").on("click", function (event) {
       event.preventDefault();
-
       if (poll.isMounted()) {
         $(event.target).removeClass(OPEN_CLASS);
         $container.removeClass(OPEN_CLASS);
@@ -444,16 +411,14 @@ $(function () {
         poll.mountComponent();
       }
     });
-  } // Mount polls component for admins
+  }
 
-
+  // Mount polls component for admins
   var $adminContainer = $("[data-decidim-admin-meetings-poll]");
-
   if ($adminContainer.length) {
     var adminPoll = new src_decidim_meetings_poll_component__WEBPACK_IMPORTED_MODULE_0__["default"]($adminContainer, $adminContainer.data("decidim-admin-meetings-poll"));
     $(".meeting-polls__action-administrate").on("click", function (event) {
       event.preventDefault();
-
       if (adminPoll.isMounted()) {
         $(event.target).removeClass(OPEN_CLASS);
         $adminContainer.removeClass(OPEN_CLASS);
@@ -469,9 +434,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/poll.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/poll.component.js":
 /*!**************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/src/decidim/meetings/poll.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/src/decidim/meetings/poll.component.js ***!
   \**************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -485,7 +450,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -495,7 +459,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -514,20 +477,17 @@ function _createClass(Constructor, protoProps, staticProps) {
  * @class
  * @augments Component
  */
+
 // This is necessary for testing purposes
+var $ = window.$;
 
-
-var $ = window.$; // Default question states
-
+// Default question states
 var OPEN = "open";
 var CLOSED = "closed";
-
 var PollComponent = /*#__PURE__*/function () {
   function PollComponent($element, config) {
     var $counter = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-
     _classCallCheck(this, PollComponent);
-
     this.$element = $element;
     this.$counter = $counter;
     this.questionsUrl = config.questionsUrl;
@@ -535,30 +495,28 @@ var PollComponent = /*#__PURE__*/function () {
     this.mounted = false;
     this.questions = {};
   }
+
   /**
    * Returns if the component is mounted or not
    * @public
    * @returns {Void} - Returns nothing
    */
-
-
   _createClass(PollComponent, [{
     key: "isMounted",
     value: function isMounted() {
       return this.mounted;
     }
+
     /**
      * Handles the logic for mounting the component
      * @public
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "mountComponent",
     value: function mountComponent() {
       if (this.$element.length > 0 && !this.mounted) {
         this.mounted = true;
-
         this._fetchQuestions();
       }
     }
@@ -567,12 +525,11 @@ var PollComponent = /*#__PURE__*/function () {
     value: function unmountComponent() {
       if (this.mounted) {
         this.mounted = false;
-
         this._stopPolling();
-
         this.$element.html("");
       }
     }
+
     /**
      * Performs the ajax call that updates the list of questions
      * Before, stores the current questions states to apply them after the ajax call has
@@ -580,44 +537,37 @@ var PollComponent = /*#__PURE__*/function () {
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_fetchQuestions",
     value: function _fetchQuestions() {
-      var _this = this; // Store current questions state (open / closed) before overwritting them with the Ajax call
+      var _this = this;
+      // Store current questions state (open / closed) before overwritting them with the Ajax call
       // response.
-
-
       this._storeQuestionState(this.$element);
-
       $.ajax({
         url: this.questionsUrl,
         method: "GET",
         contentType: "application/javascript"
       }).done(function () {
         _this._updateCounter();
-
         _this._setQuestionsState(_this.$element);
-
         _this._pollQuestions();
       });
     }
+
     /**
      * Iterates over all existing questions and stores the state in an internal attribute.
      * @private
      * @param {jQuery} $parent - The HTML content for the questionnaire.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_storeQuestionState",
     value: function _storeQuestionState($parent) {
       var _this2 = this;
-
       $("[data-question]", $parent).each(function (_i, el) {
         var $el = $(el);
         var questionId = $el.data("question");
-
         if ($el[0].open === true) {
           _this2.questions[questionId] = OPEN;
         } else {
@@ -625,22 +575,22 @@ var PollComponent = /*#__PURE__*/function () {
         }
       });
     }
+
     /**
      * Initializes the states of all the questions.
      * @private
      * @param {jQuery} $parent - The HTML container for the questionnaire.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_setQuestionsState",
     value: function _setQuestionsState($parent) {
       var _this3 = this;
-
       $("[data-question]", $parent).each(function (_i, el) {
         _this3._setQuestionState($(el));
       });
     }
+
     /**
      * Initializes the state of a single question with two types of modifications:
      *   - sets the is-new class if the question is new (doesn't exist in the internal list)
@@ -649,43 +599,40 @@ var PollComponent = /*#__PURE__*/function () {
      * @param {jQuery} $el - The HTML container for the questionnaire.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_setQuestionState",
     value: function _setQuestionState($el) {
-      var questionId = $el.data("question"); // Current question state
-
-      var state = this.questions[questionId]; // New questions have a special class
-
+      var questionId = $el.data("question");
+      // Current question state
+      var state = this.questions[questionId];
+      // New questions have a special class
       if (!state) {
         $el.addClass("is-new");
       } else if (state === OPEN) {
         $el.prop(OPEN, true);
       }
     }
+
     /**
      * Sets a timeout to poll new questions.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_pollQuestions",
     value: function _pollQuestions() {
       var _this4 = this;
-
       this._stopPolling();
-
       this.pollTimeout = setTimeout(function () {
         _this4._fetchQuestions();
       }, this.pollingInterval);
     }
+
     /**
      * Stops polling for new questions.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_stopPolling",
     value: function _stopPolling() {
@@ -693,12 +640,12 @@ var PollComponent = /*#__PURE__*/function () {
         clearTimeout(this.pollTimeout);
       }
     }
+
     /**
      * Updates the counter with the number of questions returned in the Ajax call
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_updateCounter",
     value: function _updateCounter() {
@@ -708,17 +655,15 @@ var PollComponent = /*#__PURE__*/function () {
       }
     }
   }]);
-
   return PollComponent;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg":
 /*!************************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_attended_meetings.svg ***!
   \************************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -727,9 +672,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/meetings/decidim_meetings.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/meetings/decidim_meetings.svg":
 /*!********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/images/decidim/meetings/decidim_meetings.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/images/decidim/meetings/decidim_meetings.svg ***!
   \********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -895,7 +840,7 @@ module.exports = __webpack_require__.p + "media/images/decidim_meetings-f1cb40f1
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-forms-0_26_2_app_packs_src_decidim_forms_forms_js"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-meetings-0.26.2/app/packs/entrypoints/decidim_meetings.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-forms-0_27_0_app_packs_src_decidim_forms_forms_js"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-meetings-0.27.0/app/packs/entrypoints/decidim_meetings.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

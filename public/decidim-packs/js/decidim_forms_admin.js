@@ -1,9 +1,36 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/choose_language.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/choose_language.js ***!
+  \*********************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ initLanguageChangeSelect; }
+/* harmony export */ });
+/* eslint-disable no-invalid-this */
+/* eslint-disable require-jsdoc */
+
+function initLanguageChangeSelect(elements) {
+  elements.forEach(function (select) {
+    select.addEventListener("change", function () {
+      var targetTabPaneSelector = select.value;
+      var tabsContent = select.parentElement.parentElement.nextElementSibling;
+      tabsContent.querySelector(".is-active").classList.remove("is-active");
+      tabsContent.querySelector(targetTabPaneSelector).classList.add("is-active");
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -17,7 +44,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -27,7 +53,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -37,32 +62,24 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint-disable require-jsdoc */
-
-
 var FieldDependentInputsComponent = /*#__PURE__*/function () {
   function FieldDependentInputsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, FieldDependentInputsComponent);
-
     this.controllerField = options.controllerField;
     this.wrapperSelector = options.wrapperSelector;
     this.dependentFieldsSelector = options.dependentFieldsSelector;
     this.dependentInputSelector = options.dependentInputSelector;
     this.enablingCondition = options.enablingCondition;
-
     this._bindEvent();
-
     this._run();
   }
-
   _createClass(FieldDependentInputsComponent, [{
     key: "_run",
     value: function _run() {
       var $controllerField = this.controllerField;
       var $dependentFields = $controllerField.parents(this.wrapperSelector).find(this.dependentFieldsSelector);
       var $dependentInputs = $dependentFields.find(this.dependentInputSelector);
-
       if (this.enablingCondition($controllerField)) {
         $dependentInputs.prop("disabled", false);
         $dependentFields.show();
@@ -75,42 +92,39 @@ var FieldDependentInputsComponent = /*#__PURE__*/function () {
     key: "_bindEvent",
     value: function _bindEvent() {
       var _this = this;
-
       this.controllerField.on("change", function () {
         _this._run();
       });
     }
   }]);
-
   return FieldDependentInputsComponent;
 }();
-
 function createFieldDependentInputs(options) {
   return new FieldDependentInputsComponent(options);
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/entrypoints/decidim_forms_admin.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/entrypoints/decidim_forms_admin.js":
 /*!*******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/entrypoints/decidim_forms_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/entrypoints/decidim_forms_admin.js ***!
   \*******************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_forms_admin_collapsible_questions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/forms/admin/collapsible_questions */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/collapsible_questions.js");
+/* harmony import */ var src_decidim_forms_admin_collapsible_questions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/forms/admin/collapsible_questions */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/collapsible_questions.js");
 /* harmony import */ var src_decidim_forms_admin_collapsible_questions__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_forms_admin_collapsible_questions__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _src_decidim_forms_admin_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/decidim/forms/admin/forms */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/forms.js");
+/* harmony import */ var _src_decidim_forms_admin_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/decidim/forms/admin/forms */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/forms.js");
 
 
 window.Decidim.createEditableForm = _src_decidim_forms_admin_forms__WEBPACK_IMPORTED_MODULE_1__["default"];
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js":
 /*!***********************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js ***!
   \***********************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -124,7 +138,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -134,7 +147,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -143,25 +155,20 @@ function _createClass(Constructor, protoProps, staticProps) {
   });
   return Constructor;
 }
-
 var AutoButtonsByMinItemsComponent = /*#__PURE__*/function () {
   function AutoButtonsByMinItemsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, AutoButtonsByMinItemsComponent);
-
     this.listSelector = options.listSelector;
     this.minItems = options.minItems;
     this.hideOnMinItemsOrLessSelector = options.hideOnMinItemsOrLessSelector;
     this.run();
   }
-
   _createClass(AutoButtonsByMinItemsComponent, [{
     key: "run",
     value: function run() {
       var $list = $(this.listSelector);
       var $items = $list.find(this.hideOnMinItemsOrLessSelector);
-
       if ($list.length <= this.minItems) {
         $items.hide();
       } else {
@@ -169,17 +176,15 @@ var AutoButtonsByMinItemsComponent = /*#__PURE__*/function () {
       }
     }
   }]);
-
   return AutoButtonsByMinItemsComponent;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js":
 /*!********************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js ***!
   \********************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -193,7 +198,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -203,7 +207,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -212,41 +215,34 @@ function _createClass(Constructor, protoProps, staticProps) {
   });
   return Constructor;
 }
-
 var AutoSelectOptionsByTotalItemsComponent = /*#__PURE__*/function () {
   function AutoSelectOptionsByTotalItemsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, AutoSelectOptionsByTotalItemsComponent);
-
     this.wrapperSelector = options.wrapperSelector;
     this.selectSelector = options.selectSelector;
     this.listSelector = options.listSelector;
   }
-
   _createClass(AutoSelectOptionsByTotalItemsComponent, [{
     key: "run",
     value: function run() {
       var $list = $(this.listSelector);
       var $selectField = $list.parents(this.wrapperSelector).find(this.selectSelector);
       $selectField.find("option").slice(1).remove();
-
       for (var idx = 2; idx <= $list.length; idx += 1) {
         $("<option value=\"".concat(idx, "\">").concat(idx, "</option>")).appendTo($selectField);
       }
     }
   }]);
-
   return AutoSelectOptionsByTotalItemsComponent;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js":
 /*!**************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js ***!
   \**************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -260,7 +256,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -270,7 +265,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -279,24 +273,19 @@ function _createClass(Constructor, protoProps, staticProps) {
   });
   return Constructor;
 }
-
 var AutoSelectOptionsFromUrl = /*#__PURE__*/function () {
   function AutoSelectOptionsFromUrl() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, AutoSelectOptionsFromUrl);
-
     this.$source = options.source;
     this.$select = options.select;
     this.sourceToParams = options.sourceToParams;
     this.run();
   }
-
   _createClass(AutoSelectOptionsFromUrl, [{
     key: "run",
     value: function run() {
       this.$source.on("change", this._onSourceChange.bind(this));
-
       this._onSourceChange();
     }
   }, {
@@ -310,29 +299,25 @@ var AutoSelectOptionsFromUrl = /*#__PURE__*/function () {
         var selectedValue = select.data("selected");
         data.forEach(function (option) {
           var optionElement = $("<option value=\"".concat(option.id, "\">").concat(option.body, "</option>")).appendTo(select);
-
           if (option.id === selectedValue) {
             optionElement.attr("selected", true);
           }
         });
-
         if (selectedValue) {
           select.val(selectedValue);
         }
       });
     }
   }]);
-
   return AutoSelectOptionsFromUrl;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/collapsible_questions.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/collapsible_questions.js":
 /*!*********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/collapsible_questions.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/collapsible_questions.js ***!
   \*********************************************************************************************************************************************/
 /***/ (function() {
 
@@ -351,9 +336,9 @@ var AutoSelectOptionsFromUrl = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/forms.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/forms.js":
 /*!*****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/forms.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/forms.js ***!
   \*****************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -362,19 +347,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ createEditableForm; }
 /* harmony export */ });
-/* harmony import */ var src_decidim_forms_admin_auto_buttons_by_min_items_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/forms/admin/auto_buttons_by_min_items.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js");
-/* harmony import */ var src_decidim_forms_admin_auto_select_options_by_total_items_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/forms/admin/auto_select_options_by_total_items.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js");
-/* harmony import */ var src_decidim_forms_admin_auto_select_options_from_url_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/forms/admin/auto_select_options_from_url.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js");
-/* harmony import */ var src_decidim_forms_admin_live_text_update_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/forms/admin/live_text_update.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/live_text_update.component.js");
-/* harmony import */ var src_decidim_admin_auto_buttons_by_position_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/admin/auto_buttons_by_position.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/auto_buttons_by_position.component.js");
-/* harmony import */ var src_decidim_admin_auto_label_by_position_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/decidim/admin/auto_label_by_position.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/auto_label_by_position.component.js");
-/* harmony import */ var src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/decidim/admin/sort_list.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/sort_list.component.js");
-/* harmony import */ var src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/decidim/admin/dynamic_fields.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/dynamic_fields.component.js");
-/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
-/* harmony import */ var src_decidim_editor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/decidim/editor */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/editor.js");
+/* harmony import */ var src_decidim_forms_admin_auto_buttons_by_min_items_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/forms/admin/auto_buttons_by_min_items.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_buttons_by_min_items.component.js");
+/* harmony import */ var src_decidim_forms_admin_auto_select_options_by_total_items_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/forms/admin/auto_select_options_by_total_items.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_by_total_items.component.js");
+/* harmony import */ var src_decidim_forms_admin_auto_select_options_from_url_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/forms/admin/auto_select_options_from_url.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/auto_select_options_from_url.component.js");
+/* harmony import */ var src_decidim_forms_admin_live_text_update_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/forms/admin/live_text_update.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/live_text_update.component.js");
+/* harmony import */ var src_decidim_admin_auto_buttons_by_position_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/admin/auto_buttons_by_position.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/auto_buttons_by_position.component.js");
+/* harmony import */ var src_decidim_admin_auto_label_by_position_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/decidim/admin/auto_label_by_position.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/auto_label_by_position.component.js");
+/* harmony import */ var src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/decidim/admin/sort_list.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/sort_list.component.js");
+/* harmony import */ var src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/decidim/admin/dynamic_fields.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/dynamic_fields.component.js");
+/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
+/* harmony import */ var src_decidim_editor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/decidim/editor */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/editor.js");
+/* harmony import */ var src_decidim_admin_choose_language__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/decidim/admin/choose_language */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/choose_language.js");
 /* eslint-disable max-lines */
-
 /* eslint-disable require-jsdoc */
+
+
 
 
 
@@ -407,11 +394,9 @@ function createEditableForm() {
   var displayConditionValueWrapperSelector = ".questionnaire-question-display-condition-value";
   var displayconditionAnswerOptionWrapperSelector = ".questionnaire-question-display-condition-answer-option";
   var addDisplayConditionButtonSelector = ".add-display-condition";
-
   var removeDisplayConditionsForFirstQuestion = function removeDisplayConditionsForFirstQuestion() {
     $(fieldSelector).each(function (idx, el) {
       var $question = $(el);
-
       if (idx) {
         $question.find(displayConditionsWrapperSelector).find(deletedInputSelector).val("false");
         $question.find(displayConditionsWrapperSelector).show();
@@ -421,7 +406,6 @@ function createEditableForm() {
       }
     });
   };
-
   var autoButtonsByPosition = new src_decidim_admin_auto_buttons_by_position_component__WEBPACK_IMPORTED_MODULE_4__["default"]({
     listSelector: ".questionnaire-question:not(.hidden)",
     hideOnFirstSelector: ".move-up-question",
@@ -438,7 +422,6 @@ function createEditableForm() {
   });
   var MULTIPLE_CHOICE_VALUES = ["single_option", "multiple_option", "sorting", "matrix_single", "matrix_multiple"];
   var MATRIX_VALUES = ["matrix_single", "matrix_multiple"];
-
   var createAutoMaxChoicesByNumberOfAnswerOptions = function createAutoMaxChoicesByNumberOfAnswerOptions(fieldId) {
     return new src_decidim_forms_admin_auto_select_options_by_total_items_component__WEBPACK_IMPORTED_MODULE_1__["default"]({
       wrapperSelector: fieldSelector,
@@ -446,7 +429,6 @@ function createEditableForm() {
       listSelector: "#".concat(fieldId, " ").concat(answerOptionsWrapperSelector, " .questionnaire-question-answer-option:not(.hidden)")
     });
   };
-
   var createAutoButtonsByMinItemsForAnswerOptions = function createAutoButtonsByMinItemsForAnswerOptions(fieldId) {
     return new src_decidim_forms_admin_auto_buttons_by_min_items_component__WEBPACK_IMPORTED_MODULE_0__["default"]({
       wrapperSelector: fieldSelector,
@@ -455,7 +437,6 @@ function createEditableForm() {
       hideOnMinItemsOrLessSelector: answerOptionRemoveFieldButtonSelector
     });
   };
-
   var createAutoSelectOptionsFromUrl = function createAutoSelectOptionsFromUrl($field) {
     return new src_decidim_forms_admin_auto_select_options_from_url_component__WEBPACK_IMPORTED_MODULE_2__["default"]({
       source: $field.find(displayConditionQuestionSelector),
@@ -467,7 +448,6 @@ function createEditableForm() {
       }
     });
   };
-
   var createSortableList = function createSortableList() {
     (0,src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_6__["default"])(".questionnaire-questions-list:not(.published)", {
       handle: ".question-divider",
@@ -479,7 +459,6 @@ function createEditableForm() {
       }
     });
   };
-
   var createDynamicQuestionTitle = function createDynamicQuestionTitle(fieldId) {
     var targetSelector = "#".concat(fieldId, " .question-title-statement");
     var locale = $(targetSelector).data("locale");
@@ -494,17 +473,14 @@ function createEditableForm() {
       placeholder: placeholder
     });
   };
-
   var createCollapsibleQuestion = function createCollapsibleQuestion($target) {
     var $collapsible = $target.find(".collapsible");
-
     if ($collapsible.length > 0) {
       var collapsibleId = $collapsible.attr("id").replace("-question-card", "");
       var toggleAttr = "".concat(collapsibleId, "-question-card button--collapse-question-").concat(collapsibleId, " button--expand-question-").concat(collapsibleId);
       $target.find(".question--collapse").data("toggle", toggleAttr);
     }
   };
-
   var createDynamicFieldsForAnswerOptions = function createDynamicFieldsForAnswerOptions(fieldId) {
     var autoButtons = createAutoButtonsByMinItemsForAnswerOptions(fieldId);
     var autoSelectOptions = createAutoMaxChoicesByNumberOfAnswerOptions(fieldId);
@@ -526,9 +502,7 @@ function createEditableForm() {
       }
     });
   };
-
   var dynamicFieldsForAnswerOptions = {};
-
   var createDynamicFieldsForMatrixRows = function createDynamicFieldsForMatrixRows(fieldId) {
     return (0,src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_7__["default"])({
       placeholderId: "questionnaire-question-matrix-row-id",
@@ -542,57 +516,44 @@ function createEditableForm() {
       onRemoveField: function onRemoveField() {}
     });
   };
-
   var dynamicFieldsForMatrixRows = {};
-
   var isMultipleChoiceOption = function isMultipleChoiceOption(value) {
     return MULTIPLE_CHOICE_VALUES.indexOf(value) >= 0;
   };
-
   var isMatrix = function isMatrix(value) {
     return MATRIX_VALUES.indexOf(value) >= 0;
   };
-
   var getSelectedQuestionType = function getSelectedQuestionType(select) {
     var selectedOption = select.options[select.selectedIndex];
     return $(selectedOption).data("type");
   };
-
   var onDisplayConditionQuestionChange = function onDisplayConditionQuestionChange($field) {
     var $questionSelector = $field.find(displayConditionQuestionSelector);
     var selectedQuestionType = getSelectedQuestionType($questionSelector[0]);
     var isMultiple = isMultipleChoiceOption(selectedQuestionType);
     var conditionTypes = ["answered", "not_answered"];
-
     if (isMultiple) {
       conditionTypes.push("equal");
       conditionTypes.push("not_equal");
     }
-
     conditionTypes.push("match");
     var $conditionTypeSelect = $field.find(displayConditionTypeSelector);
     $conditionTypeSelect.find("option").each(function (idx, option) {
       var $option = $(option);
       var value = $option.val();
-
       if (!value) {
         return;
       }
-
       $option.show();
-
       if (conditionTypes.indexOf(value) < 0) {
         $option.hide();
       }
     });
-
     if (conditionTypes.indexOf($conditionTypeSelect.val()) < 0) {
       $conditionTypeSelect.val(conditionTypes[0]);
     }
-
     $conditionTypeSelect.trigger("change");
   };
-
   var onDisplayConditionTypeChange = function onDisplayConditionTypeChange($field) {
     var value = $field.find(displayConditionTypeSelector).val();
     var $valueWrapper = $field.find(displayConditionValueWrapperSelector);
@@ -600,20 +561,17 @@ function createEditableForm() {
     var $questionSelector = $field.find(displayConditionQuestionSelector);
     var selectedQuestionType = getSelectedQuestionType($questionSelector[0]);
     var isMultiple = isMultipleChoiceOption(selectedQuestionType);
-
     if (value === "match") {
       $valueWrapper.show();
     } else {
       $valueWrapper.hide();
     }
-
     if (isMultiple && (value === "not_equal" || value === "equal")) {
       $answerOptionWrapper.show();
     } else {
       $answerOptionWrapper.hide();
     }
   };
-
   var initializeDisplayConditionField = function initializeDisplayConditionField($field) {
     var autoSelectByUrl = createAutoSelectOptionsFromUrl($field);
     autoSelectByUrl.run();
@@ -626,7 +584,6 @@ function createEditableForm() {
     onDisplayConditionTypeChange($field);
     onDisplayConditionQuestionChange($field);
   };
-
   var createDynamicFieldsForDisplayConditions = function createDynamicFieldsForDisplayConditions(fieldId) {
     return (0,src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_7__["default"])({
       placeholderId: "questionnaire-question-display-condition-id",
@@ -641,9 +598,7 @@ function createEditableForm() {
       onRemoveField: function onRemoveField() {}
     });
   };
-
   var dynamicFieldsForDisplayConditions = {};
-
   var setupInitialQuestionAttributes = function setupInitialQuestionAttributes($target) {
     var fieldId = $target.attr("id");
     var $fieldQuestionTypeSelect = $target.find(questionTypeSelector);
@@ -681,42 +636,32 @@ function createEditableForm() {
     dynamicFieldsForDisplayConditions[fieldId] = createDynamicFieldsForDisplayConditions(fieldId);
     var dynamicFieldsAnswerOptions = dynamicFieldsForAnswerOptions[fieldId];
     var dynamicFieldsMatrixRows = dynamicFieldsForMatrixRows[fieldId];
-
     var onQuestionTypeChange = function onQuestionTypeChange() {
       if (isMultipleChoiceOption($fieldQuestionTypeSelect.val())) {
         var nOptions = $fieldQuestionTypeSelect.parents(fieldSelector).find(answerOptionFieldSelector).length;
-
         if (nOptions === 0) {
           dynamicFieldsAnswerOptions._addField();
-
           dynamicFieldsAnswerOptions._addField();
         }
       }
-
       if (isMatrix($fieldQuestionTypeSelect.val())) {
         var nRows = $fieldQuestionTypeSelect.parents(fieldSelector).find(matrixRowFieldSelector).length;
-
         if (nRows === 0) {
           dynamicFieldsMatrixRows._addField();
-
           dynamicFieldsMatrixRows._addField();
         }
       }
     };
-
     $fieldQuestionTypeSelect.on("change", onQuestionTypeChange);
     onQuestionTypeChange();
   };
-
   var hideDeletedQuestion = function hideDeletedQuestion($target) {
     var inputDeleted = $target.find("input[name$=\\[deleted\\]]").val();
-
     if (inputDeleted === "true") {
       $target.addClass("hidden");
       $target.hide();
     }
   };
-
   (0,src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_7__["default"])({
     placeholderId: "questionnaire-question-id",
     wrapperSelector: wrapperSelector,
@@ -739,6 +684,7 @@ function createEditableForm() {
       });
       autoLabelByPosition.run();
       autoButtonsByPosition.run();
+      (0,src_decidim_admin_choose_language__WEBPACK_IMPORTED_MODULE_10__["default"])($field.find("select.language-change").toArray());
     },
     onRemoveField: function onRemoveField($field) {
       autoLabelByPosition.run();
@@ -778,9 +724,9 @@ function createEditableForm() {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/live_text_update.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/live_text_update.component.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/src/decidim/forms/admin/live_text_update.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/src/decidim/forms/admin/live_text_update.component.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -794,7 +740,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -804,7 +749,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -814,7 +758,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint-disable require-jsdoc */
-
 /**
  * This component allows for an element's text value to be updated with the value
  * of an input whenever this input's value is changed.
@@ -828,36 +771,29 @@ function _createClass(Constructor, protoProps, staticProps) {
  * {string} `omission`: The string used to shorten the value to the given maxLength (e.g. "...")
  * {string} `placeholder`: The string to be displayed in the target element when the input has no value
  */
-
-
 var LiveTextUpdateComponent = /*#__PURE__*/function () {
   function LiveTextUpdateComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, LiveTextUpdateComponent);
-
     this.inputSelector = options.inputSelector;
     this.targetSelector = options.targetSelector;
     this.maxLength = options.maxLength;
     this.omission = options.omission;
     this.placeholder = options.placeholder;
-
     this._bindEvent();
-
     this._run();
   }
-
   _createClass(LiveTextUpdateComponent, [{
     key: "_run",
     value: function _run() {
       var $input = $(this.inputSelector);
       var $target = $(this.targetSelector);
-      var text = $input.val() || this.placeholder; // truncate string
+      var text = $input.val() || this.placeholder;
 
+      // truncate string
       if (text.length > this.maxLength) {
         text = text.substring(0, this.maxLength - this.omission.length) + this.omission;
       }
-
       $target.text(text);
     }
   }, {
@@ -867,10 +803,8 @@ var LiveTextUpdateComponent = /*#__PURE__*/function () {
       $input.on("change", this._run.bind(this));
     }
   }]);
-
   return LiveTextUpdateComponent;
 }();
-
 function createLiveTextUpdateComponent(options) {
   return new LiveTextUpdateComponent(options);
 }
@@ -1053,7 +987,7 @@ function createLiveTextUpdateComponent(options) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_html5sortable_dist_html5sortable_es_js","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-core-0_26_2_app_packs_src_decidim_editor_js","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-admin-0_26_2_app_packs_src_decidim_admin_au-b0aa54"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-forms-0.26.2/app/packs/entrypoints/decidim_forms_admin.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_html5sortable_dist_html5sortable_es_js","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_editor_js","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-forms-0.27.0/app/packs/entrypoints/decidim_forms_admin.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

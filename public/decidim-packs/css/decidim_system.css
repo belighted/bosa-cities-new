@@ -1,3 +1,6 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@decidim/webpacker/src/loaders/decidim-sass-loader.js!../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-system-0.27.0/app/packs/entrypoints/decidim_system.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 /**
  * Foundation for Sites
@@ -1729,7 +1732,7 @@ select {
   font-weight: normal;
   line-height: 1.5;
   color: #232323;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32" height="24" viewBox="0 0 32 24"><polygon points="0,0 32,0 16,24" style="fill: rgb%28138, 138, 138%29"></polygon></svg>');
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"32\" height=\"24\" viewBox=\"0 0 32 24\"><polygon points=\"0,0 32,0 16,24\" style=\"fill: rgb%28138, 138, 138%29\"></polygon></svg>");
   background-origin: content-box;
   background-position: right -1rem center;
   background-repeat: no-repeat;
@@ -1739,7 +1742,7 @@ select {
 }
 @media screen and (min-width: 0\0 ) {
   select {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg==");
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg==);
   }
 }
 select:focus {
@@ -6358,20 +6361,128 @@ table th.actions {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url(/decidim-packs/media/images/Source_Sans_Pro_400-c60b44947671d757833d.woff2) format("woff2"), url(/decidim-packs/media/images/Source_Sans_Pro_400-f8eb0fd7380512a226cd.woff) format("woff"), url(/decidim-packs/media/images/Source_Sans_Pro_400-9c6e4dfdd59c9f0df0f8.ttf) format("truetype");
 }
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url(/decidim-packs/media/images/Source_Sans_Pro_600-079db4a1c8da8ec06700.woff2) format("woff2"), url(/decidim-packs/media/images/Source_Sans_Pro_600-321eaeac03e6321b823f.woff) format("woff"), url(/decidim-packs/media/images/Source_Sans_Pro_600-a2c16f2d0995dcf36831.ttf) format("truetype");
 }
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: url(/decidim-packs/media/images/Source_Sans_Pro_900-d5a56e0c3bdd31eaadd4.woff2) format("woff2"), url(/decidim-packs/media/images/Source_Sans_Pro_900-7852ed941061eb34f8a3.woff) format("woff"), url(/decidim-packs/media/images/Source_Sans_Pro_900-cdf7b11440b90af6a688.ttf) format("truetype");
 }
+.upload-modal .button {
+  margin: 0;
+}
+.upload-modal .dropzone-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.upload-modal .dropzone-container input[type=file] {
+  display: none;
+}
+.upload-modal .dropzone-container label {
+  background-color: #fff;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.upload-modal .dropzone-container label.is-dragover {
+  background-color: #cee5e9;
+}
+.upload-modal .dropzone-container label.dropzone {
+  padding: 1rem;
+  text-align: center;
+  border-style: dashed;
+  border-color: #39747f;
+  border-width: 2px;
+  border-radius: 4px;
+}
+.upload-modal .dropzone-container label.dropzone .form-error {
+  margin: 0;
+}
+.upload-modal .dropzone-container label.disabled {
+  background-color: #fafafa;
+  cursor: not-allowed;
+  border-color: #cee5e9;
+}
+.upload-modal .dropzone-container label.disabled span {
+  color: #ccc;
+}
+.upload-modal .upload-items .upload-item input[type=text] {
+  margin: 0;
+}
+.upload-modal .upload-items .upload-item .file-name-span {
+  overflow: hidden;
+}
+.upload-modal .upload-items .upload-item .progress-bar-wrapper .progress-bar-border {
+  height: 2rem;
+  border: 1px solid #cb3c29;
+  box-sizing: border-box;
+  padding: 0;
+}
+.upload-modal .upload-items .upload-item .progress-bar-wrapper .progress-bar-border .progress-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-color: #cb3c29;
+  padding: 0 0.5rem;
+  height: 2rem;
+}
+.upload-modal .upload-items .upload-item .progress-bar-wrapper .progress-bar-border .progress-bar.filled {
+  justify-content: center;
+  width: 100% !important;
+}
+.upload-modal .upload-items .remove-upload-item {
+  cursor: pointer;
+}
+.upload-modal .upload-items .upload-errors .form-error {
+  margin: 0;
+}
+
+.dynamic-uploads {
+  display: flex;
+  flex-direction: column;
+}
+@media print, screen and (max-width: 74.99875em) {
+  .dynamic-uploads {
+    margin-bottom: 0.5rem;
+  }
+}
+.dynamic-uploads .actions-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.dynamic-uploads .actions-wrapper button.primary {
+  margin-right: 0.5rem;
+}
+.dynamic-uploads .actions-wrapper button.remove-upload {
+  cursor: pointer;
+}
+.dynamic-uploads .actions-wrapper.titled {
+  flex-direction: column-reverse;
+}
+.dynamic-uploads .actions-wrapper .active-uploads span.filename {
+  margin-right: 0.5rem;
+}
+.dynamic-uploads .actions-wrapper .active-uploads span:last-child {
+  margin-right: 0.5rem;
+}
+.dynamic-uploads.with-title {
+  display: block;
+  margin: 0;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
 }

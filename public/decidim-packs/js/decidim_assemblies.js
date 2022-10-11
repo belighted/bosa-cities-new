@@ -1,14 +1,14 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!***********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \***********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/assemblies/decidim_assemblies.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg"
+	"./decidim/assemblies/decidim_assemblies.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images/decidim/assemblies/decidim_assemblies.svg"
 };
 
 
@@ -29,31 +29,32 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/entrypoints/decidim_assemblies.js":
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/entrypoints/decidim_assemblies.js ***!
   \***********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/assemblies */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js");
+/* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/assemblies */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/assemblies.js");
 /* harmony import */ var src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_assemblies_assemblies__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_assemblies_orgchart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/orgchart */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js");
+/* harmony import */ var src_decidim_assemblies_orgchart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/orgchart */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/orgchart.js");
 
- // Images
 
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/assemblies.js":
 /*!**************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/assemblies.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/assemblies.js ***!
   \**************************************************************************************************************************************/
 /***/ (function() {
 
@@ -73,35 +74,43 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/orgchart.js":
 /*!************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/orgchart.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/orgchart.js ***!
   \************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3 */ "./node_modules/d3/index.js");
-/* harmony import */ var src_decidim_vizzs_renders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/vizzs/renders */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js");
+/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/select.js");
+/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/selection/on.js");
+/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/selectAll.js");
+/* harmony import */ var d3_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3-array */ "./node_modules/d3-array/src/index.js");
+/* harmony import */ var d3_hierarchy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-hierarchy */ "./node_modules/d3-hierarchy/src/hierarchy/index.js");
+/* harmony import */ var d3_force__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-force */ "./node_modules/d3-force/src/index.js");
+/* harmony import */ var d3_drag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! d3-drag */ "./node_modules/d3-drag/src/drag.js");
+/* harmony import */ var d3_fetch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! d3-fetch */ "./node_modules/d3-fetch/src/json.js");
 /* eslint-disable require-jsdoc, max-lines, no-return-assign, func-style, id-length, no-plusplus, no-use-before-define, no-negated-condition, init-declarations, no-invalid-this, no-param-reassign, no-ternary, multiline-ternary, no-nested-ternary, no-eval, no-extend-native, prefer-reflect */
-
 /* eslint dot-location: ["error", "property"], no-negated-condition: "error" */
-
 /* eslint no-unused-expressions: ["error", { "allowTernary": true }] */
-
 /* eslint no-unused-vars: 0 */
 
-/* global d3 */
 
- // lib
 
+
+
+
+
+
+// lib
 var renderOrgCharts = function renderOrgCharts() {
   var $orgChartContainer = $(".js-orgchart");
   var $btnReset = $(".js-reset-orgchart");
   var dataDepicted = null;
   var fake = false;
-  var orgchart = {}; // lib - https://bl.ocks.org/bumbeishvili/b96ba47ea21d14dfce6ebb859b002d3a
+  var orgchart = {};
 
+  // lib - https://bl.ocks.org/bumbeishvili/b96ba47ea21d14dfce6ebb859b002d3a
   var renderChartCollapsibleNetwork = function renderChartCollapsibleNetwork(params) {
     // exposed variables
     var attrs = {
@@ -127,6 +136,7 @@ var renderOrgCharts = function renderOrgCharts() {
       fakeBorderWidth: 32,
       data: null
     };
+
     /* ############### IF EXISTS OVERWRITE ATTRIBUTES FROM PASSED PARAM  #######  */
 
     var attrKeys = Object.keys(attrs);
@@ -134,159 +144,188 @@ var renderOrgCharts = function renderOrgCharts() {
       if (params && params[key]) {
         attrs[key] = params[key];
       }
-    }); // innerFunctions which will update visuals
+    });
 
+    // innerFunctions which will update visuals
     var updateData;
-
     var _collapse, _expand;
-
     var filter;
-    var hierarchy = {}; // main chart object
+    var _hierarchy = {};
 
-    var main = function main(selection) {
-      selection.each(function scope() {
+    // main chart object
+    var main = function main(_selection) {
+      _selection.each(function scope() {
         // calculated properties
         var calc = {};
         calc.chartLeftMargin = attrs.marginLeft;
         calc.chartTopMargin = attrs.marginTop;
         calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
-        calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin; // ########################## HIERARCHY STUFF  #########################
+        calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
-        hierarchy.root = d3__WEBPACK_IMPORTED_MODULE_0__.hierarchy(attrs.data.root); // ###########################   BEHAVIORS #########################
+        // ########################## HIERARCHY STUFF  #########################
+        _hierarchy.root = (0,d3_hierarchy__WEBPACK_IMPORTED_MODULE_2__["default"])(attrs.data.root);
 
-        var behaviors = {}; // behaviors.zoom = d3.zoom().scaleExtent([0.75, 100, 8]).on("zoom", zoomed)
+        // ###########################   BEHAVIORS #########################
+        var behaviors = {};
+        // behaviors.zoom = zoom().scaleExtent([0.75, 100, 8]).on("zoom", zoomed)
+        behaviors.drag = (0,d3_drag__WEBPACK_IMPORTED_MODULE_3__["default"])().on("start", dragstarted).on("drag", dragged).on("end", dragended);
 
-        behaviors.drag = d3__WEBPACK_IMPORTED_MODULE_0__.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended); // ###########################   LAYOUTS #########################
+        // ###########################   LAYOUTS #########################
+        var layouts = {};
 
-        var layouts = {}; // custom radial layout
+        // custom radial layout
+        layouts.radial = radial();
 
-        layouts.radial = radial(); // ###########################   FORCE STUFF #########################
-
+        // ###########################   FORCE STUFF #########################
         var force = {};
-        force.link = d3__WEBPACK_IMPORTED_MODULE_0__.forceLink().id(function (d) {
+        force.link = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceLink)().id(function (d) {
           return d.id;
         });
-        force.charge = d3__WEBPACK_IMPORTED_MODULE_0__.forceManyBody().strength(-240);
-        force.center = d3__WEBPACK_IMPORTED_MODULE_0__.forceCenter(calc.chartWidth / 2, calc.chartHeight / 2); // prevent collide
+        force.charge = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceManyBody)().strength(-240);
+        force.center = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceCenter)(calc.chartWidth / 2, calc.chartHeight / 2);
 
-        force.collide = d3__WEBPACK_IMPORTED_MODULE_0__.forceCollide().radius(function (d) {
+        // prevent collide
+        force.collide = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceCollide)().radius(function (d) {
           // Creates an invented radius based on element measures: diagonal = 2 * radius = sqrt(width^2, height^2)
           var base = (d.bbox || {}).width + attrs.nodeGutter.x * 2;
           var height = (d.bbox || {}).height + attrs.nodeGutter.y * 2;
           var diagonal = Math.sqrt(Math.pow(base, 2) + Math.pow(height, 2));
-          var fakeRadius = diagonal / 2; // return d3.max([attrs.nodeDistance * 3, fakeRadius])
+          var fakeRadius = diagonal / 2;
 
+          // return max([attrs.nodeDistance * 3, fakeRadius])
           return fakeRadius * 1.5;
-        }); // manually set x positions (which is calculated using custom radial layout)
+        });
 
-        force.x = d3__WEBPACK_IMPORTED_MODULE_0__.forceX().strength(0.5).x(function (d) {
+        // manually set x positions (which is calculated using custom radial layout)
+        force.x = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceX)().strength(0.5).x(function (d) {
           // if node does not have children and is channel (depth=2) , then position it on parent's coordinate
           if (!d.children && d.depth > 2) {
             if (d.parent) {
               d = d.parent;
             }
-          } // custom circle projection -  radius will be -  (d.depth - 1) * 150
+          }
 
-
+          // custom circle projection -  radius will be -  (d.depth - 1) * 150
           return projectCircle(d.proportion, (d.depth - 1) * attrs.distance)[0];
-        }); // manually set y positions (which is calculated using d3.cluster)
+        });
 
-        force.y = d3__WEBPACK_IMPORTED_MODULE_0__.forceY().strength(0.5).y(function (d) {
+        // manually set y positions (which is calculated using cluster)
+        force.y = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceY)().strength(0.5).y(function (d) {
           // if node does not have children and is channel (depth=2) , then position it on parent's coordinate
           if (!d.children && d.depth > 2) {
             if (d.parent) {
               d = d.parent;
             }
-          } // custom circle projection -  radius will be -  (d.depth - 1) * 150
+          }
 
-
+          // custom circle projection -  radius will be -  (d.depth - 1) * 150
           return projectCircle(d.proportion, (d.depth - 1) * attrs.distance)[1];
-        }); // ---------------------------------  INITIALISE FORCE SIMULATION ----------------------------
+        });
+
+        // ---------------------------------  INITIALISE FORCE SIMULATION ----------------------------
+
         // get based on top parameter simulation
+        force.simulation = (0,d3_force__WEBPACK_IMPORTED_MODULE_1__.forceSimulation)().force("link", force.link).force("charge", force.charge).force("center", force.center).force("collide", force.collide).force("x", force.x).force("y", force.y);
 
-        force.simulation = d3__WEBPACK_IMPORTED_MODULE_0__.forceSimulation().force("link", force.link).force("charge", force.charge).force("center", force.center).force("collide", force.collide).force("x", force.x).force("y", force.y); // ###########################   HIERARCHY STUFF #########################
+        // ###########################   HIERARCHY STUFF #########################
+
         // flatten root
+        var arr = flatten(_hierarchy.root);
 
-        var arr = flatten(hierarchy.root); // hide members based on their depth
-
+        // hide members based on their depth
         arr.forEach(function (d) {
           // Hide fake root node
           if (attrs.fakeRoot && d.depth === 1) {
             d.hidden = true;
           }
-
           if (d.depth > attrs.hiddenChildLevel) {
             d._children = d.children;
             d.children = null;
           }
-        }); // ####################################  DRAWINGS #######################
+        });
+
+        // ####################################  DRAWINGS #######################
+
         // drawing containers
+        var container = (0,d3_selection__WEBPACK_IMPORTED_MODULE_4__["default"])(this);
 
-        var container = d3__WEBPACK_IMPORTED_MODULE_0__.select(this); // add svg
-
-        var svg = container.patternify({
+        // add svg
+        var svg = patternify(container, {
           tag: "svg",
           selector: "svg-chart-container"
-        }).attr("width", attrs.svgWidth).attr("height", attrs.svgHeight); // .call(behaviors.zoom)
-        // add container g element
+        }).attr("width", attrs.svgWidth).attr("height", attrs.svgHeight);
+        // .call(behaviors.zoom)
 
-        var chart = svg.patternify({
+        // add container g element
+        var chart = patternify(svg, {
           tag: "g",
           selector: "chart"
-        }).attr("transform", "translate(".concat(calc.chartLeftMargin, ",").concat(calc.chartTopMargin, ")")); // ################################   Chart Content Drawing ##################################
-        // link wrapper
+        }).attr("transform", "translate(".concat(calc.chartLeftMargin, ",").concat(calc.chartTopMargin, ")"));
 
-        var linksWrapper = chart.patternify({
+        // ################################   Chart Content Drawing ##################################
+
+        // link wrapper
+        var linksWrapper = patternify(chart, {
           tag: "g",
           selector: "links-wrapper"
-        }); // node wrapper
+        });
 
-        var nodesWrapper = chart.patternify({
+        // node wrapper
+        var nodesWrapper = patternify(chart, {
           tag: "g",
           selector: "nodes-wrapper"
         });
-        var links, nodes; // reusable function which updates visual based on data change
+        var links, nodes;
 
-        update(); // update visual based on data change
+        // reusable function which updates visual based on data change
+        update();
 
+        // update visual based on data change
         function update(clickedNode) {
           // Show/hide reset button
-          clickedNode ? $btnReset.removeClass("invisible") : $btnReset.addClass("invisible"); // set xy and proportion properties with custom radial layout
+          clickedNode ? $btnReset.removeClass("invisible") : $btnReset.addClass("invisible");
 
-          layouts.radial(hierarchy.root); // nodes and links array
+          // set xy and proportion properties with custom radial layout
+          layouts.radial(_hierarchy.root);
 
-          var nodesArr = flatten(hierarchy.root, true).orderBy(function (d) {
+          // nodes and links array
+          var nodesArr = flatten(_hierarchy.root, true).orderBy(function (d) {
             return d.depth;
           }).filter(function (d) {
             return !d.hidden;
           });
-          var linksArr = hierarchy.root.links().filter(function (d) {
+          var linksArr = _hierarchy.root.links().filter(function (d) {
             return !d.source.hidden;
           }).filter(function (d) {
             return !d.target.hidden;
-          }); // make new nodes to appear near the parents
+          });
 
+          // make new nodes to appear near the parents
           nodesArr.forEach(function (d) {
             if (clickedNode && clickedNode.id === (d.parent && d.parent.id)) {
               d.x = d.parent.x;
               d.y = d.parent.y;
             }
-          }); // links
+          });
 
+          // links
           links = linksWrapper.selectAll(".link").data(linksArr, function (d) {
             return d.target.id;
           });
           links.exit().remove();
-          links = links.enter().append("line").attr("class", "link").merge(links); // node groups
+          links = links.enter().append("line").attr("class", "link").merge(links);
 
+          // node groups
           nodes = nodesWrapper.selectAll(".node").data(nodesArr, function (d) {
             return d.id;
           });
           nodes.exit().remove();
-          var enteredNodes = nodes.enter().append("g").attr("class", "node"); // bind event handlers
+          var enteredNodes = nodes.enter().append("g").attr("class", "node");
 
-          enteredNodes.on("click", nodeClick).on("mouseenter", nodeMouseEnter).on("mouseleave", nodeMouseLeave).call(behaviors.drag); // channels grandchildren
+          // bind event handlers
+          enteredNodes.on("click", nodeClick).on("mouseenter", nodeMouseEnter).on("mouseleave", nodeMouseLeave).call(behaviors.drag);
 
+          // channels grandchildren
           enteredNodes.append("rect").attr("class", "as-card").attr("rx", 4).attr("ry", 4);
           enteredNodes.append("text").attr("class", "as-text").text(function (d) {
             return d.data.name;
@@ -302,8 +341,9 @@ var renderOrgCharts = function renderOrgCharts() {
             return d.bbox.width + 2 * attrs.nodeGutter.x;
           }).attr("height", function (d) {
             return d.bbox.height + 2 * attrs.nodeGutter.y;
-          }); // append circle & text only when there are children
+          });
 
+          // append circle & text only when there are children
           enteredNodes.append("circle").filter(function (d) {
             return Boolean(d.children) || Boolean(d._children);
           }).attr("class", "as-circle").attr("r", attrs.childrenIndicatorRadius).attr("cx", function (d) {
@@ -316,21 +356,27 @@ var renderOrgCharts = function renderOrgCharts() {
           }).attr("class", "as-text").attr("dx", function (d) {
             return d.bbox.x + d.bbox.width + attrs.nodeGutter.x;
           }).attr("dy", attrs.childrenIndicatorRadius + 3).text(function (d) {
-            return d3__WEBPACK_IMPORTED_MODULE_0__.max([(d.children || {}).length, (d._children || {}).length]);
-          }); // merge  node groups and style it
+            return (0,d3_array__WEBPACK_IMPORTED_MODULE_0__.max)([(d.children || {}).length, (d._children || {}).length]);
+          });
 
-          nodes = enteredNodes.merge(nodes); // force simulation
+          // merge  node groups and style it
+          nodes = enteredNodes.merge(nodes);
 
-          force.simulation.nodes(nodesArr).on("tick", ticked); // links simulation
+          // force simulation
+          force.simulation.nodes(nodesArr).on("tick", ticked);
 
+          // links simulation
           force.simulation.force("link").links(links).id(function (d) {
             return d.id;
           }).distance(attrs.distance * 2).strength(2);
-        } // ####################################### EVENT HANDLERS  ########################
+        }
+
+        // ####################################### EVENT HANDLERS  ########################
+
         // zoom handler
         // function zoomed() {
         //   // get transform event
-        //   let transform = d3.event.transform
+        //   let transform = event.transform
         //   attrs.lastTransform = transform
         //
         //   // apply transform event props to the wrapper
@@ -339,21 +385,17 @@ var renderOrgCharts = function renderOrgCharts() {
         //   svg.selectAll(".node").attr("transform", (d) => `translate(${d.x},${d.y}) scale(${1 / (attrs.lastTransform ? attrs.lastTransform.k : 1)})`)
         //   svg.selectAll(".link").attr("stroke-width", attrs.lineStrokeWidth / (attrs.lastTransform ? attrs.lastTransform.k : 1))
         // }
+
         // tick handler
-
-
         function ticked() {
           var fakeBorderWidth = attrs.fakeBorderWidth;
-
           var maxXValueAvailable = function maxXValueAvailable(value) {
             return Math.max(Math.min(calc.chartWidth - fakeBorderWidth, value), fakeBorderWidth);
           };
-
           var maxYValueAvailable = function maxYValueAvailable(value) {
             return Math.max(Math.min(calc.chartHeight - fakeBorderWidth, value), fakeBorderWidth);
-          }; // set links position
-
-
+          };
+          // set links position
           links.attr("x1", function (d) {
             return maxXValueAvailable(d.source.x);
           }).attr("y1", function (d) {
@@ -362,168 +404,163 @@ var renderOrgCharts = function renderOrgCharts() {
             return maxXValueAvailable(d.target.x);
           }).attr("y2", function (d) {
             return maxYValueAvailable(d.target.y);
-          }); // set nodes position
+          });
 
+          // set nodes position
           svg.selectAll(".node").attr("transform", function (d) {
             return "translate(".concat(maxXValueAvailable(d.x), ",").concat(maxYValueAvailable(d.y), ")");
           });
-        } // handler drag start event
+        }
 
-
+        // handler drag start event
         function dragstarted() {
           // disable node fixing
           nodes.each(function (d) {
             d.fx = null;
             d.fy = null;
           });
-        } // handle dragging event
+        }
 
-
+        // handle dragging event
         function dragged(d) {
           // make dragged node fixed
-          d.fx = d3__WEBPACK_IMPORTED_MODULE_0__.event.x;
-          d.fy = d3__WEBPACK_IMPORTED_MODULE_0__.event.y;
-        } // -------------------- handle drag end event ---------------
+          d.fx = d3_selection__WEBPACK_IMPORTED_MODULE_5__.event.x;
+          d.fy = d3_selection__WEBPACK_IMPORTED_MODULE_5__.event.y;
+        }
 
+        // -------------------- handle drag end event ---------------
+        function dragended() {
+          // we are doing nothing, here , aren't we?
+        }
 
-        function dragended() {// we are doing nothing, here , aren't we?
-        } // -------------------------- node mouse hover handler ---------------
-
-
+        // -------------------------- node mouse hover handler ---------------
         function nodeMouseEnter(d) {
           // get links
-          var _links = hierarchy.root.links(); // get hovered node connected links
+          var _links = _hierarchy.root.links();
 
-
+          // get hovered node connected links
           var connectedLinks = _links.filter(function (l) {
             return l.source.id === d.id || l.target.id === d.id;
-          }); // get hovered node linked nodes
+          });
 
-
+          // get hovered node linked nodes
           var linkedNodes = connectedLinks.map(function (s) {
             return s.source.id;
           }).concat(connectedLinks.map(function (c) {
             return c.target.id;
-          })); // reduce all other nodes opacity
+          }));
 
+          // reduce all other nodes opacity
           nodesWrapper.selectAll(".node").filter(function (n) {
             return linkedNodes.indexOf(n.id) === -1;
-          }).attr("opacity", attrs.hoverOpacity); // reduce all other links opacity
+          }).attr("opacity", attrs.hoverOpacity);
 
-          linksWrapper.selectAll(".link").attr("opacity", attrs.hoverOpacity); // highlight hovered nodes connections
+          // reduce all other links opacity
+          linksWrapper.selectAll(".link").attr("opacity", attrs.hoverOpacity);
 
+          // highlight hovered nodes connections
           linksWrapper.selectAll(".link").filter(function (l) {
             return l.source.id === d.id || l.target.id === d.id;
           }).attr("opacity", 1);
-        } // --------------- handle mouseleave event ---------------
+        }
 
-
+        // --------------- handle mouseleave event ---------------
         function nodeMouseLeave() {
           // return things back to normal
           nodesWrapper.selectAll(".node").attr("opacity", 1);
           linksWrapper.selectAll(".link").attr("opacity", 1);
-        } // --------------- handle node click event ---------------
+        }
 
-
+        // --------------- handle node click event ---------------
         function nodeClick(d) {
           // free fixed nodes
           nodes.each(function (di) {
             di.fx = null;
             di.fy = null;
-          }); // collapse or expand node
+          });
 
+          // collapse or expand node
           if (d.children) {
             _collapse(d);
           } else if (d._children) {
             _expand(d);
-          } else {// nothing is to collapse or expand
+          } else {
+            // nothing is to collapse or expand
           }
-
           freeNodes();
-        } // #########################################  UTIL FUNCS ##################################
+        }
 
-
+        // #########################################  UTIL FUNCS ##################################
         updateData = function updateData() {
           main.run();
         };
-
         _collapse = function collapse(d) {
           var deep = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
           if (d.children) {
             if (deep) {
               d.children.forEach(function (e) {
                 return _collapse(e, true);
               });
             }
-
             d._children = d.children;
             d.children = null;
           }
-
           update(d);
           force.simulation.restart();
           force.simulation.alphaTarget(0.15);
         };
-
         _expand = function expand(d) {
           var deep = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
           if (d._children) {
             if (deep) {
               d._children.forEach(function (e) {
                 return _expand(e, true);
               });
             }
-
             d.children = d._children;
             d._children = null;
           }
-
           update(d);
           force.simulation.restart();
           force.simulation.alphaTarget(0.15);
-        }; // function slowDownNodes() {
+        };
+
+        // function slowDownNodes() {
         //   force.simulation.alphaTarget(0.05)
         // }
+
         // function speedUpNodes() {
         //   force.simulation.alphaTarget(0.45)
         // }
 
-
         function freeNodes() {
-          d3__WEBPACK_IMPORTED_MODULE_0__.selectAll(".node").each(function (n) {
+          (0,d3_selection__WEBPACK_IMPORTED_MODULE_6__["default"])(".node").each(function (n) {
             n.fx = null;
             n.fy = null;
           });
         }
-
         function projectCircle(value, radius) {
           var r = radius || 0;
           var corner = value * 2 * Math.PI;
           return [Math.sin(corner) * r, -Math.cos(corner) * r];
-        } // recursively loop on children and extract nodes as an array
+        }
 
-
+        // recursively loop on children and extract nodes as an array
         function flatten(root, clustered) {
           var nodesArray = [];
           var i = 0;
-
           function recurse(node, depth) {
             if (node.children) {
               node.children.forEach(function (child) {
                 recurse(child, depth + 1);
               });
             }
-
             if (!node.id) {
               node.id = ++i;
             } else {
               ++i;
             }
-
             node.depth = depth;
-
             if (clustered) {
               if (!node.cluster) {
                 // if cluster coordinates are not set, set it
@@ -533,63 +570,61 @@ var renderOrgCharts = function renderOrgCharts() {
                 };
               }
             }
-
             nodesArray.push(node);
           }
-
           recurse(root, 1);
           return nodesArray;
         }
-
         function debug() {
           if (attrs.isDebug) {
             // stringify func
-            var stringified = String(scope); // parse variable names
+            var stringified = String(scope);
 
-            var groupVariables = stringified // match var x-xx= {}
-            .match(/var\s+([\w])+\s*=\s*{\s*}/gi) // match xxx
+            // parse variable names
+            var groupVariables = stringified
+            // match var x-xx= {}
+            .match(/var\s+([\w])+\s*=\s*{\s*}/gi)
+            // match xxx
             .map(function (d) {
               return d.match(/\s+\w*/gi).filter(function (s) {
                 return s.trim();
               });
-            }) // get xxx
+            })
+            // get xxx
             .map(function (v) {
               return v[0].trim();
-            }); // assign local variables to the scope
+            });
 
+            // assign local variables to the scope
             groupVariables.forEach(function (v) {
               main["P_".concat(v)] = eval(v);
             });
           }
         }
-
         debug();
       });
-    }; // ----------- PROTOTYEPE FUNCTIONS  ----------------------
+    };
 
-
-    d3__WEBPACK_IMPORTED_MODULE_0__.selection.prototype.patternify = function (_params) {
+    // ----------- PROTOTYEPE FUNCTIONS  ----------------------
+    function patternify(node, _params) {
       var selector = _params.selector;
       var elementTag = _params.tag;
+      var _data = _params.data || [selector];
 
-      var _data = _params.data || [selector]; // pattern in action
+      // pattern in action
+      var _selection = node.selectAll(".".concat(selector)).data(_data);
+      _selection.exit().remove();
+      _selection = _selection.enter().append(elementTag).merge(_selection);
+      _selection.attr("class", selector);
+      return _selection;
+    }
 
-
-      var selection = this.selectAll(".".concat(selector)).data(_data);
-      selection.exit().remove();
-      selection = selection.enter().append(elementTag).merge(selection);
-      selection.attr("class", selector);
-      return selection;
-    }; // custom radial layout
-
-
+    // custom radial layout
     function radial() {
       return function (root) {
         recurse(root, 0, 1);
-
-        function recurse(node, min, max) {
-          node.proportion = (max + min) / 2;
-
+        function recurse(node, min, _max) {
+          node.proportion = (_max + min) / 2;
           if (!node.x) {
             // if node has parent, match entered node positions to it's parent
             if (node.parent) {
@@ -597,20 +632,20 @@ var renderOrgCharts = function renderOrgCharts() {
             } else {
               node.x = 0;
             }
-          } // if node had parent, match entered node positions to it's parent
+          }
 
-
+          // if node had parent, match entered node positions to it's parent
           if (!node.y) {
             if (node.parent) {
               node.y = node.parent.y;
             } else {
               node.y = 0;
             }
-          } // recursively do the same for children
+          }
 
-
+          // recursively do the same for children
           if (node.children) {
-            var offset = (max - min) / node.children.length;
+            var offset = (_max - min) / node.children.length;
             node.children.forEach(function (child, i) {
               var newMin = min + offset * i;
               var newMax = newMin + offset;
@@ -619,107 +654,94 @@ var renderOrgCharts = function renderOrgCharts() {
           }
         }
       };
-    } // https://github.com/bumbeishvili/d3js-boilerplates#orderby
+    }
 
-
+    // https://github.com/bumbeishvili/d3js-boilerplates#orderby
     Array.prototype.orderBy = function (func) {
       this.sort(function (_a, _b) {
         var a = func(_a);
         var b = func(_b);
-
         if (typeof a === "string" || a instanceof String) {
           return a.localeCompare(b);
         }
-
         return a - b;
       });
       return this;
-    }; // ##########################  BOILEPLATE STUFF ################
+    };
+
+    // ##########################  BOILEPLATE STUFF ################
+
     // dinamic keys functions
-
-
     Object.keys(attrs).forEach(function (key) {
       // Attach variables to main function
       return main[key] = function (_) {
         var string = "attrs['".concat(key, "'] = _");
-
         if (!arguments.length) {
           return eval(" attrs['".concat(key, "'];"));
         }
-
         eval(string);
         return main;
       };
-    }); // set attrs as property
+    });
 
-    main.attrs = attrs; // debugging visuals
+    // set attrs as property
+    main.attrs = attrs;
 
+    // debugging visuals
     main.debug = function (isDebug) {
       attrs.isDebug = isDebug;
-
       if (isDebug) {
         if (!window.charts) {
           window.charts = [];
         }
-
         window.charts.push(main);
       }
-
       return main;
-    }; // exposed update functions
+    };
 
-
+    // exposed update functions
     main.data = function (value) {
       if (!arguments.length) {
         return attrs.data;
       }
-
       attrs.data = value;
-
       if (typeof updateData === "function") {
         updateData();
       }
-
-      return main;
-    }; // run  visual
-
-
-    main.run = function () {
-      d3__WEBPACK_IMPORTED_MODULE_0__.selectAll(attrs.container).call(main);
       return main;
     };
 
+    // run  visual
+    main.run = function () {
+      (0,d3_selection__WEBPACK_IMPORTED_MODULE_6__["default"])(attrs.container).call(main);
+      return main;
+    };
     main.filter = function (filterParams) {
       if (!arguments.length) {
         return attrs.filterParams;
       }
-
       attrs.filterParams = filterParams;
-
       if (typeof filter === "function") {
         filter();
       }
-
       return main;
     };
-
     main.reset = function () {
-      hierarchy.root.children.forEach(function (e) {
+      _hierarchy.root.children.forEach(function (e) {
         return _collapse(e, true);
       });
       main.run();
       return main;
     };
-
     return main;
-  }; // initialization
+  };
 
-
+  // initialization
   $orgChartContainer.each(function (i, container) {
     var $container = $(container);
     var width = $container.width();
     var height = width / (16 / 9);
-    d3__WEBPACK_IMPORTED_MODULE_0__.json($container.data("url")).then(function (data) {
+    (0,d3_fetch__WEBPACK_IMPORTED_MODULE_7__["default"])($container.data("url")).then(function (data) {
       // Make a fake previous node if the data entry is not hierarchical
       if (data instanceof Array) {
         fake = true;
@@ -730,50 +752,29 @@ var renderOrgCharts = function renderOrgCharts() {
       } else {
         dataDepicted = data;
       }
-
       orgchart = renderChartCollapsibleNetwork().svgHeight(height).svgWidth(width).fakeRoot(fake).container("#".concat(container.id)).data({
         root: dataDepicted
       }).debug(true).run();
     });
-  }); // reset
+  });
 
+  // reset
   $btnReset.click(function () {
     orgchart.reset();
   });
 };
-
 $(function () {
-  (0,src_decidim_vizzs_renders__WEBPACK_IMPORTED_MODULE_1__["default"])(renderOrgCharts);
+  renderOrgCharts();
+  $(document).on("change.zf.tabs", function () {
+    renderOrgCharts();
+  });
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js":
-/*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs/renders.js ***!
-  \************************************************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ renderChart; }
-/* harmony export */ });
-/* eslint-disable require-jsdoc */
-// renderChart receives a chart function as argument and renders it
-// Also captures change.zf.tabs event and re-renders the chart
-function renderChart(chart) {
-  chart();
-  $(document).on("change.zf.tabs", function () {
-    chart();
-  });
-}
-
-/***/ }),
-
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images/decidim/assemblies/decidim_assemblies.svg":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/images/decidim/assemblies/decidim_assemblies.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/images/decidim/assemblies/decidim_assemblies.svg ***!
   \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -951,7 +952,7 @@ module.exports = __webpack_require__.p + "media/images/decidim_assemblies-d9571d
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_d3_index_js"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_d3-array_src_index_js-node_modules_d3-collection_src_index_js-node_modul-f618e0","vendors-node_modules_d3-drag_src_drag_js-node_modules_d3-fetch_src_json_js-node_modules_d3-fo-5cde09"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/entrypoints/decidim_assemblies.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

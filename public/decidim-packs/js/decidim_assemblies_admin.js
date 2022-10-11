@@ -1,9 +1,9 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -17,7 +17,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -27,7 +26,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -37,32 +35,24 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint-disable require-jsdoc */
-
-
 var FieldDependentInputsComponent = /*#__PURE__*/function () {
   function FieldDependentInputsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, FieldDependentInputsComponent);
-
     this.controllerField = options.controllerField;
     this.wrapperSelector = options.wrapperSelector;
     this.dependentFieldsSelector = options.dependentFieldsSelector;
     this.dependentInputSelector = options.dependentInputSelector;
     this.enablingCondition = options.enablingCondition;
-
     this._bindEvent();
-
     this._run();
   }
-
   _createClass(FieldDependentInputsComponent, [{
     key: "_run",
     value: function _run() {
       var $controllerField = this.controllerField;
       var $dependentFields = $controllerField.parents(this.wrapperSelector).find(this.dependentFieldsSelector);
       var $dependentInputs = $dependentFields.find(this.dependentInputSelector);
-
       if (this.enablingCondition($controllerField)) {
         $dependentInputs.prop("disabled", false);
         $dependentFields.show();
@@ -75,32 +65,28 @@ var FieldDependentInputsComponent = /*#__PURE__*/function () {
     key: "_bindEvent",
     value: function _bindEvent() {
       var _this = this;
-
       this.controllerField.on("change", function () {
         _this._run();
       });
     }
   }]);
-
   return FieldDependentInputsComponent;
 }();
-
 function createFieldDependentInputs(options) {
   return new FieldDependentInputsComponent(options);
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assemblies.js":
 /*!********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assemblies.js ***!
   \********************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
   var $assemblyScopeEnabled = $("#assembly_scopes_enabled");
   var $assemblyScopeId = $("#assembly_scope_id");
-
   if ($(".edit_assembly, .new_assembly").length > 0) {
     $assemblyScopeEnabled.on("change", function (event) {
       var checked = event.target.checked;
@@ -108,41 +94,33 @@ $(function () {
     });
     window.theDataPicker.enabled($assemblyScopeId, $assemblyScopeEnabled.prop("checked"));
   }
-
   var $form = $(".assembly_form_admin");
-
   if ($form.length > 0) {
     var $privateSpace = $form.find("#private_space");
     var $isTransparent = $form.find("#is_transparent");
     var $specialFeatures = $form.find("#special_features");
-
     var toggleDisabledHiddenFields = function toggleDisabledHiddenFields() {
       var enabledPrivateSpace = $privateSpace.find("input[type='checkbox']").prop("checked");
       $isTransparent.find("input[type='checkbox']").attr("disabled", "disabled");
       $specialFeatures.hide();
-
       if (enabledPrivateSpace) {
         $isTransparent.find("input[type='checkbox']").attr("disabled", !enabledPrivateSpace);
         $specialFeatures.show();
       }
     };
-
     $privateSpace.on("change", toggleDisabledHiddenFields);
     toggleDisabledHiddenFields();
     var $assemblyType = $form.find("#assembly_assembly_type");
     var $assemblyTypeOther = $form.find("#assembly_type_other");
     var $assemblyCreatedBy = $form.find("#assembly_created_by");
     var $assemblyCreatedByOther = $form.find("#created_by_other");
-
     var toggleDependsOnSelect = function toggleDependsOnSelect($target, $showDiv) {
       var value = $target.val();
       $showDiv.hide();
-
       if (value === "others") {
         $showDiv.show();
       }
     };
-
     $assemblyType.on("change", function (ev) {
       var $target = $(ev.target);
       toggleDependsOnSelect($target, $assemblyTypeOther);
@@ -158,15 +136,15 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assembly_members.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assembly_members.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
+/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
 
 $(function () {
   var $assemblyMemberType = $("#assembly_member_existing_user");
@@ -211,9 +189,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/slug_form.js":
 /*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/slug_form.js ***!
   \********************************************************************************************************************/
 /***/ (function() {
 
@@ -301,13 +279,13 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!*****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/entrypoints/decidim_assemblies_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/entrypoints/decidim_assemblies_admin.js ***!
   \*****************************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/admin/assemblies */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assemblies.js");
+/* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/assemblies/admin/assemblies */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assemblies.js");
 /* harmony import */ var src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_assemblies_admin_assemblies__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_assemblies_admin_assembly_members__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/admin/assembly_members */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-assemblies-0.26.2/app/packs/src/decidim/assemblies/admin/assembly_members.js");
-/* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/slug_form */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/slug_form.js");
+/* harmony import */ var src_decidim_assemblies_admin_assembly_members__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/assemblies/admin/assembly_members */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-assemblies-0.27.0/app/packs/src/decidim/assemblies/admin/assembly_members.js");
+/* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/slug_form */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/slug_form.js");
 /* harmony import */ var src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(src_decidim_slug_form__WEBPACK_IMPORTED_MODULE_2__);
 
 

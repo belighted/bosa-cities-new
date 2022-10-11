@@ -1,9 +1,9 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-participatory_processes-0.26.2/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-participatory_processes-0.27.0/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js":
 /*!***********************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-participatory_processes-0.26.2/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-participatory_processes-0.27.0/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js ***!
   \***********************************************************************************************************************************************************************************/
 /***/ (function() {
 
@@ -11,12 +11,10 @@ $(function () {
   var $participatoryProcessScopeEnabled = $("#participatory_process_scopes_enabled");
   var $participatoryProcessScopeId = $("#participatory_process_scope_id");
   var $participatoryProcessScopeTypeId = $("#participatory_process_scope_type_max_depth_id");
-
   if ($(".edit_participatory_process, .new_participatory_process").length > 0) {
     $participatoryProcessScopeEnabled.on("change", function (event) {
       var checked = event.target.checked;
       window.theDataPicker.enabled($participatoryProcessScopeId, checked);
-
       if (checked === true) {
         $participatoryProcessScopeTypeId.removeAttr("disabled");
       } else {
@@ -102,10 +100,10 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!*******************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-participatory_processes-0.26.2/app/packs/entrypoints/decidim_participatory_processes_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-participatory_processes-0.27.0/app/packs/entrypoints/decidim_participatory_processes_admin.js ***!
   \*******************************************************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_participatory_processes_admin_participatory_processes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/participatory_processes/admin/participatory_processes */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-participatory_processes-0.26.2/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js");
+/* harmony import */ var src_decidim_participatory_processes_admin_participatory_processes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/participatory_processes/admin/participatory_processes */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-participatory_processes-0.27.0/app/packs/src/decidim/participatory_processes/admin/participatory_processes.js");
 /* harmony import */ var src_decidim_participatory_processes_admin_participatory_processes__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_participatory_processes_admin_participatory_processes__WEBPACK_IMPORTED_MODULE_0__);
 
 }();
