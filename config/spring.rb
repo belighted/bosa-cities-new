@@ -1,3 +1,5 @@
+require "decidim/spring"
+
 Spring.watch(
   ".ruby-version",
   ".rbenv-vars",
