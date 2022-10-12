@@ -1,4 +1,4 @@
-ARG RUBY_VERSION=2.7.3
+ARG RUBY_VERSION=3.0.2
 FROM ghcr.io/belighted/docker-ruby-jemalloc/ruby-jemalloc:$RUBY_VERSION
 ARG PG_MAJOR=12
 ARG NODE_MAJOR=16
