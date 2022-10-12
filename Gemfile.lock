@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/belighted/decidim-module-term_customizer
+  revision: b90885ad9419928192f5c6d96aa1a66be396081e
+  branch: 0.27.0
+  specs:
+    decidim-term_customizer (0.27.0)
+      decidim-admin (~> 0.27.0)
+      decidim-core (~> 0.27.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -833,6 +842,7 @@ DEPENDENCIES
   byebug (~> 11.0)
   decidim (= 0.27.0)
   decidim-dev (= 0.27.0)
+  decidim-term_customizer!
   dotenv-rails
   faker (~> 2.14)
   letter_opener_web (~> 2.0)

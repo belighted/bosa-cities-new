@@ -59,6 +59,7 @@
   "decidim_system.js": "/decidim-packs/js/decidim_system.js",
   "decidim_templates.css": "/decidim-packs/css/decidim_templates.css",
   "decidim_templates.js": "/decidim-packs/js/decidim_templates.js",
+  "decidim_term_customizer_admin.js": "/decidim-packs/js/decidim_term_customizer_admin.js",
   "decidim_widget.js": "/decidim-packs/js/decidim_widget.js",
   "entrypoints": {
     "decidim_api_docs": {
@@ -199,15 +200,15 @@
     "decidim_admin": {
       "assets": {
         "js": [
-          "/decidim-packs/js/vendors-node_modules_rails_activestorage_app_assets_javascripts_activestorage_js-node_modules-03f302.js",
           "/decidim-packs/js/vendors-node_modules_html5sortable_dist_html5sortable_es_js.js",
+          "/decidim-packs/js/vendors-node_modules_rails_activestorage_app_assets_javascripts_activestorage_js-node_modules-03f302.js",
           "/decidim-packs/js/vendors-node_modules_d3-array_src_index_js-node_modules_d3-collection_src_index_js-node_modul-f618e0.js",
           "/decidim-packs/js/vendors-node_modules_tarekraafat_autocomplete_js_dist_autoComplete_min_js-node_modules_d3-axi-b5cfa0.js",
           "/decidim-packs/js/vendors-node_modules_jquery-serializejson_jquery_serializejson_js.js",
           "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_editor_js.js",
           "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_autocomplete_js.js",
-          "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_configura-dbcbee.js",
           "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2.js",
+          "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_configura-dbcbee.js",
           "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_ajax_moda-fb562f.js",
           "/decidim-packs/js/decidim_admin.js"
         ],
@@ -381,6 +382,15 @@
           "/decidim-packs/css/decidim_dev.css"
         ]
       }
+    },
+    "decidim_term_customizer_admin": {
+      "assets": {
+        "js": [
+          "/decidim-packs/js/vendors-node_modules_html5sortable_dist_html5sortable_es_js.js",
+          "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2.js",
+          "/decidim-packs/js/decidim_term_customizer_admin.js"
+        ]
+      }
     }
   },
   "js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2.js": "/decidim-packs/js/_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2.js",
@@ -431,6 +441,7 @@
   "js/decidim_sw.js.map": "/decidim-packs/js/decidim_sw.js.map",
   "js/decidim_system.js.map": "/decidim-packs/js/decidim_system.js.map",
   "js/decidim_templates.js.map": "/decidim-packs/js/decidim_templates.js.map",
+  "js/decidim_term_customizer_admin.js.map": "/decidim-packs/js/decidim_term_customizer_admin.js.map",
   "js/decidim_widget.js.map": "/decidim-packs/js/decidim_widget.js.map",
   "js/node_modules_graphiql_react_dist_brace-fold_es_js.chunk.js": "/decidim-packs/js/node_modules_graphiql_react_dist_brace-fold_es_js.chunk.js",
   "js/node_modules_graphiql_react_dist_brace-fold_es_js.chunk.js.map": "/decidim-packs/js/node_modules_graphiql_react_dist_brace-fold_es_js.chunk.js.map",
