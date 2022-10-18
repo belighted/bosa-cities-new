@@ -8,12 +8,12 @@ local:
 
 minio:
   service: S3
-  access_key_id: <%= Rails.application.secrets.dig(:minio, :access_key_id) %>
-  secret_access_key: <%= Rails.application.secrets.dig(:minio, :secret_access_key) %>
-  region: <%= Rails.application.secrets.dig(:minio, :region) %>
-  endpoint: <%= Rails.application.secrets.dig(:minio, :endpoint) %>
-  bucket: <%= Rails.application.secrets.dig(:minio, :bucket) %>
-  force_path_style: <%= Rails.application.secrets.dig(:minio, :force_path_style) %>
+  access_key_id: <%= Rails.application.secrets.storage.dig(:minio, :access_key_id) %>
+  secret_access_key: <%= Rails.application.secrets.storage.dig(:minio, :secret_access_key) %>
+  region: <%= Rails.application.secrets.storage.dig(:minio, :region) %>
+  endpoint: <%= Rails.application.secrets.storage.dig(:minio, :endpoint) %>
+  bucket: <%= Rails.application.secrets.storage.dig(:minio, :bucket) %>
+  force_path_style: <%= Rails.application.secrets.storage.dig(:minio, :force_path_style) %>
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 #amazon:
