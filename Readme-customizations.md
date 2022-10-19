@@ -12,17 +12,19 @@ gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-te
 
 ## Settings in app
 ##### Activate HTML snippets in header
-```
-config.enable_html_header_snippets = true
-```
+Set ENV variable `DECIDIM_ENABLE_HTML_HEADER_SNIPPETS=true`
 
 ##### Auth handler for participants impersonations (Managed participants)
 [PR](https://github.com/belighted/bosa-cities-new/pull/8)
 
-##### Configure active storage to use minio on production env
+##### Configure active storage to use minio in production env
 [Commit](https://github.com/belighted/bosa-cities-new/commit/dac40c0c01117e5ece62039c396a71435312839f)
+
+Set ENV variable `STORAGE_PROVIDER=minio`
+
+If not set, by default it also falls back to `:minio` in production environment (`config/environments/production.rb`):
 ```
-config.active_storage.service = :minio
+config.active_storage.service = Rails.application.secrets.dig(:storage, :provider) || :minio
 ```
 
 ---
