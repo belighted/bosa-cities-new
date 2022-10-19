@@ -2,20 +2,21 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.js":
 /*!******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.js ***!
   \******************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var entrypoints_decidim_api_graphiql_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! entrypoints/decidim_api_graphiql.scss */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.scss");
+/* harmony import */ var entrypoints_decidim_api_graphiql_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! entrypoints/decidim_api_graphiql.scss */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.scss");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index-exposed.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var graphiql__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! graphiql */ "./node_modules/graphiql/esm/index.js");
-/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/configuration.js");
+/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/configuration.js");
 /* eslint-disable require-jsdoc */
+
 
 
 
@@ -23,45 +24,44 @@ __webpack_require__.r(__webpack_exports__);
 
 window.Decidim = window.Decidim || {};
 window.Decidim.config = new src_decidim_configuration__WEBPACK_IMPORTED_MODULE_4__["default"]();
-var parameters = {}; // Parse the search string to get url parameters.
+var parameters = {};
 
+// Parse the search string to get url parameters.
 var search = window.location.search;
 search.substr(1).split("&").forEach(function (entry) {
   var eq = entry.indexOf("=");
-
   if (eq >= 0) {
     parameters[decodeURIComponent(entry.slice(0, eq))] = decodeURIComponent(entry.slice(eq + 1));
   }
-}); // if variables was provided, try to format it.
-
+});
+// if variables was provided, try to format it.
 if (parameters.variables) {
   try {
     parameters.variables = JSON.stringify(JSON.parse(parameters.variables), null, 2);
-  } catch (error) {// Do nothing, we want to display the invalid JSON as a string, rather
+  } catch (error) {
+    // Do nothing, we want to display the invalid JSON as a string, rather
     // than present an error.
   }
 }
-
 var updateURL = function updateURL() {
   var newSearch = Object.keys(parameters).map(function (key) {
     return "".concat(encodeURIComponent(key), "=").concat(encodeURIComponent(parameters[key]));
   }).join("&");
   history.replaceState(null, null, "?".concat(newSearch));
-}; // When the query and variables string is edited, update the URL bar so
+};
+
+// When the query and variables string is edited, update the URL bar so
 // that it can be easily shared
-
-
 var onEditQuery = function onEditQuery(newQuery) {
   parameters.query = newQuery;
   updateURL();
 };
-
 var onEditVariables = function onEditVariables(newVariables) {
   parameters.variables = newVariables;
   updateURL();
-}; // Defines a GraphQL fetcher using the fetch API.
+};
 
-
+// Defines a GraphQL fetcher using the fetch API.
 var graphQLFetcher = function graphQLFetcher(graphQLParams) {
   var graphQLEndpoint = window.Decidim.config.get("graphql_endpoint");
   return fetch(graphQLEndpoint, {
@@ -81,7 +81,6 @@ var graphQLFetcher = function graphQLFetcher(graphQLParams) {
     }
   });
 };
-
 window.addEventListener("DOMContentLoaded", function () {
   // Render <GraphiQL /> into the body.
   react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(graphiql__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -96,9 +95,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/configuration.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/configuration.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/configuration.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/configuration.js ***!
   \************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -108,17 +107,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function ownKeys(object, enumerableOnly) {
   var keys = Object.keys(object);
-
   if (Object.getOwnPropertySymbols) {
     var symbols = Object.getOwnPropertySymbols(object);
     enumerableOnly && (symbols = symbols.filter(function (sym) {
       return Object.getOwnPropertyDescriptor(object, sym).enumerable;
     })), keys.push.apply(keys, symbols);
   }
-
   return keys;
 }
-
 function _objectSpread(target) {
   for (var i = 1; i < arguments.length; i++) {
     var source = null != arguments[i] ? arguments[i] : {};
@@ -128,10 +124,8 @@ function _objectSpread(target) {
       Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
     });
   }
-
   return target;
 }
-
 function _defineProperty(obj, key, value) {
   if (key in obj) {
     Object.defineProperty(obj, key, {
@@ -143,10 +137,8 @@ function _defineProperty(obj, key, value) {
   } else {
     obj[key] = value;
   }
-
   return obj;
 }
-
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -156,13 +148,11 @@ function _typeof(obj) {
     return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
   }, _typeof(obj);
 }
-
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -172,7 +162,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -181,19 +170,15 @@ function _createClass(Constructor, protoProps, staticProps) {
   });
   return Constructor;
 }
-
 var Configuration = /*#__PURE__*/function () {
   function Configuration() {
     _classCallCheck(this, Configuration);
-
     this.config = {};
   }
-
   _createClass(Configuration, [{
     key: "set",
     value: function set(key) {
       var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-
       if (_typeof(key) === "object") {
         this.config = _objectSpread(_objectSpread({}, this.config), key);
       } else {
@@ -206,17 +191,15 @@ var Configuration = /*#__PURE__*/function () {
       return this.config[key];
     }
   }]);
-
   return Configuration;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.scss":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.scss":
 /*!********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.scss ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.scss ***!
   \********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -246,7 +229,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -338,10 +321,10 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/get mini-css chunk filename */
 /******/ 	!function() {
-/******/ 		// This function allow to reference all chunks
+/******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + chunkId + ".css";
+/******/ 			return undefined;
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -521,7 +504,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react-dom_index_js","vendors-node_modules_expose-loader_dist_runtime_getGlobalThis_js-node_modules_graphiql_esm_in-b41003"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-api-0.26.2/app/packs/entrypoints/decidim_api_graphiql.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_graphiql_esm_index_js-node_modules_graphiql_graphiql_css"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-api-0.27.0/app/packs/entrypoints/decidim_api_graphiql.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

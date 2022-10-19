@@ -1,15 +1,15 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents sync recursive ^\\.\\/.*$":
 /*!*************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/ sync ^\.\/.*$ ***!
   \*************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/proposals/participatory_texts/participatory_text.md": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md",
-	"./decidim/proposals/participatory_texts/participatory_text.odt": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt"
+	"./decidim/proposals/participatory_texts/participatory_text.md": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md",
+	"./decidim/proposals/participatory_texts/participatory_text.odt": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt"
 };
 
 
@@ -30,21 +30,21 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \**********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg",
-	"./decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg",
-	"./decidim/gamification/badges/decidim_gamification_badges_proposals.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg",
-	"./decidim/proposals/decidim_proposals.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/proposals/decidim_proposals.svg"
+	"./decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg",
+	"./decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg",
+	"./decidim/gamification/badges/decidim_gamification_badges_proposals.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg",
+	"./decidim/proposals/decidim_proposals.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/proposals/decidim_proposals.svg"
 };
 
 
@@ -65,13 +65,13 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js":
 /*!*********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js ***!
   \*********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -80,8 +80,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ attachGeocoding; }
 /* harmony export */ });
-/* harmony import */ var _coordinate_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coordinate_input */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js");
+/* harmony import */ var _coordinate_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coordinate_input */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js");
 /* eslint-disable require-jsdoc */
+
 
 /**
  * You can use this method to "attach" front-end geocoding to any forms in the
@@ -147,12 +148,10 @@ function attachGeocoding($input, options, callback) {
   var idPrefix = "".concat(inputIdParts.join("_"));
   var latitudeName = "latitude";
   var longitudeName = "longitude";
-
   if ($input.length > 0) {
     latitudeName = (0,_coordinate_input__WEBPACK_IMPORTED_MODULE_0__["default"])("latitude", $input, attachOptions);
     longitudeName = (0,_coordinate_input__WEBPACK_IMPORTED_MODULE_0__["default"])("longitude", $input, attachOptions);
   }
-
   var config = $.extend({
     latitudeId: "".concat(idPrefix, "_latitude"),
     longitudeId: "".concat(idPrefix, "_longitude"),
@@ -160,58 +159,52 @@ function attachGeocoding($input, options, callback) {
     longitudeName: longitudeName
   }, options);
   var geocoded = false;
-
   var createCoordinateFields = function createCoordinateFields() {
     var $latitude = $("#".concat(config.latitudeId));
-
     if ($latitude.length < 1) {
       $latitude = $("<input type=\"hidden\" name=\"".concat(config.latitudeName, "\" id=\"").concat(config.latitudeId, "\" />"));
       $input.after($latitude);
     }
-
     var $longitude = $("#".concat(config.longitudeId));
-
     if ($longitude.length < 1) {
       $longitude = $("<input type=\"hidden\" name=\"".concat(config.longitudeName, "\" id=\"").concat(config.longitudeId, "\" />"));
       $input.after($longitude);
     }
   };
-
   var clearCoordinateFields = function clearCoordinateFields() {
     if (geocoded) {
       return;
     }
-
     $("#".concat(config.latitudeId)).val("").removeAttr("value");
     $("#".concat(config.longitudeId)).val("").removeAttr("value");
   };
-
   var setCoordinates = function setCoordinates(coordinates) {
     createCoordinateFields();
     $("#".concat(config.latitudeId)).val(coordinates[0]).attr("value", coordinates[0]);
     $("#".concat(config.longitudeId)).val(coordinates[1]).attr("value", coordinates[1]);
-  }; // When the user changes the value of the coordinate field without selecting
+  };
+
+  // When the user changes the value of the coordinate field without selecting
   // any of the geocoding autocomplete results, clear the current latitude and
   // longitude values to let the backend do the geocoding. Once a geocoding
   // autocomplete value has been selected, assume the user just wants to
   // refine the address formatting without changing the location point value.
   // If they want, they can still modify the point in the next step of the
   // proposal creation/editing.
-
-
   $input.on("change.decidim", function () {
     clearCoordinateFields();
-  }); // When we receive the geocoding event on the field, update the coordinate
-  // values.
+  });
 
+  // When we receive the geocoding event on the field, update the coordinate
+  // values.
   $input.on("geocoder-suggest-coordinates.decidim", function (_ev, coordinates) {
     setCoordinates(coordinates);
     geocoded = true;
     callback(coordinates);
-  }); // Set the initial values if the field defines the coordinates
+  });
 
+  // Set the initial values if the field defines the coordinates
   var coordinates = "".concat($input.data("coordinates")).split(",").map(parseFloat);
-
   if (Array.isArray(coordinates) && coordinates.length === 2) {
     setCoordinates(coordinates);
   }
@@ -219,9 +212,9 @@ function attachGeocoding($input, options, callback) {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js":
 /*!*************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js ***!
   \*************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -239,33 +232,29 @@ __webpack_require__.r(__webpack_exports__);
  */
 function getCoordinateInputName(coordinate, $input, options) {
   var key = "".concat(coordinate, "Name");
-
   if (options[key]) {
     return options[key];
   }
-
   var inputName = $input.attr("name");
   var subNameMatch = /\[[^\]]+\]$/;
-
   if (inputName.match(subNameMatch)) {
     return inputName.replace(subNameMatch, "[".concat(coordinate, "]"));
   }
-
   return coordinate;
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/add_proposal.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/add_proposal.js":
 /*!**************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/add_proposal.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/add_proposal.js ***!
   \**************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/attach_input */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/attach_input.js");
-/* harmony import */ var src_decidim_geocoding_coordinate_input__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/geocoding/coordinate_input */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/coordinate_input.js");
+/* harmony import */ var src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/attach_input */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/attach_input.js");
+/* harmony import */ var src_decidim_geocoding_coordinate_input__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/geocoding/coordinate_input */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/coordinate_input.js");
 
 
 $(function () {
@@ -275,14 +264,11 @@ $(function () {
   var $map = $("#address_map");
   var latFieldName = "latitude";
   var longFieldName = "longitude";
-
   if ($addressInputField.length > 0) {
     latFieldName = (0,src_decidim_geocoding_coordinate_input__WEBPACK_IMPORTED_MODULE_1__["default"])("latitude", $addressInputField, {});
     longFieldName = (0,src_decidim_geocoding_coordinate_input__WEBPACK_IMPORTED_MODULE_1__["default"])("longitude", $addressInputField, {});
   }
-
   $map.hide();
-
   if ($checkbox.length > 0) {
     var toggleInput = function toggleInput() {
       if ($checkbox[0].checked) {
@@ -293,24 +279,21 @@ $(function () {
         $addressInputField.prop("disabled", true);
       }
     };
-
     toggleInput();
     $checkbox.on("change", toggleInput);
   }
-
   if ($addressInput.length > 0) {
     if ($checkbox[0].checked) {
       $map.show();
     }
-
     var ctrl = $("[data-decidim-map]").data("map-controller");
     ctrl.setEventHandler("coordinates", function (ev) {
       $("input[name='".concat(latFieldName, "']")).val(ev.lat);
       $("input[name='".concat(longFieldName, "']")).val(ev.lng);
     });
     (0,src_decidim_geocoding_attach_input__WEBPACK_IMPORTED_MODULE_0__["default"])($addressInputField, null, function (coordinates) {
-      $map.show(); // Remove previous marker when user updates address in address field
-
+      $map.show();
+      // Remove previous marker when user updates address in address field
       ctrl.removeMarker();
       ctrl.addMarker({
         latitude: coordinates[0],
@@ -323,13 +306,14 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/utils.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/utils.js":
 /*!*******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/utils.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/utils.js ***!
   \*******************************************************************************************************************************/
 /***/ (function() {
 
 /* eslint-disable no-invalid-this */
+
 $(function () {
   $("#vote_button").mouseover(function () {
     $(this).text($(this).data("replace"));
@@ -341,9 +325,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md":
 /*!**********************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.md ***!
   \**********************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -352,9 +336,9 @@ module.exports = __webpack_require__.p + "media/documents/0e67170e72070b470a07.m
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt":
 /*!***********************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents/decidim/proposals/participatory_texts/participatory_text.odt ***!
   \***********************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -363,9 +347,9 @@ module.exports = __webpack_require__.p + "media/documents/057f608bdff3d77526ff.o
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg":
 /*!**************************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_accepted_proposals.svg ***!
   \**************************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -374,9 +358,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg":
 /*!**********************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposal_votes.svg ***!
   \**********************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -385,9 +369,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg":
 /*!*****************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_proposals.svg ***!
   \*****************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -396,9 +380,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/proposals/decidim_proposals.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/proposals/decidim_proposals.svg":
 /*!***********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images/decidim/proposals/decidim_proposals.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images/decidim/proposals/decidim_proposals.svg ***!
   \***********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -485,19 +469,20 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!*********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/entrypoints/decidim_proposals.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/entrypoints/decidim_proposals.js ***!
   \*********************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_proposals_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/proposals/utils */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/utils.js");
+/* harmony import */ var src_decidim_proposals_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/proposals/utils */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/utils.js");
 /* harmony import */ var src_decidim_proposals_utils__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_proposals_utils__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_proposals_add_proposal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/proposals/add_proposal */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/src/decidim/proposals/add_proposal.js");
-
- // Images
-
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/images sync recursive ^\\.\\/.*$"); // Documents
+/* harmony import */ var src_decidim_proposals_add_proposal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/proposals/add_proposal */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/src/decidim/proposals/add_proposal.js");
 
 
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-proposals-0.26.2/app/packs/documents sync recursive ^\\.\\/.*$");
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
+
+// Documents
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-proposals-0.27.0/app/packs/documents sync recursive ^\\.\\/.*$");
 }();
 /******/ })()
 ;

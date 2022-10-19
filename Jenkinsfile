@@ -59,8 +59,8 @@ podTemplate(
                             }
                             stage("Compile Assets") {
                                 sh """
-                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest bundle exec rake assets:clean
-                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-testrunner:latest /bin/bash -c "yarn install --silent --no-progress --no-audit --no-optional && bundle exec rake assets:precompile"
+                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-027-testrunner:latest bundle exec rake assets:clean
+                                    docker run -e RAILS_ENV=production --env-file ${codePath}/ops/release/test_runner/app_env -v ${codePath}/public:/app/public bosa-cities-new-027-testrunner:latest /bin/bash -c "yarn install --silent --no-progress --no-audit --no-optional && bundle exec rake assets:precompile"
                                 """
                             }
                             stage("Build app image"){
@@ -70,25 +70,25 @@ podTemplate(
                                 pushToNexus(
                                         "${docker_registry_credId}",
                                         "${docker_img_apps}",
-                                        "${docker_img_apps}/bosa-cities-new-assets:$job_base_name"
+                                        "${docker_img_apps}/bosa-cities-new-027-assets:$job_base_name"
                                 )
                                 // This will push the app image to registry
                                 pushToNexus(
                                         "${docker_registry_credId}",
                                         "${docker_img_apps}",
-                                        "${docker_img_apps}/bosa-cities-new:$job_base_name"
+                                        "${docker_img_apps}/bosa-cities-new-027:$job_base_name"
                                 )
                             }
                         }
-                        stage('Deploy bosa-cities-new to uat'){
+                        stage('Deploy bosa-cities-new-027 to uat'){
                             kubeDeploy(
                                     "v1.20.0",
                                     "kube-jenkins-robot",
                                     "${kube_conf_url}",
-                                    "bosa-cities-new",
+                                    "bosa-cities-new-027",
                                     "bosa-uat",
-                                    ["bosa-cities-new", "bosa-cities-new-assets" ],
-                                    ["${docker_img_apps}/bosa-cities-new:$job_base_name", "${docker_img_apps}/bosa-cities-new-assets:$job_base_name"]
+                                    ["bosa-cities-new-027", "bosa-cities-new-027-assets" ],
+                                    ["${docker_img_apps}/bosa-cities-new-027:$job_base_name", "${docker_img_apps}/bosa-cities-new-027-assets:$job_base_name"]
                             )
                         }
                         stage('Deploy sidekiq to uat'){
@@ -96,10 +96,10 @@ podTemplate(
                                     "v1.20.0",
                                     "kube-jenkins-robot",
                                     "${kube_conf_url}",
-                                    "bosa-cities-new-sidekiq",
+                                    "bosa-cities-new-027-sidekiq",
                                     "bosa-uat",
-                                    ["bosa-cities-new-sidekiq" ],
-                                    ["${docker_img_apps}/bosa-cities-new:$job_base_name"]
+                                    ["bosa-cities-new-027-sidekiq" ],
+                                    ["${docker_img_apps}/bosa-cities-new-027:$job_base_name"]
                             )
                         }
                         break
@@ -110,8 +110,8 @@ podTemplate(
                                     "${docker_registry_credId}",
                                     "${docker_img_apps}",
                                     "${docker_img_prod}",
-                                    ["bosa-cities-new", "bosa-cities-new-assets"],
-                                    ["bosa-cities-new", "bosa-cities-new-assets"]
+                                    ["bosa-cities-new-027", "bosa-cities-new-027-assets"],
+                                    ["bosa-cities-new-027", "bosa-cities-new-027-assets"]
                             )
                         }
                         stage('Deploy app to prod'){
@@ -121,8 +121,8 @@ podTemplate(
                                     "${kube_conf_url_prod}",
                                     "bosa-cities-new",
                                     "bosa-prod",
-                                    ["bosa-cities-new", "bosa-cities-new-assets" ],
-                                    ["${docker_img_prod}/bosa-cities-new:${job_base_name}", "${docker_img_prod}/bosa-cities-new-assets:${job_base_name}"]
+                                    ["bosa-cities-new", "bosa-cities-new-assets"],
+                                    ["${docker_img_prod}/bosa-cities-new-027:${job_base_name}", "${docker_img_prod}/bosa-cities-new-027-assets:${job_base_name}"]
                             )
                         }
                         stage('Deploy sidekiq to prod'){
@@ -132,8 +132,8 @@ podTemplate(
                                     "${kube_conf_url_prod}",
                                     "bosa-cities-new-sidekiq",
                                     "bosa-prod",
-                                    ["bosa-cities-new-sidekiq" ],
-                                    ["${docker_img_prod}/bosa-cities-new:${job_base_name}"]
+                                    ["bosa-cities-new-sidekiq"],
+                                    ["${docker_img_prod}/bosa-cities-new-027:${job_base_name}"]
                             )
                         }
                         break

@@ -1,14 +1,14 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/budgets/decidim_budgets.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images/decidim/budgets/decidim_budgets.svg"
+	"./decidim/budgets/decidim_budgets.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images/decidim/budgets/decidim_budgets.svg"
 };
 
 
@@ -29,13 +29,13 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/exit_handler.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/exit_handler.js":
 /*!**********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/exit_handler.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/exit_handler.js ***!
   \**********************************************************************************************************************************/
 /***/ (function() {
 
@@ -43,12 +43,10 @@ var currentAllocationZero = function currentAllocationZero() {
   var $budgetSummary = $(".budget-summary__progressbox");
   return parseInt($budgetSummary.attr("data-current-allocation"), 10) === 0;
 };
-
 var isSafeUrl = function isSafeUrl(exitUrl) {
   if (!exitUrl) {
     return false;
   }
-
   var safeUrls = [$(".budget-summary").attr("data-safe-url").split("?")[0], "".concat(location.pathname, "#"), "".concat(location.href, "#"), "#"];
   var safe = false;
   safeUrls.forEach(function (url) {
@@ -58,7 +56,6 @@ var isSafeUrl = function isSafeUrl(exitUrl) {
   });
   return safe;
 };
-
 var allowExitFrom = function allowExitFrom($el) {
   if (currentAllocationZero()) {
     return true;
@@ -75,59 +72,51 @@ var allowExitFrom = function allowExitFrom($el) {
   } else if (isSafeUrl($el.attr("href"))) {
     return true;
   }
-
   return false;
 };
-
 $(function () {
   var $exitNotification = $("#exit-notification");
   var $exitLink = $("#exit-notification-link");
   var defaultExitUrl = $exitLink.attr("href");
   var defaultExitLinkText = $exitLink.text();
   var exitLinkText = defaultExitLinkText;
-
   if ($exitNotification.length < 1) {
     // Do not apply when not inside the voting pipeline
     return;
   }
-
   var openExitNotification = function openExitNotification(url) {
     var method = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-
     if (method && method !== "get") {
       $exitLink.attr("data-method", method);
     } else {
       $exitLink.removeAttr("data-method");
     }
-
     $exitLink.attr("href", url);
     $exitLink.html(exitLinkText);
     $exitNotification.foundation("open");
   };
-
   $(document).on("click", "a", function (event) {
     exitLinkText = defaultExitLinkText;
     var $link = $(event.currentTarget);
-
     if (!allowExitFrom($link)) {
       event.preventDefault();
       openExitNotification($link.attr("href"), $link.data("method"));
     }
-  }); // Custom handling for the header sign out so that it won't trigger the
+  });
+  // Custom handling for the header sign out so that it won't trigger the
   // logout form submit and so that it changes the exit link text. This does
   // not trigger the document link click listener because it has the
   // data-method attribute to trigger a form submit event.
-
   $(".header a.sign-out-link").on("click", function (event) {
     event.preventDefault();
     event.stopPropagation();
     var $link = $(event.currentTarget);
     exitLinkText = $link.text();
     openExitNotification($link.attr("href"), $link.data("method"));
-  }); // Custom handling for the exit link which needs to change the exit link
+  });
+  // Custom handling for the exit link which needs to change the exit link
   // text to the default text as this is not handled by the document click
   // listener.
-
   $("a[data-open='exit-notification']").on("click", function () {
     exitLinkText = defaultExitLinkText;
     openExitNotification(defaultExitUrl);
@@ -136,31 +125,27 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/progressFixed.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/progressFixed.js":
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/progressFixed.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/progressFixed.js ***!
   \***********************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
   var checkProgressPosition = function checkProgressPosition() {
     var progressFix = document.querySelector("[data-progressbox-fixed]"),
-        progressRef = document.querySelector("[data-progress-reference]"),
-        progressVisibleClass = "is-progressbox-visible";
-
+      progressRef = document.querySelector("[data-progress-reference]"),
+      progressVisibleClass = "is-progressbox-visible";
     if (!progressRef) {
       return;
     }
-
     var progressPosition = progressRef.getBoundingClientRect().bottom;
-
     if (progressPosition > 0) {
       progressFix.classList.remove(progressVisibleClass);
     } else {
       progressFix.classList.add(progressVisibleClass);
     }
   };
-
   window.addEventListener("scroll", checkProgressPosition);
   window.DecidimBudgets = window.DecidimBudgets || {};
   window.DecidimBudgets.checkProgressPosition = checkProgressPosition;
@@ -168,9 +153,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/projects.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/projects.js":
 /*!******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/projects.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/projects.js ***!
   \******************************************************************************************************************************/
 /***/ (function() {
 
@@ -181,13 +166,11 @@ $(function () {
   var $budgetSummary = $(".budget-summary__progressbox");
   var $voteButton = $(".budget-vote-button");
   var totalAllocation = parseInt($budgetSummaryTotal.attr("data-total-allocation"), 10);
-
   var cancelEvent = function cancelEvent(event) {
     $(event.currentTarget).removeClass("loading-spinner");
     event.stopPropagation();
     event.preventDefault();
   };
-
   $voteButton.on("click", "span", function () {
     $(".budget-list__action").click();
   });
@@ -195,11 +178,9 @@ $(function () {
     var currentAllocation = parseInt($budgetSummary.attr("data-current-allocation"), 10);
     var $currentTarget = $(event.currentTarget);
     var projectAllocation = parseInt($currentTarget.attr("data-allocation"), 10);
-
     if (!$currentTarget.attr("data-open")) {
       $currentTarget.addClass("loading-spinner");
     }
-
     if ($currentTarget.attr("disabled")) {
       cancelEvent(event);
     } else if ($currentTarget.attr("data-add") === "true" && currentAllocation + projectAllocation > totalAllocation) {
@@ -211,9 +192,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images/decidim/budgets/decidim_budgets.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images/decidim/budgets/decidim_budgets.svg":
 /*!*****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images/decidim/budgets/decidim_budgets.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images/decidim/budgets/decidim_budgets.svg ***!
   \*****************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -300,20 +281,21 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!*****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/entrypoints/decidim_budgets.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/entrypoints/decidim_budgets.js ***!
   \*****************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_budgets_projects__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/budgets/projects */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/projects.js");
+/* harmony import */ var src_decidim_budgets_projects__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/budgets/projects */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/projects.js");
 /* harmony import */ var src_decidim_budgets_projects__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_budgets_projects__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_budgets_progressFixed__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/budgets/progressFixed */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/progressFixed.js");
+/* harmony import */ var src_decidim_budgets_progressFixed__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/budgets/progressFixed */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/progressFixed.js");
 /* harmony import */ var src_decidim_budgets_progressFixed__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(src_decidim_budgets_progressFixed__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var src_decidim_budgets_exit_handler__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/budgets/exit_handler */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/src/decidim/budgets/exit_handler.js");
+/* harmony import */ var src_decidim_budgets_exit_handler__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/budgets/exit_handler */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/src/decidim/budgets/exit_handler.js");
 /* harmony import */ var src_decidim_budgets_exit_handler__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(src_decidim_budgets_exit_handler__WEBPACK_IMPORTED_MODULE_2__);
 
 
- // Images
 
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-budgets-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-budgets-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
 }();
 /******/ })()
 ;

@@ -1,15 +1,15 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/debates/decidim_debates.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/debates/decidim_debates.svg",
-	"./decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg"
+	"./decidim/debates/decidim_debates.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/debates/decidim_debates.svg",
+	"./decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg"
 };
 
 
@@ -30,13 +30,13 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js ***!
   \**************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -50,7 +50,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -60,7 +59,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -70,32 +68,24 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint-disable require-jsdoc */
-
-
 var FieldDependentInputsComponent = /*#__PURE__*/function () {
   function FieldDependentInputsComponent() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
     _classCallCheck(this, FieldDependentInputsComponent);
-
     this.controllerField = options.controllerField;
     this.wrapperSelector = options.wrapperSelector;
     this.dependentFieldsSelector = options.dependentFieldsSelector;
     this.dependentInputSelector = options.dependentInputSelector;
     this.enablingCondition = options.enablingCondition;
-
     this._bindEvent();
-
     this._run();
   }
-
   _createClass(FieldDependentInputsComponent, [{
     key: "_run",
     value: function _run() {
       var $controllerField = this.controllerField;
       var $dependentFields = $controllerField.parents(this.wrapperSelector).find(this.dependentFieldsSelector);
       var $dependentInputs = $dependentFields.find(this.dependentInputSelector);
-
       if (this.enablingCondition($controllerField)) {
         $dependentInputs.prop("disabled", false);
         $dependentFields.show();
@@ -108,31 +98,28 @@ var FieldDependentInputsComponent = /*#__PURE__*/function () {
     key: "_bindEvent",
     value: function _bindEvent() {
       var _this = this;
-
       this.controllerField.on("change", function () {
         _this._run();
       });
     }
   }]);
-
   return FieldDependentInputsComponent;
 }();
-
 function createFieldDependentInputs(options) {
   return new FieldDependentInputsComponent(options);
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/src/decidim/debates/admin/debates.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/src/decidim/debates/admin/debates.js":
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/src/decidim/debates/admin/debates.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/src/decidim/debates/admin/debates.js ***!
   \***********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
+/* harmony import */ var src_decidim_admin_field_dependent_inputs_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/field_dependent_inputs.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/field_dependent_inputs.component.js");
 
 $(function () {
   var $debateType = $('[name="debate[finite]"');
@@ -158,9 +145,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/debates/decidim_debates.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/debates/decidim_debates.svg":
 /*!*****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/debates/decidim_debates.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/debates/decidim_debates.svg ***!
   \*****************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -169,9 +156,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_debates-b8d6b95f5
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg":
 /*!***********************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_commented_debates.svg ***!
   \***********************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -246,13 +233,14 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/entrypoints/decidim_debates_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/entrypoints/decidim_debates_admin.js ***!
   \***********************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_debates_admin_debates__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/debates/admin/debates */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/src/decidim/debates/admin/debates.js");
- // Images
+/* harmony import */ var src_decidim_debates_admin_debates__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/debates/admin/debates */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/src/decidim/debates/admin/debates.js");
 
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-debates-0.26.2/app/packs/images sync recursive ^\\.\\/.*$");
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-debates-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
 }();
 /******/ })()
 ;

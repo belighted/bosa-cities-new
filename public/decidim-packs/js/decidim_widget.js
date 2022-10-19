@@ -1,9 +1,9 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/widget.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/widget.js":
 /*!*****************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/widget.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/widget.js ***!
   \*****************************************************************************************************************/
 /***/ (function() {
 
@@ -98,10 +98,10 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 /*!*************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_widget.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_widget.js ***!
   \*************************************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/widget */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/widget.js");
+/* harmony import */ var src_decidim_widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/widget */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/widget.js");
 /* harmony import */ var src_decidim_widget__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_widget__WEBPACK_IMPORTED_MODULE_0__);
 
 }();

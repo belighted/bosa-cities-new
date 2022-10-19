@@ -2,134 +2,34 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_geocoding_provider_here.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_geocoding_provider_here.js":
 /*!******************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_geocoding_provider_here.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_geocoding_provider_here.js ***!
   \******************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_geocoding_provider_here__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/provider/here */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/provider/here.js");
+/* harmony import */ var src_decidim_geocoding_provider_here__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding/provider/here */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/provider/here.js");
 
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding.js":
-/*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding.js ***!
-  \********************************************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/vendor/tribute */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/tribute.js");
-/* harmony import */ var src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0__);
-
-$(function () {
-  $("[data-decidim-geocoding]").each(function (_i, el) {
-    var $input = $(el);
-    var $fieldContainer = $input.parent();
-    $fieldContainer.addClass("has-tribute");
-    var tribute = new (src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0___default())({
-      autocompleteMode: true,
-      // autocompleteSeparator: / \+ /, // See below, requires Tribute update
-      allowSpaces: true,
-      positionMenu: false,
-      replaceTextSuffix: "",
-      menuContainer: $fieldContainer.get(0),
-      noMatchTemplate: null,
-      values: function values(text, cb) {
-        $input.trigger("geocoder-suggest.decidim", [text, cb]);
-      }
-    }); // Port https://github.com/zurb/tribute/pull/406
-    // This changes the autocomplete separator from space to " + " so that
-    // we can do searches such as "streetname 4" including a space. Otherwise
-    // this would do two separate searches for "streetname" and "4".
-
-    tribute.range.getLastWordInText = function (text) {
-      var _final = text.replace(/\u00A0/g, " ");
-
-      var wordsArray = _final.split(/ \+ /);
-
-      var worldsCount = wordsArray.length - 1;
-      return wordsArray[worldsCount].trim();
-    };
-
-    tribute.attach($input.get(0));
-    $input.on("tribute-replaced", function (ev) {
-      var selectedItem = ev.detail.item.original;
-      $input.trigger("geocoder-suggest-select.decidim", [selectedItem]); // Not all geocoding autocomplete APIs include the coordinates in the
-      // suggestions response. Therefore, some APIs may require additional
-      // query for the coordinates, which should trigger this event for the
-      // input element.
-
-      if (selectedItem.coordinates) {
-        $input.trigger("geocoder-suggest-coordinates.decidim", [selectedItem.coordinates]);
-      }
-    });
-    $input.data("geocoder-tribute", tribute);
-  });
-});
-
-/***/ }),
-
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/format_address.js":
-/*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/format_address.js ***!
-  \***********************************************************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ formatAddress; }
-/* harmony export */ });
-/* eslint-disable require-jsdoc */
-// If you want to customize the geocoder address format which is displayed
-// when showing the geocoding results list, add this configuration code to
-// your geocoder at config/initializers/decidim.rb:
-// config.maps = {
-//   # ... other configs ...
-//   autocomplete: {
-//     address_format: [%w(street houseNumber), "city", "country"]
-//   }
-// }
-//
-// For the available address keys, refer to the provider's own documentation.
-var compact = function compact(items) {
-  return items.filter(function (part) {
-    return part !== null && typeof part !== "undefined" && "".concat(part).trim().length > 0;
-  });
-};
-
-function formatAddress(object, keys) {
-  var separator = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ", ";
-  var parts = keys.map(function (key) {
-    if (Array.isArray(key)) {
-      return formatAddress(object, key, " ");
-    }
-
-    return object[key] || object[key.toLowerCase()];
-  });
-  return compact(parts).join(separator).trim();
-}
-
-/***/ }),
-
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/provider/here.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/provider/here.js":
 /*!**********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/provider/here.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/provider/here.js ***!
   \**********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_geocoding__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding.js");
-/* harmony import */ var src_decidim_geocoding_format_address__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/geocoding/format_address */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/geocoding/format_address.js");
+/* harmony import */ var src_decidim_geocoding__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/geocoding */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding.js");
+/* harmony import */ var src_decidim_geocoding_format_address__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/geocoding/format_address */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/geocoding/format_address.js");
+
 
 
 /**
  * For the available address format keys, refer to:
  * https://developer.here.com/documentation/geocoder-autocomplete/dev_guide/topics/resource-type-response-suggest.html
  */
-
 $(function () {
   var generateAddressLabel = src_decidim_geocoding_format_address__WEBPACK_IMPORTED_MODULE_1__["default"];
   $("[data-decidim-geocoding]").each(function (_i, el) {
@@ -139,18 +39,16 @@ $(function () {
     var addressFormat = config.addressFormat || [["street", "houseNumber"], "district", "city", "county", "state", "country"];
     var language = $("html").attr("lang");
     var currentSuggestionQuery = null;
-
     if (!config.apiKey || config.apiKey.length < 1) {
       return;
     }
-
     $input.on("geocoder-suggest.decidim", function (_ev, query, callback) {
-      clearTimeout(currentSuggestionQuery); // Do not trigger API calls on short queries
+      clearTimeout(currentSuggestionQuery);
 
+      // Do not trigger API calls on short queries
       if ("".concat(query).trim().length < queryMinLength) {
         return;
       }
-
       currentSuggestionQuery = setTimeout(function () {
         $.ajax({
           method: "GET",
@@ -172,7 +70,6 @@ $(function () {
               };
             }));
           }
-
           return null;
         });
       }, 200);
@@ -192,13 +89,10 @@ $(function () {
         if (!resp.response || !Array.isArray(resp.response.view) || resp.response.view.length < 1) {
           return;
         }
-
         var view = resp.response.view[0];
-
         if (!Array.isArray(view.result) || view.result.length < 1) {
           return;
         }
-
         var result = view.result[0];
         var coordinates = [result.location.displayPosition.latitude, result.location.displayPosition.longitude];
         $input.trigger("geocoder-suggest-coordinates.decidim", [coordinates]);
@@ -229,7 +123,7 @@ $(function () {
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -373,7 +267,7 @@ $(function () {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-core-0_26_2_app_packs_src_decidim_vendor_tr-fb39ec"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_geocoding_provider_here.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_autocomplete_js","node_modules_tarekraafat_autocomplete_js_dist_autoComplete_min_js-_rvm_gems_ruby-3_0_2_bosa-c-01cfa7"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_geocoding_provider_here.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

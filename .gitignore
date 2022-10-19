@@ -47,3 +47,7 @@ node_modules/
 
 # Ignore public uploads
 public/uploads
+
+# Ignore service worker files
+public/sw.js
+public/sw.js.map

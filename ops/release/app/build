@@ -2,7 +2,7 @@
 
 set -e
 
-IMAGE_NAME="nexus.asergo.com/2483/apps/bosa-cities-new"
+IMAGE_NAME="nexus.asergo.com/2483/apps/bosa-cities-new-027"
 TAG=${TAG:-"latest"}
 
 runpath="$( cd "$(dirname "$0")" ; pwd -P )"

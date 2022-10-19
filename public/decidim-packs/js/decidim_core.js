@@ -1,48 +1,48 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images sync recursive ^\\.\\/.*$":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images sync recursive ^\\.\\/.*$":
 /*!*****************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/ sync ^\.\/.*$ ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/ sync ^\.\/.*$ ***!
   \*****************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
-	"./decidim/avatar-multiuser.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/avatar-multiuser.png",
-	"./decidim/brands/google.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/brands/google.svg",
-	"./decidim/cc-badge.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/cc-badge.png",
-	"./decidim/decidim-logo.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/decidim-logo.svg",
-	"./decidim/default-avatar.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/default-avatar.svg",
-	"./decidim/gamification/badges/decidim_gamification_badges_followers.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg",
-	"./decidim/gamification/badges/decidim_gamification_badges_invitations.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg",
-	"./decidim/icons.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/icons.svg",
-	"./decidim/pattern.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/pattern.png",
-	"./decidim/placeholder.jpg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/placeholder.jpg",
-	"./decidim/vendor/leaflet/layers-2x.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers-2x.png",
-	"./decidim/vendor/leaflet/layers.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers.png",
-	"./decidim/vendor/leaflet/marker-icon-2x.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png",
-	"./decidim/vendor/leaflet/marker-icon.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon.png",
-	"./decidim/vendor/leaflet/marker-shadow.png": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-shadow.png",
-	"./decidim/vendor/social-share-button/delicious.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/delicious.svg",
-	"./decidim/vendor/social-share-button/douban.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/douban.svg",
-	"./decidim/vendor/social-share-button/email.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/email.svg",
-	"./decidim/vendor/social-share-button/facebook.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/facebook.svg",
-	"./decidim/vendor/social-share-button/google_bookmark.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg",
-	"./decidim/vendor/social-share-button/google_plus.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_plus.svg",
-	"./decidim/vendor/social-share-button/hacker_news.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg",
-	"./decidim/vendor/social-share-button/linkedin.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/linkedin.svg",
-	"./decidim/vendor/social-share-button/odnoklassniki.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg",
-	"./decidim/vendor/social-share-button/pinterest.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/pinterest.svg",
-	"./decidim/vendor/social-share-button/qq.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/qq.svg",
-	"./decidim/vendor/social-share-button/reddit.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/reddit.svg",
-	"./decidim/vendor/social-share-button/telegram.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/telegram.svg",
-	"./decidim/vendor/social-share-button/tumblr.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/tumblr.svg",
-	"./decidim/vendor/social-share-button/twitter.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/twitter.svg",
-	"./decidim/vendor/social-share-button/vkontakte.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg",
-	"./decidim/vendor/social-share-button/wechat.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/wechat.svg",
-	"./decidim/vendor/social-share-button/weibo.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/weibo.svg",
-	"./decidim/vendor/social-share-button/whatsapp.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg",
-	"./decidim/vendor/social-share-button/xing.svg": "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/xing.svg"
+	"./decidim/avatar-multiuser.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/avatar-multiuser.png",
+	"./decidim/brands/google.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/brands/google.svg",
+	"./decidim/cc-badge.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/cc-badge.png",
+	"./decidim/decidim-logo.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/decidim-logo.svg",
+	"./decidim/default-avatar.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/default-avatar.svg",
+	"./decidim/gamification/badges/decidim_gamification_badges_followers.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg",
+	"./decidim/gamification/badges/decidim_gamification_badges_invitations.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg",
+	"./decidim/icons.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/icons.svg",
+	"./decidim/pattern.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/pattern.png",
+	"./decidim/placeholder.jpg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/placeholder.jpg",
+	"./decidim/vendor/leaflet/layers-2x.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers-2x.png",
+	"./decidim/vendor/leaflet/layers.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers.png",
+	"./decidim/vendor/leaflet/marker-icon-2x.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png",
+	"./decidim/vendor/leaflet/marker-icon.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon.png",
+	"./decidim/vendor/leaflet/marker-shadow.png": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-shadow.png",
+	"./decidim/vendor/social-share-button/delicious.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/delicious.svg",
+	"./decidim/vendor/social-share-button/douban.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/douban.svg",
+	"./decidim/vendor/social-share-button/email.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/email.svg",
+	"./decidim/vendor/social-share-button/facebook.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/facebook.svg",
+	"./decidim/vendor/social-share-button/google_bookmark.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg",
+	"./decidim/vendor/social-share-button/google_plus.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_plus.svg",
+	"./decidim/vendor/social-share-button/hacker_news.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg",
+	"./decidim/vendor/social-share-button/linkedin.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/linkedin.svg",
+	"./decidim/vendor/social-share-button/odnoklassniki.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg",
+	"./decidim/vendor/social-share-button/pinterest.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/pinterest.svg",
+	"./decidim/vendor/social-share-button/qq.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/qq.svg",
+	"./decidim/vendor/social-share-button/reddit.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/reddit.svg",
+	"./decidim/vendor/social-share-button/telegram.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/telegram.svg",
+	"./decidim/vendor/social-share-button/tumblr.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/tumblr.svg",
+	"./decidim/vendor/social-share-button/twitter.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/twitter.svg",
+	"./decidim/vendor/social-share-button/vkontakte.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg",
+	"./decidim/vendor/social-share-button/wechat.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/wechat.svg",
+	"./decidim/vendor/social-share-button/weibo.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/weibo.svg",
+	"./decidim/vendor/social-share-button/whatsapp.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg",
+	"./decidim/vendor/social-share-button/xing.svg": "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/xing.svg"
 };
 
 
@@ -63,7 +63,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images sync recursive ^\\.\\/.*$";
+webpackContext.id = "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
@@ -85,9 +85,9 @@ module.exports = webpackEmptyContext;
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.component.js":
 /*!******************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.component.js ***!
   \******************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -96,15 +96,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ CommentsComponent; }
 /* harmony export */ });
-/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_character_counter.js");
-/* harmony import */ var src_decidim_external_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/external_link */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_link.js");
-/* harmony import */ var src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/external_domain_warning */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_domain_warning.js");
+/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rails/ujs */ "./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs-exposed.js");
+/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_rails_ujs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_character_counter.js");
+/* harmony import */ var src_decidim_external_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/external_link */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_link.js");
+/* harmony import */ var src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/external_domain_warning */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_domain_warning.js");
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    enumerableOnly && (symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    })), keys.push.apply(keys, symbols);
+  }
+  return keys;
+}
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = null != arguments[i] ? arguments[i] : {};
+    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+      _defineProperty(target, key, source[key]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+    });
+  }
+  return target;
+}
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+  return obj;
+}
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -114,7 +149,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -124,6 +158,7 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 /* eslint id-length: ["error", { "exceptions": ["$"] }] */
+/* eslint max-lines: ["error", {"max": 350, "skipBlankLines": true}] */
 
 /**
  * A plain Javascript component that handles the comments.
@@ -131,9 +166,8 @@ function _createClass(Constructor, protoProps, staticProps) {
  * @class
  * @augments Component
  */
+
 // This is necessary for testing purposes
-
-
 var $ = window.$;
 
 
@@ -142,7 +176,6 @@ var $ = window.$;
 var CommentsComponent = /*#__PURE__*/function () {
   function CommentsComponent($element, config) {
     _classCallCheck(this, CommentsComponent);
-
     this.$element = $element;
     this.commentableGid = config.commentableGid;
     this.commentsUrl = config.commentsUrl;
@@ -150,47 +183,45 @@ var CommentsComponent = /*#__PURE__*/function () {
     this.order = config.order;
     this.lastCommentId = config.lastCommentId;
     this.pollingInterval = config.pollingInterval || 15000;
+    this.singleComment = config.singleComment;
+    this.toggleTranslations = config.toggleTranslations;
     this.id = this.$element.attr("id") || this._getUID();
     this.mounted = false;
   }
+
   /**
    * Handles the logic for mounting the component
    * @public
    * @returns {Void} - Returns nothing
    */
-
-
   _createClass(CommentsComponent, [{
     key: "mountComponent",
     value: function mountComponent() {
       var _this = this;
-
       if (this.$element.length > 0 && !this.mounted) {
         this.mounted = true;
-
         this._initializeComments(this.$element);
-
+        if (!this.singleComment) {
+          this._fetchComments();
+        }
         $(".order-by__dropdown .is-submenu-item a", this.$element).on("click.decidim-comments", function () {
           return _this._onInitOrder();
         });
       }
     }
+
     /**
      * Handles the logic for unmounting the component
      * @public
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "unmountComponent",
     value: function unmountComponent() {
       var _this2 = this;
-
       if (this.mounted) {
         this.mounted = false;
-
         this._stopPolling();
-
         $(".add-comment .opinion-toggle .button", this.$element).off("click.decidim-comments");
         $(".add-comment textarea", this.$element).off("input.decidim-comments");
         $(".order-by__dropdown .is-submenu-item a", this.$element).off("click.decidim-comments");
@@ -200,6 +231,7 @@ var CommentsComponent = /*#__PURE__*/function () {
         });
       }
     }
+
     /**
      * Adds a new thread to the comments section.
      * @public
@@ -208,7 +240,6 @@ var CommentsComponent = /*#__PURE__*/function () {
      *   herself was the author of the new thread. Defaults to false.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "addThread",
     value: function addThread(threadHtml) {
@@ -216,11 +247,10 @@ var CommentsComponent = /*#__PURE__*/function () {
       var $parent = $(".comments:first", this.$element);
       var $comment = $(threadHtml);
       var $threads = $(".comment-threads", this.$element);
-
       this._addComment($threads, $comment);
-
       this._finalizeCommentCreation($parent, fromCurrentUser);
     }
+
     /**
      * Adds a new reply to an existing comment.
      * @public
@@ -231,7 +261,6 @@ var CommentsComponent = /*#__PURE__*/function () {
      *   herself was the author of the new reply. Defaults to false.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "addReply",
     value: function addReply(commentId, replyHtml) {
@@ -239,36 +268,32 @@ var CommentsComponent = /*#__PURE__*/function () {
       var $parent = $("#comment_".concat(commentId));
       var $comment = $(replyHtml);
       var $replies = $("#comment-".concat(commentId, "-replies"));
-
       this._addComment($replies, $comment);
-
       $replies.siblings(".comment__additionalreply").removeClass("hide");
-
       this._finalizeCommentCreation($parent, fromCurrentUser);
     }
+
     /**
      * Generates a unique identifier for the form.
      * @private
      * @returns {String} - Returns a unique identifier
      */
-
   }, {
     key: "_getUID",
     value: function _getUID() {
       return "comments-".concat(new Date().setUTCMilliseconds(), "-").concat(Math.floor(Math.random() * 10000000));
     }
+
     /**
      * Initializes the comments for the given parent element.
      * @private
      * @param {jQuery} $parent The parent element to initialize.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_initializeComments",
     value: function _initializeComments($parent) {
       var _this3 = this;
-
       $(".add-comment", $parent).each(function (_i, el) {
         var $add = $(el);
         var $form = $("form", $add);
@@ -280,18 +305,15 @@ var CommentsComponent = /*#__PURE__*/function () {
         $form.on("submit.decidim-comments", function () {
           var $submit = $("button[type='submit']", $form);
           $submit.attr("disabled", "disabled");
-
           _this3._stopPolling();
         });
-
         if ($text.length && $text.get(0) !== null) {
           // Attach event to the DOM node, instead of the jQuery object
           $text.get(0).addEventListener("emoji.added", _this3._onTextInput);
         }
       });
-
-      this._pollComments();
     }
+
     /**
      * Adds the given comment element to the given target element and
      * initializes it.
@@ -300,30 +322,26 @@ var CommentsComponent = /*#__PURE__*/function () {
      * @param {jQuery} $container - The comment container element to add.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_addComment",
     value: function _addComment($target, $container) {
       var $comment = $(".comment", $container);
-
       if ($comment.length < 1) {
         // In case of a reply
         $comment = $container;
       }
-
       this.lastCommentId = parseInt($comment.data("comment-id"), 10);
       $target.append($container);
       $container.foundation();
-
       this._initializeComments($container);
-
-      (0,src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_0__.createCharacterCounter)($(".add-comment textarea", $container));
+      (0,src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_1__.createCharacterCounter)($(".add-comment textarea", $container));
       $container.find('a[target="_blank"]').each(function (_i, elem) {
         var $link = $(elem);
-        $link.data("external-link", new src_decidim_external_link__WEBPACK_IMPORTED_MODULE_1__["default"]($link));
+        $link.data("external-link", new src_decidim_external_link__WEBPACK_IMPORTED_MODULE_2__["default"]($link));
       });
-      (0,src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_2__["default"])($container);
+      (0,src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_3__["default"])($container);
     }
+
     /**
      * Finalizes the new comment creation after the comment adding finishes
      * successfully.
@@ -333,7 +351,6 @@ var CommentsComponent = /*#__PURE__*/function () {
      *   herself was the author of the new comment.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_finalizeCommentCreation",
     value: function _finalizeCommentCreation($parent, fromCurrentUser) {
@@ -342,52 +359,69 @@ var CommentsComponent = /*#__PURE__*/function () {
         var $text = $("textarea", $add);
         var characterCounter = $text.data("remaining-characters-counter");
         $text.val("");
-
         if (characterCounter) {
           characterCounter.updateStatus();
         }
-
         if (!$add.parent().is(".comments")) {
           $add.addClass("hide");
         }
-      } // Restart the polling
+      }
 
-
+      // Restart the polling
       this._pollComments();
     }
+
     /**
      * Sets a timeout to poll new comments.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_pollComments",
     value: function _pollComments() {
       var _this4 = this;
-
       this._stopPolling();
-
       this.pollTimeout = setTimeout(function () {
-        Rails.ajax({
-          url: _this4.commentsUrl,
-          type: "GET",
-          data: new URLSearchParams({
-            "commentable_gid": _this4.commentableGid,
-            "root_depth": _this4.rootDepth,
-            "order": _this4.order,
-            "after": _this4.lastCommentId
-          }),
-          success: _this4._pollComments()
-        });
+        _this4._fetchComments();
       }, this.pollingInterval);
     }
+
+    /**
+     * Sends an ajax request based on current
+     * params to get comments for the component
+     * @private
+     * @returns {Void} - Returns nothing
+     */
+  }, {
+    key: "_fetchComments",
+    value: function _fetchComments() {
+      var _this5 = this;
+      $(".add-comment textarea", this.$element).prop("disabled", true);
+      _rails_ujs__WEBPACK_IMPORTED_MODULE_0___default().ajax({
+        url: this.commentsUrl,
+        type: "GET",
+        data: new URLSearchParams(_objectSpread(_objectSpread({
+          "commentable_gid": this.commentableGid,
+          "root_depth": this.rootDepth,
+          "order": this.order,
+          "after": this.lastCommentId
+        }, this.toggleTranslations && {
+          "toggle_translations": this.toggleTranslations
+        }), this.lastCommentId && {
+          "after": this.lastCommentId
+        })),
+        success: function success() {
+          $(".add-comment textarea", _this5.$element).prop("disabled", false);
+          _this5._pollComments();
+        }
+      });
+    }
+
     /**
      * Stops polling for new comments.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_stopPolling",
     value: function _stopPolling() {
@@ -395,12 +429,12 @@ var CommentsComponent = /*#__PURE__*/function () {
         clearTimeout(this.pollTimeout);
       }
     }
+
     /**
      * Sets the loading comments element visible in the view.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_setLoading",
     value: function _setLoading() {
@@ -408,35 +442,32 @@ var CommentsComponent = /*#__PURE__*/function () {
       $("> .comments", $container).addClass("hide");
       $("> .loading-comments", $container).removeClass("hide");
     }
+
     /**
      * Event listener for the ordering links.
      * @private
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_onInitOrder",
     value: function _onInitOrder() {
       this._stopPolling();
-
       this._setLoading();
     }
+
     /**
      * Event listener for the opinion toggle buttons.
      * @private
      * @param {Event} ev - The event object.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_onToggleOpinion",
     value: function _onToggleOpinion(ev) {
       var $btn = $(ev.target);
-
       if (!$btn.is(".button")) {
         $btn = $btn.parents(".button");
       }
-
       var $add = $btn.closest(".add-comment");
       var $form = $("form", $add);
       var $opinionButtons = $(".opinion-toggle .button", $add);
@@ -444,25 +475,24 @@ var CommentsComponent = /*#__PURE__*/function () {
       var $alignment = $(".alignment-input", $form);
       $opinionButtons.removeClass("is-active").attr("aria-pressed", "false");
       $btn.addClass("is-active").attr("aria-pressed", "true");
-
       if ($btn.is(".opinion-toggle--ok")) {
         $alignment.val(1);
       } else if ($btn.is(".opinion-toggle--meh")) {
         $alignment.val(0);
       } else if ($btn.is(".opinion-toggle--ko")) {
         $alignment.val(-1);
-      } // Announce the selected state for the screen reader
+      }
 
-
+      // Announce the selected state for the screen reader
       $selectedState.text($btn.data("selected-label"));
     }
+
     /**
      * Event listener for the comment field text input.
      * @private
      * @param {Event} ev - The event object.
      * @returns {Void} - Returns nothing
      */
-
   }, {
     key: "_onTextInput",
     value: function _onTextInput(ev) {
@@ -470,7 +500,6 @@ var CommentsComponent = /*#__PURE__*/function () {
       var $add = $text.closest(".add-comment");
       var $form = $("form", $add);
       var $submit = $("button[type='submit']", $form);
-
       if ($text.val().length > 0) {
         $submit.removeAttr("disabled");
       } else {
@@ -478,203 +507,130 @@ var CommentsComponent = /*#__PURE__*/function () {
       }
     }
   }]);
-
   return CommentsComponent;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.js":
 /*!********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.js ***!
   \********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_comments_comments_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/comments/comments.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.component.js");
+/* harmony import */ var src_decidim_comments_comments_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/comments/comments.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.component.js");
 
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.js":
 /*!***********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.js ***!
   \***********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_array_includes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.includes.js */ "./node_modules/core-js/modules/es.array.includes.js");
-/* harmony import */ var core_js_modules_es_array_includes_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_includes_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_array_unscopables_flat_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.unscopables.flat.js */ "./node_modules/core-js/modules/es.array.unscopables.flat.js");
-/* harmony import */ var core_js_modules_es_array_unscopables_flat_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_unscopables_flat_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var core_js_modules_es_array_unscopables_flat_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.unscopables.flat-map.js */ "./node_modules/core-js/modules/es.array.unscopables.flat-map.js");
-/* harmony import */ var core_js_modules_es_array_unscopables_flat_map_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_unscopables_flat_map_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
-/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.regexp.flags.js */ "./node_modules/core-js/modules/es.regexp.flags.js");
-/* harmony import */ var core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var core_js_modules_es_typed_array_float32_array_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.typed-array.float32-array.js */ "./node_modules/core-js/modules/es.typed-array.float32-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_float32_array_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_float32_array_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var core_js_modules_es_typed_array_float64_array_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.typed-array.float64-array.js */ "./node_modules/core-js/modules/es.typed-array.float64-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_float64_array_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_float64_array_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var core_js_modules_es_typed_array_int8_array_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.typed-array.int8-array.js */ "./node_modules/core-js/modules/es.typed-array.int8-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_int8_array_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_int8_array_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var core_js_modules_es_typed_array_int16_array_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.typed-array.int16-array.js */ "./node_modules/core-js/modules/es.typed-array.int16-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_int16_array_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_int16_array_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var core_js_modules_es_typed_array_int32_array_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.typed-array.int32-array.js */ "./node_modules/core-js/modules/es.typed-array.int32-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_int32_array_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_int32_array_js__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var core_js_modules_es_typed_array_uint8_array_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.typed-array.uint8-array.js */ "./node_modules/core-js/modules/es.typed-array.uint8-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_uint8_array_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_uint8_array_js__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var core_js_modules_es_typed_array_uint8_clamped_array_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! core-js/modules/es.typed-array.uint8-clamped-array.js */ "./node_modules/core-js/modules/es.typed-array.uint8-clamped-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_uint8_clamped_array_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_uint8_clamped_array_js__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var core_js_modules_es_typed_array_uint16_array_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! core-js/modules/es.typed-array.uint16-array.js */ "./node_modules/core-js/modules/es.typed-array.uint16-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_uint16_array_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_uint16_array_js__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var core_js_modules_es_typed_array_uint32_array_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! core-js/modules/es.typed-array.uint32-array.js */ "./node_modules/core-js/modules/es.typed-array.uint32-array.js");
-/* harmony import */ var core_js_modules_es_typed_array_uint32_array_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_uint32_array_js__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var core_js_modules_es_typed_array_fill_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/modules/es.typed-array.fill.js */ "./node_modules/core-js/modules/es.typed-array.fill.js");
-/* harmony import */ var core_js_modules_es_typed_array_fill_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_fill_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var core_js_modules_es_typed_array_from_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! core-js/modules/es.typed-array.from.js */ "./node_modules/core-js/modules/es.typed-array.from.js");
-/* harmony import */ var core_js_modules_es_typed_array_from_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_from_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var core_js_modules_es_typed_array_of_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! core-js/modules/es.typed-array.of.js */ "./node_modules/core-js/modules/es.typed-array.of.js");
-/* harmony import */ var core_js_modules_es_typed_array_of_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_of_js__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var core_js_modules_es_typed_array_set_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! core-js/modules/es.typed-array.set.js */ "./node_modules/core-js/modules/es.typed-array.set.js");
-/* harmony import */ var core_js_modules_es_typed_array_set_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_set_js__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var core_js_modules_es_typed_array_sort_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! core-js/modules/es.typed-array.sort.js */ "./node_modules/core-js/modules/es.typed-array.sort.js");
-/* harmony import */ var core_js_modules_es_typed_array_sort_js__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_typed_array_sort_js__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! core-js/modules/web.immediate.js */ "./node_modules/core-js/modules/web.immediate.js");
-/* harmony import */ var core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! core-js/modules/web.url.js */ "./node_modules/core-js/modules/web.url.js");
-/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! core-js/modules/web.url.to-json.js */ "./node_modules/core-js/modules/web.url.to-json.js");
-/* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! core-js/modules/web.url-search-params.js */ "./node_modules/core-js/modules/web.url-search-params.js");
-/* harmony import */ var core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery-exposed.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var quill__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! quill */ "./node_modules/quill/dist/quill-exposed.js");
-/* harmony import */ var quill__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(quill__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @rails/ujs */ "./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs-exposed.js");
-/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_rails_ujs__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerator-runtime/runtime.js");
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var morphdom__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! morphdom */ "./node_modules/morphdom/dist/morphdom-esm.js");
-/* harmony import */ var src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! src/decidim/vendor/foundation-datepicker */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/foundation-datepicker.js");
-/* harmony import */ var src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var src_decidim_foundation_datepicker_locales__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! src/decidim/foundation_datepicker_locales */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/foundation_datepicker_locales.js");
-/* harmony import */ var src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! src/decidim/vendor/modernizr */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/modernizr.js");
-/* harmony import */ var src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! src/decidim/vendor/social-share-button */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/social-share-button.js");
-/* harmony import */ var src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var social_share_button__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! social-share-button */ "./node_modules/social-share-button/dist/social-share-button.js");
-/* harmony import */ var src_decidim_input_tags__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! src/decidim/input_tags */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_tags.js");
-/* harmony import */ var src_decidim_input_hashtags__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! src/decidim/input_hashtags */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_hashtags.js");
-/* harmony import */ var src_decidim_input_mentions__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! src/decidim/input_mentions */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_mentions.js");
-/* harmony import */ var src_decidim_input_multiple_mentions__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! src/decidim/input_multiple_mentions */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_multiple_mentions.js");
-/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_character_counter.js");
-/* harmony import */ var src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! src/decidim/input_autojump */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_autojump.js");
-/* harmony import */ var src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var src_decidim_index__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! src/decidim/index */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/index.js");
-/* harmony import */ var src_decidim_history__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! src/decidim/history */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/history.js");
-/* harmony import */ var src_decidim_callout__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! src/decidim/callout */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/callout.js");
-/* harmony import */ var src_decidim_callout__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(src_decidim_callout__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var src_decidim_clipboard__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! src/decidim/clipboard */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/clipboard.js");
-/* harmony import */ var src_decidim_append_elements__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! src/decidim/append_elements */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_elements.js");
-/* harmony import */ var src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! src/decidim/user_registrations */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/user_registrations.js");
-/* harmony import */ var src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var src_decidim_account_form__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! src/decidim/account_form */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/account_form.js");
-/* harmony import */ var src_decidim_account_form__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(src_decidim_account_form__WEBPACK_IMPORTED_MODULE_47__);
-/* harmony import */ var src_decidim_data_picker__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! src/decidim/data_picker */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/data_picker.js");
-/* harmony import */ var src_decidim_dropdowns_menus__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! src/decidim/dropdowns_menus */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dropdowns_menus.js");
-/* harmony import */ var src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! src/decidim/append_redirect_url_to_modals */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_redirect_url_to_modals.js");
-/* harmony import */ var src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! src/decidim/form_attachments */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_attachments.js");
-/* harmony import */ var src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_51__);
-/* harmony import */ var src_decidim_form_validator__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! src/decidim/form_validator */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_validator.js");
-/* harmony import */ var src_decidim_form_remote__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! src/decidim/form_remote */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_remote.js");
-/* harmony import */ var src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! src/decidim/ajax_modals */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/ajax_modals.js");
-/* harmony import */ var src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_54__);
-/* harmony import */ var src_decidim_conferences__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! src/decidim/conferences */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conferences.js");
-/* harmony import */ var src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! src/decidim/tooltip_keep_on_hover */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/tooltip_keep_on_hover.js");
-/* harmony import */ var src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_56__);
-/* harmony import */ var src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! src/decidim/diff_mode_dropdown */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/diff_mode_dropdown.js");
-/* harmony import */ var src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_57__);
-/* harmony import */ var src_decidim_conversations__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! src/decidim/conversations */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conversations.js");
-/* harmony import */ var src_decidim_conversations__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(src_decidim_conversations__WEBPACK_IMPORTED_MODULE_58__);
-/* harmony import */ var src_decidim_delayed__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! src/decidim/delayed */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/delayed.js");
-/* harmony import */ var src_decidim_icon__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! src/decidim/icon */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/icon.js");
-/* harmony import */ var src_decidim_vizzs__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! src/decidim/vizzs */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vizzs.js");
-/* harmony import */ var src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! src/decidim/responsive_horizontal_tabs */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/responsive_horizontal_tabs.js");
-/* harmony import */ var src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_62__);
-/* harmony import */ var src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! src/decidim/security/selfxss_warning */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/security/selfxss_warning.js");
-/* harmony import */ var src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_63__);
-/* harmony import */ var src_decidim_session_timeouter__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! src/decidim/session_timeouter */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/session_timeouter.js");
-/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/configuration.js");
-/* harmony import */ var src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! src/decidim/floating_help */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/floating_help.js");
-/* harmony import */ var src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_66___default = /*#__PURE__*/__webpack_require__.n(src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_66__);
-/* harmony import */ var src_decidim_confirm__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! src/decidim/confirm */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/confirm.js");
-/* harmony import */ var src_decidim_comments_comments__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! src/decidim/comments/comments */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.js");
-/* harmony import */ var src_decidim_results_listing__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! src/decidim/results_listing */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/results_listing.js");
-/* harmony import */ var src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! src/decidim/represent_user_group */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/represent_user_group.js");
-/* harmony import */ var src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_70___default = /*#__PURE__*/__webpack_require__.n(src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_70__);
-/* harmony import */ var src_decidim_impersonation__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! src/decidim/impersonation */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/impersonation.js");
-/* harmony import */ var src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! src/decidim/start_conversation_dialog */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/start_conversation_dialog.js");
-/* harmony import */ var src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_72___default = /*#__PURE__*/__webpack_require__.n(src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_72__);
-/* harmony import */ var src_decidim_notifications__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! src/decidim/notifications */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/notifications.js");
-/* harmony import */ var src_decidim_notifications__WEBPACK_IMPORTED_MODULE_73___default = /*#__PURE__*/__webpack_require__.n(src_decidim_notifications__WEBPACK_IMPORTED_MODULE_73__);
-/* harmony import */ var src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! src/decidim/identity_selector_dialog */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/identity_selector_dialog.js");
-/* harmony import */ var src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_74___default = /*#__PURE__*/__webpack_require__.n(src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_74__);
-/* harmony import */ var src_decidim_gallery__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! src/decidim/gallery */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/gallery.js");
-/* harmony import */ var src_decidim_gallery__WEBPACK_IMPORTED_MODULE_75___default = /*#__PURE__*/__webpack_require__.n(src_decidim_gallery__WEBPACK_IMPORTED_MODULE_75__);
-/* harmony import */ var src_decidim_back_to_list__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! src/decidim/back_to_list */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/back_to_list.js");
-/* harmony import */ var entrypoints_decidim_core_scss__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! entrypoints/decidim_core.scss */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.scss");
-/* harmony import */ var src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! src/decidim/decidim_application */ "./app/packs/src/decidim/decidim_application.js");
-/* harmony import */ var src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_78___default = /*#__PURE__*/__webpack_require__.n(src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_78__);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* harmony import */ var core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.flags.js */ "./node_modules/core-js/modules/es.regexp.flags.js");
+/* harmony import */ var core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_flags_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.immediate.js */ "./node_modules/core-js/modules/web.immediate.js");
+/* harmony import */ var core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_immediate_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery-exposed.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var quill__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! quill */ "./node_modules/quill/dist/quill-exposed.js");
+/* harmony import */ var quill__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(quill__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rails/ujs */ "./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs-exposed.js");
+/* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_rails_ujs__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var morphdom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! morphdom */ "./node_modules/morphdom/dist/morphdom-esm.js");
+/* harmony import */ var src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/decidim/vendor/foundation-datepicker */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/foundation-datepicker.js");
+/* harmony import */ var src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_foundation_datepicker__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var src_decidim_foundation_datepicker_locales__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/decidim/foundation_datepicker_locales */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/foundation_datepicker_locales.js");
+/* harmony import */ var src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/decidim/vendor/modernizr */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/modernizr.js");
+/* harmony import */ var src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_modernizr__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/decidim/vendor/social-share-button */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/social-share-button.js");
+/* harmony import */ var src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_social_share_button__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var src_decidim_input_tags__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/decidim/input_tags */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_tags.js");
+/* harmony import */ var src_decidim_input_hashtags__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! src/decidim/input_hashtags */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_hashtags.js");
+/* harmony import */ var src_decidim_input_mentions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! src/decidim/input_mentions */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_mentions.js");
+/* harmony import */ var src_decidim_input_multiple_mentions__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! src/decidim/input_multiple_mentions */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_multiple_mentions.js");
+/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_character_counter.js");
+/* harmony import */ var src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! src/decidim/input_autojump */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_autojump.js");
+/* harmony import */ var src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(src_decidim_input_autojump__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var src_decidim_index__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! src/decidim/index */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/index.js");
+/* harmony import */ var src_decidim_history__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! src/decidim/history */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/history.js");
+/* harmony import */ var src_decidim_callout__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! src/decidim/callout */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/callout.js");
+/* harmony import */ var src_decidim_callout__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(src_decidim_callout__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var src_decidim_clipboard__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! src/decidim/clipboard */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/clipboard.js");
+/* harmony import */ var src_decidim_append_elements__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! src/decidim/append_elements */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_elements.js");
+/* harmony import */ var src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! src/decidim/user_registrations */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/user_registrations.js");
+/* harmony import */ var src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(src_decidim_user_registrations__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var src_decidim_account_form__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! src/decidim/account_form */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/account_form.js");
+/* harmony import */ var src_decidim_account_form__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(src_decidim_account_form__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var src_decidim_data_picker__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! src/decidim/data_picker */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_picker.js");
+/* harmony import */ var src_decidim_dropdowns_menus__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! src/decidim/dropdowns_menus */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dropdowns_menus.js");
+/* harmony import */ var src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! src/decidim/append_redirect_url_to_modals */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_redirect_url_to_modals.js");
+/* harmony import */ var src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(src_decidim_append_redirect_url_to_modals__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! src/decidim/form_attachments */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_attachments.js");
+/* harmony import */ var src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(src_decidim_form_attachments__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var src_decidim_form_validator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! src/decidim/form_validator */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_validator.js");
+/* harmony import */ var src_decidim_form_remote__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! src/decidim/form_remote */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_remote.js");
+/* harmony import */ var src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! src/decidim/ajax_modals */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/ajax_modals.js");
+/* harmony import */ var src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(src_decidim_ajax_modals__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var src_decidim_conferences__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! src/decidim/conferences */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conferences.js");
+/* harmony import */ var src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! src/decidim/tooltip_keep_on_hover */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/tooltip_keep_on_hover.js");
+/* harmony import */ var src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(src_decidim_tooltip_keep_on_hover__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! src/decidim/diff_mode_dropdown */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/diff_mode_dropdown.js");
+/* harmony import */ var src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(src_decidim_diff_mode_dropdown__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var src_decidim_conversations__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! src/decidim/conversations */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conversations.js");
+/* harmony import */ var src_decidim_conversations__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(src_decidim_conversations__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var src_decidim_delayed__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! src/decidim/delayed */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/delayed.js");
+/* harmony import */ var src_decidim_icon__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! src/decidim/icon */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/icon.js");
+/* harmony import */ var src_decidim_vizzs__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! src/decidim/vizzs */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vizzs/index.js");
+/* harmony import */ var src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! src/decidim/responsive_horizontal_tabs */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/responsive_horizontal_tabs.js");
+/* harmony import */ var src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(src_decidim_responsive_horizontal_tabs__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! src/decidim/security/selfxss_warning */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/security/selfxss_warning.js");
+/* harmony import */ var src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(src_decidim_security_selfxss_warning__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var src_decidim_session_timeouter__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! src/decidim/session_timeouter */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/session_timeouter.js");
+/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/configuration.js");
+/* harmony import */ var src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! src/decidim/floating_help */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/floating_help.js");
+/* harmony import */ var src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(src_decidim_floating_help__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var src_decidim_confirm__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! src/decidim/confirm */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/confirm.js");
+/* harmony import */ var src_decidim_comments_comments__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! src/decidim/comments/comments */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.js");
+/* harmony import */ var src_decidim_results_listing__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! src/decidim/results_listing */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/results_listing.js");
+/* harmony import */ var src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! src/decidim/represent_user_group */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/represent_user_group.js");
+/* harmony import */ var src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(src_decidim_represent_user_group__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var src_decidim_impersonation__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! src/decidim/impersonation */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/impersonation.js");
+/* harmony import */ var src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! src/decidim/start_conversation_dialog */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/start_conversation_dialog.js");
+/* harmony import */ var src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(src_decidim_start_conversation_dialog__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var src_decidim_notifications__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! src/decidim/notifications */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/notifications.js");
+/* harmony import */ var src_decidim_notifications__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(src_decidim_notifications__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! src/decidim/identity_selector_dialog */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/identity_selector_dialog.js");
+/* harmony import */ var src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(src_decidim_identity_selector_dialog__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var src_decidim_gallery__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! src/decidim/gallery */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/gallery.js");
+/* harmony import */ var src_decidim_gallery__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(src_decidim_gallery__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var src_decidim_direct_uploads_upload_field__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! src/decidim/direct_uploads/upload_field */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/direct_uploads/upload_field.js");
+/* harmony import */ var src_decidim_back_to_list__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! src/decidim/back_to_list */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/back_to_list.js");
+/* harmony import */ var src_decidim_data_consent__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! src/decidim/data_consent */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/index.js");
+/* harmony import */ var entrypoints_decidim_core_scss__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! entrypoints/decidim_core.scss */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.scss");
+/* harmony import */ var src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! src/decidim/decidim_application */ "./app/packs/src/decidim/decidim_application.js");
+/* harmony import */ var src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(src_decidim_decidim_application__WEBPACK_IMPORTED_MODULE_56__);
 
 
 /* eslint no-unused-vars: 0 */
-
 /* eslint id-length: ["error", { "exceptions": ["$"] }] */
 
 
 
 
 
- // Export variable to make it available in .js.erb templates
 
-window.morphdom = morphdom__WEBPACK_IMPORTED_MODULE_29__["default"];
-
-
+// Export variable to make it available in .js.erb templates
+window.morphdom = morphdom__WEBPACK_IMPORTED_MODULE_6__["default"];
 
 
 
@@ -719,57 +675,108 @@ window.morphdom = morphdom__WEBPACK_IMPORTED_MODULE_29__["default"];
 
 
 
- // CSS
-
- // Import from the Rails instance application
-
- // Images
-
-__webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images sync recursive ^\\.\\/.*$"); // This needs to be loaded after confirm dialog to bind properly
 
 
-_rails_ujs__WEBPACK_IMPORTED_MODULE_27___default().start();
+
+
+
+// CSS
+
+
+// Import from the Rails instance application
+
+
+// Images
+__webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images sync recursive ^\\.\\/.*$");
+
+// This needs to be loaded after confirm dialog to bind properly
+_rails_ujs__WEBPACK_IMPORTED_MODULE_4___default().start();
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/account_form.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/account_form.js":
 /*!***********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/account_form.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/account_form.js ***!
   \***********************************************************************************************************************/
 /***/ (function() {
 
 /**
+ * Initializes the edit account form to control the password field elements
+ * which should only be required when they are visible.
+ *
+ * @returns {void}
+ */
+var initializeAccountForm = function initializeAccountForm() {
+  var editUserForm = document.querySelector("form.edit_user");
+  if (!editUserForm) {
+    return;
+  }
+  var passwordChange = editUserForm.querySelector("#passwordChange");
+  if (!passwordChange) {
+    return;
+  }
+  var passwordFields = passwordChange.querySelectorAll("input[type='password']");
+  if (passwordFields.length < 1) {
+    return;
+  }
+
+  // Foundation uses jQuery so these have to be bound using jQuery and the
+  // attribute value needs to be set through jQuery.
+  var togglePasswordFieldValidators = function togglePasswordFieldValidators(enabled) {
+    $(passwordFields).attr("required", enabled);
+    if (!enabled) {
+      passwordFields.forEach(function (field) {
+        return field.value = "";
+      });
+    }
+  };
+  $(passwordChange).on("on.zf.toggler", function () {
+    togglePasswordFieldValidators(true);
+  });
+  $(passwordChange).on("off.zf.toggler", function () {
+    togglePasswordFieldValidators(false);
+  });
+  togglePasswordFieldValidators(false);
+};
+
+/**
  * Since the delete account has a modal to confirm it we need to copy the content of the
  * reason field to the hidden field in the form inside the modal.
+ *
+ * @return {void}
  */
-$(function () {
+var initializeDeleteAccount = function initializeDeleteAccount() {
   var $deleteAccountForm = $(".delete-account");
   var $deleteAccountModalForm = $(".delete-account-modal");
-
-  if ($deleteAccountForm.length > 0) {
-    var $openModalButton = $(".open-modal-button");
-    var $modal = $("#deleteConfirm");
-    $openModalButton.on("click", function (event) {
-      try {
-        var reasonValue = $deleteAccountForm.find("textarea#delete_account_delete_reason").val();
-        $deleteAccountModalForm.find("input#delete_account_delete_reason").val(reasonValue);
-        $modal.foundation("open");
-      } catch (error) {
-        console.error(error); // eslint-disable-line no-console
-      }
-
-      event.preventDefault();
-      event.stopPropagation();
-      return false;
-    });
+  if ($deleteAccountForm.length < 1) {
+    return;
   }
+  var $openModalButton = $(".open-modal-button");
+  var $modal = $("#deleteConfirm");
+  $openModalButton.on("click", function (event) {
+    try {
+      var reasonValue = $deleteAccountForm.find("textarea#delete_account_delete_reason").val();
+      $deleteAccountModalForm.find("input#delete_account_delete_reason").val(reasonValue);
+      $modal.foundation("open");
+    } catch (error) {
+      console.error(error); // eslint-disable-line no-console
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+  });
+};
+$(function () {
+  initializeAccountForm();
+  initializeDeleteAccount();
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_elements.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_elements.js":
 /*!**************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_elements.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_elements.js ***!
   \**************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -785,9 +792,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_redirect_url_to_modals.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_redirect_url_to_modals.js":
 /*!****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/append_redirect_url_to_modals.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/append_redirect_url_to_modals.js ***!
   \****************************************************************************************************************************************/
 /***/ (function() {
 
@@ -816,36 +823,32 @@ $(function () {
 $(function () {
   var removeUrlParameter = function removeUrlParameter(url, parameter) {
     var urlParts = url.split("?");
-
     if (urlParts.length >= 2) {
       // Get first part, and remove from array
-      var urlBase = urlParts.shift(); // Join it back up
+      var urlBase = urlParts.shift();
 
+      // Join it back up
       var queryString = urlParts.join("?");
       var prefix = "".concat(encodeURIComponent(parameter), "=");
-      var parts = queryString.split(/[&;]/g); // Reverse iteration as may be destructive
+      var parts = queryString.split(/[&;]/g);
 
+      // Reverse iteration as may be destructive
       for (var index = parts.length - 1; index >= 0; index -= 1) {
         // Idiom for string.startsWith
         if (parts[index].lastIndexOf(prefix, 0) !== -1) {
           parts.splice(index, 1);
         }
       }
-
       if (parts.length === 0) {
         return urlBase;
       }
-
       return "".concat(urlBase, "?").concat(parts.join("&"));
     }
-
     return url;
   };
-
   $(document).on("click.zf.trigger", function (event) {
     var target = "#".concat($(event.target).data("open"));
     var redirectUrl = $(event.target).data("redirectUrl");
-
     if (target && redirectUrl) {
       $("<input type='hidden' />").attr("id", "redirect_url").attr("name", "redirect_url").attr("value", redirectUrl).appendTo("".concat(target, " form"));
       $("".concat(target, " a")).attr("href", function (index, href) {
@@ -862,7 +865,6 @@ $(function () {
       if (href && href.indexOf("redirect_url") !== -1) {
         return removeUrlParameter(href, "redirect_url");
       }
-
       return href;
     });
   });
@@ -870,9 +872,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/back_to_list.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/back_to_list.js":
 /*!***********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/back_to_list.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/back_to_list.js ***!
   \***********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -892,15 +894,12 @@ function backToListLink(links) {
   if (!links) {
     return;
   }
-
   if (!window.sessionStorage) {
     return;
   }
-
   var filteredParams = JSON.parse(sessionStorage.getItem("filteredParams")) || {};
   links.forEach(function (link) {
     var href = link.getAttribute("href");
-
     if (filteredParams[href]) {
       link.setAttribute("href", filteredParams[href]);
     }
@@ -909,9 +908,9 @@ function backToListLink(links) {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/callout.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/callout.js":
 /*!******************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/callout.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/callout.js ***!
   \******************************************************************************************************************/
 /***/ (function() {
 
@@ -920,9 +919,9 @@ function backToListLink(links) {
  * all screen readers would announce the callout alert contents after the page
  * reload without this.
  */
+
 $(function () {
   var $callout = $('.callout[role="alert"]:first');
-
   if ($callout.length > 0) {
     setTimeout(function () {
       // The content insertion is to try to hint some of the screen readers
@@ -934,9 +933,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/clipboard.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/clipboard.js":
 /*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/clipboard.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/clipboard.js ***!
   \********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -944,6 +943,7 @@ $(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var select__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! select */ "./node_modules/select/src/select.js");
 /* harmony import */ var select__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(select__WEBPACK_IMPORTED_MODULE_0__);
+
 
 /**
  * This provides functionality to add clipboard copy functionality to buttons
@@ -972,44 +972,38 @@ __webpack_require__.r(__webpack_exports__);
  * - `data-clipboard-copy-message` = The text that will be announced to screen
  *   readers after a successful copy.
  */
+
 // How long the "copied" text is shown in the copy element after successful
 // copy.
-
 var CLIPBOARD_COPY_TIMEOUT = 5000;
 $(function () {
   $(document).on("click", "[data-clipboard-copy]", function (ev) {
     var $el = $(ev.target);
-
     if (!$el.data("clipboard-copy") || $el.data("clipboard-copy").length < 1) {
       return;
     }
-
     var $input = $($el.data("clipboard-copy"));
-
     if ($input.length < 1 || !$input.is("input, textarea, select")) {
       return;
-    } // Get the available text to clipboard.
+    }
 
-
+    // Get the available text to clipboard.
     var selectedText = select__WEBPACK_IMPORTED_MODULE_0___default()($input[0]);
-
     if (!selectedText || selectedText.length < 1) {
       return;
-    } // Move the selected text to clipboard.
+    }
 
-
+    // Move the selected text to clipboard.
     var $temp = $("<textarea>".concat(selectedText, "</textarea>")).css({
       width: 1,
       height: 1
     });
     $el.after($temp);
     $temp.select();
-
     var copyDone = function copyDone() {
       $temp.remove();
       $el.focus();
     };
-
     try {
       // document.execCommand is deprecated but the Clipboard API is not
       // supported by IE (which unfortunately is still a thing).
@@ -1020,22 +1014,18 @@ $(function () {
       copyDone();
       return;
     }
+    copyDone();
 
-    copyDone(); // Change the label to indicate the copying was successful.
-
+    // Change the label to indicate the copying was successful.
     var label = $el.data("clipboard-copy-label");
-
     if (label) {
       var to = $el.data("clipboard-copy-label-timeout");
-
       if (to) {
         clearTimeout(to);
       }
-
       if (!$el.data("clipboard-copy-label-original")) {
         $el.data("clipboard-copy-label-original", $el.html());
       }
-
       $el.html(label);
       to = setTimeout(function () {
         $el.html($el.data("clipboard-copy-label-original"));
@@ -1043,14 +1033,12 @@ $(function () {
         $el.removeData("clipboard-copy-label-timeout");
       }, CLIPBOARD_COPY_TIMEOUT);
       $el.data("clipboard-copy-label-timeout", to);
-    } // Alert the screen reader what just happened (the link was copied).
+    }
 
-
+    // Alert the screen reader what just happened (the link was copied).
     var message = $el.data("clipboard-copy-message");
-
     if (message) {
       var $msg = $el.data("clipboard-message-element");
-
       if ($msg) {
         if ($msg.html() === message) {
           // Try to hint the screen reader to re-read the text in the message
@@ -1061,10 +1049,10 @@ $(function () {
         $msg = $('<div aria-role="alert" aria-live="assertive" aria-atomic="true" class="clipboard-announcement show-for-sr"></div>');
         $el.after($msg);
         $el.data("clipboard-message-element", $msg);
-      } // Add the non breaking space always to content to try to force the
+      }
+
+      // Add the non breaking space always to content to try to force the
       // screen reader to reannounce the added text.
-
-
       $msg.html(message);
     }
   });
@@ -1072,9 +1060,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conferences.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conferences.js":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conferences.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conferences.js ***!
   \**********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1082,6 +1070,7 @@ $(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var foundation_sites__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! foundation-sites */ "./node_modules/foundation-sites/dist/js/foundation.esm.js");
 /* eslint-disable no-invalid-this */
+
 
 $(function () {
   // True if small devices
@@ -1096,9 +1085,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conversations.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conversations.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/conversations.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/conversations.js ***!
   \************************************************************************************************************************/
 /***/ (function() {
 
@@ -1115,16 +1104,329 @@ var scrollToLastMessage = function scrollToLastMessage() {
     });
   }
 };
-
 $(document).ready(function () {
   scrollToLastMessage();
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dialog_mode.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/consent_manager.js":
+/*!***************************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/consent_manager.js ***!
+  \***************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! js-cookie */ "./node_modules/js-cookie/dist/js.cookie.mjs");
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  Object.defineProperty(Constructor, "prototype", {
+    writable: false
+  });
+  return Constructor;
+}
+
+var ConsentManager = /*#__PURE__*/function () {
+  // Options should contain the following keys:
+  // - modal - HTML element of the data consent modal (e.g. "<div id="dc-modal">Foo bar</div>")
+  // - categories - Available data consent categories (e.g. ["essential", "preferences", "analytics", "marketing"])
+  // - cookieName - Name of the cookie saved in the browser (e.g. "decidim-consent")
+  // - warningElement - HTML element to be shown when user has not given the necessary data consent to display the content.
+  function ConsentManager(options) {
+    _classCallCheck(this, ConsentManager);
+    this.modal = options.modal;
+    this.categories = options.categories;
+    this.cookieName = options.cookieName;
+    this.cookie = js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(this.cookieName);
+    this.warningElement = options.warningElement;
+    if (this.cookie) {
+      this.updateState(JSON.parse(this.cookie));
+    } else {
+      this.updateState({});
+    }
+  }
+  _createClass(ConsentManager, [{
+    key: "updateState",
+    value: function updateState(newState) {
+      this.state = newState;
+      js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].set(this.cookieName, JSON.stringify(this.state), {
+        domain: document.location.host.split(":")[0],
+        sameSite: "Lax",
+        expires: 365,
+        secure: window.location.protocol === "https:"
+      });
+      this.updateModalSelections();
+      this.triggerState();
+    }
+  }, {
+    key: "triggerJavaScripts",
+    value: function triggerJavaScripts() {
+      var _this = this;
+      document.querySelectorAll("script[type='text/plain'][data-consent]").forEach(function (script) {
+        if (_this.state[script.dataset.consent]) {
+          var activeScript = document.createElement("script");
+          if (script.src.length > 0) {
+            activeScript.src = script.src;
+          } else {
+            activeScript.innerHTML = script.innerHTML;
+          }
+          script.parentNode.replaceChild(activeScript, script);
+        }
+      });
+      var event = new CustomEvent("dataconsent", {
+        detail: this.state
+      });
+      document.dispatchEvent(event);
+    }
+  }, {
+    key: "triggerIframes",
+    value: function triggerIframes() {
+      if (this.allAccepted()) {
+        document.querySelectorAll(".disabled-iframe").forEach(function (original) {
+          if (original.childNodes && original.childNodes.length) {
+            var content = Array.from(original.childNodes).find(function (childNode) {
+              return childNode.nodeType === Node.COMMENT_NODE;
+            });
+            if (!content) {
+              return;
+            }
+            var newElement = document.createElement("div");
+            newElement.innerHTML = content.nodeValue;
+            original.parentNode.replaceChild(newElement.firstElementChild, original);
+          }
+        });
+      } else {
+        document.querySelectorAll("iframe").forEach(function (original) {
+          var newElement = document.createElement("div");
+          newElement.className = "disabled-iframe";
+          newElement.appendChild(document.createComment("".concat(original.outerHTML)));
+          original.parentNode.replaceChild(newElement, original);
+        });
+      }
+    }
+  }, {
+    key: "triggerWarnings",
+    value: function triggerWarnings() {
+      var _this2 = this;
+      document.querySelectorAll(".disabled-iframe").forEach(function (original) {
+        if (original.querySelector(".dataconsent-warning")) {
+          return;
+        }
+        var cloned = _this2.warningElement.cloneNode(true);
+        cloned.classList.remove("hide");
+        original.appendChild(cloned);
+      });
+    }
+  }, {
+    key: "triggerState",
+    value: function triggerState() {
+      this.triggerJavaScripts();
+      this.triggerIframes();
+      this.triggerWarnings();
+    }
+  }, {
+    key: "allAccepted",
+    value: function allAccepted() {
+      var _this3 = this;
+      return this.categories.every(function (category) {
+        return _this3.state[category] === true;
+      });
+    }
+  }, {
+    key: "updateModalSelections",
+    value: function updateModalSelections() {
+      var _this4 = this;
+      var categoryElements = this.modal.querySelectorAll(".category-wrapper");
+      categoryElements.forEach(function (categoryEl) {
+        var categoryInput = categoryEl.querySelector("input");
+        if (_this4.state && _this4.state[categoryInput.name]) {
+          categoryInput.checked = true;
+        } else if (!categoryInput.disabled) {
+          categoryInput.checked = false;
+        }
+      });
+    }
+  }, {
+    key: "saveSettings",
+    value: function saveSettings(newState) {
+      this.updateState(newState);
+    }
+  }, {
+    key: "acceptAll",
+    value: function acceptAll() {
+      var newState = {};
+      this.categories.forEach(function (category) {
+        newState[category] = true;
+      });
+      this.updateState(newState);
+    }
+  }, {
+    key: "rejectAll",
+    value: function rejectAll() {
+      this.updateState({
+        essential: true
+      });
+    }
+  }, {
+    key: "getState",
+    value: function getState() {
+      return this.state;
+    }
+  }]);
+  return ConsentManager;
+}();
+/* harmony default export */ __webpack_exports__["default"] = (ConsentManager);
+
+/***/ }),
+
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/index.js":
+/*!*****************************************************************************************************************************!*\
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/index.js ***!
+  \*****************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var src_decidim_data_consent_consent_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/data_consent/consent_manager */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_consent/consent_manager.js");
+function _toConsumableArray(arr) {
+  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+}
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+}
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+}
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+  return arr2;
+}
+
+var initDialog = function initDialog(manager) {
+  if (Object.keys(manager.state).length > 0) {
+    return;
+  }
+  var dialogWrapper = document.querySelector("#dc-dialog-wrapper");
+  dialogWrapper.classList.remove("hide");
+  var acceptAllButton = dialogWrapper.querySelector("#dc-dialog-accept");
+  var rejectAllButton = dialogWrapper.querySelector("#dc-dialog-reject");
+  var settingsButton = dialogWrapper.querySelector("#dc-dialog-settings");
+  acceptAllButton.addEventListener("click", function () {
+    manager.acceptAll();
+    dialogWrapper.style.display = "none";
+  });
+  rejectAllButton.addEventListener("click", function () {
+    manager.rejectAll();
+    dialogWrapper.style.display = "none";
+  });
+  settingsButton.addEventListener("click", function () {
+    dialogWrapper.style.display = "none";
+  });
+};
+var initModal = function initModal(manager) {
+  var categoryElements = manager.modal.querySelectorAll(".category-wrapper");
+  categoryElements.forEach(function (categoryEl) {
+    var categoryButton = categoryEl.querySelector(".dc-title");
+    var categoryDescription = categoryEl.querySelector(".dc-description");
+    categoryButton.addEventListener("click", function () {
+      var hidden = categoryDescription.classList.contains("hide");
+      if (hidden) {
+        categoryButton.classList.add("open");
+        categoryDescription.classList.remove("hide");
+      } else {
+        categoryButton.classList.remove("open");
+        categoryDescription.classList.add("hide");
+      }
+    });
+  });
+  var acceptAllButton = manager.modal.querySelector("#dc-modal-accept");
+  var rejectAllButton = manager.modal.querySelector("#dc-modal-reject");
+  var saveSettingsButton = manager.modal.querySelector("#dc-modal-save");
+  acceptAllButton.addEventListener("click", function () {
+    manager.acceptAll();
+  });
+  rejectAllButton.addEventListener("click", function () {
+    manager.rejectAll();
+  });
+  saveSettingsButton.addEventListener("click", function () {
+    var newState = {};
+    manager.categories.forEach(function (category) {
+      var accepted = manager.modal.querySelector("input[name='".concat(category, "']")).checked;
+      if (accepted) {
+        newState[category] = true;
+      }
+    });
+    manager.saveSettings(newState);
+  });
+};
+var initDisabledIframes = function initDisabledIframes(manager) {
+  var disabledIframes = document.querySelectorAll(".disabled-iframe");
+  if (manager.allAccepted()) {
+    disabledIframes.forEach(function (elem) {
+      var iframe = document.createElement("iframe");
+      iframe.setAttribute("src", elem.getAttribute("src"));
+      iframe.className = elem.classList.toString();
+      iframe.setAttribute("allowfullscreen", elem.getAttribute("allowfullscreen"));
+      iframe.setAttribute("frameborder", elem.getAttribute("frameborder"));
+      elem.parentElement.appendChild(iframe);
+      elem.remove();
+    });
+  }
+};
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.querySelector("#dc-modal");
+  if (!modal) {
+    return;
+  }
+  var categories = _toConsumableArray(modal.querySelectorAll(".category-wrapper")).map(function (el) {
+    return el.dataset.id;
+  });
+  var manager = new src_decidim_data_consent_consent_manager__WEBPACK_IMPORTED_MODULE_0__["default"]({
+    modal: modal,
+    categories: categories,
+    cookieName: window.Decidim.config.get("consent_cookie_name"),
+    warningElement: document.querySelector(".dataconsent-warning")
+  });
+  initDisabledIframes(manager);
+  initModal(manager, categories);
+  initDialog(manager);
+});
+
+/***/ }),
+
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dialog_mode.js":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dialog_mode.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dialog_mode.js ***!
   \**********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1156,24 +1458,23 @@ __webpack_require__.r(__webpack_exports__);
     var $dialog = $(dialog);
     var $container = $("body");
     var $title = $(".reveal__title:first", $dialog);
-
     if ($title.length > 0) {
       // Focus on the title to make the screen reader to start reading the
       // content within the modal.
       $title.attr("tabindex", $title.attr("tabindex") || -1);
       $title.trigger("focus");
-    } // Once the final modal closes, disable the focus guarding
+    }
 
-
+    // Once the final modal closes, disable the focus guarding
     $dialog.off("closed.zf.reveal.focusguard").on("closed.zf.reveal.focusguard", function () {
-      $dialog.off("closed.zf.reveal.focusguard"); // After the last dialog is closed, the tab guards should be removed.
+      $dialog.off("closed.zf.reveal.focusguard");
+
+      // After the last dialog is closed, the tab guards should be removed.
       // This is done when the focus guard is disabled. If there is still a
       // visible reveal item in the DOM, make that the currently "guarded"
       // element. Note that there may be multiple dialogs open on top of each
       // other at the same time.
-
       var $visibleReveal = $(".reveal:visible:last", $container);
-
       if ($visibleReveal.length > 0) {
         window.focusGuard.trap($visibleReveal[0]);
       } else {
@@ -1186,9 +1487,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/diff_mode_dropdown.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/diff_mode_dropdown.js":
 /*!*****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/diff_mode_dropdown.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/diff_mode_dropdown.js ***!
   \*****************************************************************************************************************************/
 /***/ (function() {
 
@@ -1199,27 +1500,21 @@ $(function () {
     var $target = $(event.target);
     var type = "escaped";
     var $selected = $target.parents(".is-dropdown-submenu-parent").find("#diff-view-selected");
-
     if ($selected.text().trim() === $target.text().trim()) {
       return;
     }
-
     $selected.text($target.text());
-
     if ($target.attr("id") === "diff-view-unified") {
       if ($(".row.diff_view_split_escaped").hasClass("hide")) {
         type = "unescaped";
       }
-
       $allDiffViews.addClass("hide");
       $(".row.diff_view_unified_".concat(type)).removeClass("hide");
     }
-
     if ($target.attr("id") === "diff-view-split") {
       if ($(".row.diff_view_unified_escaped").hasClass("hide")) {
         type = "unescaped";
       }
-
       $allDiffViews.addClass("hide");
       $(".row.diff_view_split_".concat(type)).removeClass("hide");
     }
@@ -1230,12 +1525,10 @@ $(function () {
     $target.parents(".is-dropdown-submenu-parent").find("#diff-view-html-selected").text($target.text());
     var $visibleDiffViewsId = $allDiffViews.not(".hide").first().attr("id").split("_").slice(1, -1).join("_");
     var $visibleDiffViews = $allDiffViews.filter("[id*=".concat($visibleDiffViewsId, "]"));
-
     if ($target.attr("id") === "diff-view-escaped-html") {
       $visibleDiffViews.filter("[id$=_unescaped]").addClass("hide");
       $visibleDiffViews.filter("[id$=_escaped]").removeClass("hide");
     }
-
     if ($target.attr("id") === "diff-view-unescaped-html") {
       $visibleDiffViews.filter("[id$=_escaped]").addClass("hide");
       $visibleDiffViews.filter("[id$=_unescaped]").removeClass("hide");
@@ -1245,9 +1538,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dropdowns_menus.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dropdowns_menus.js":
 /*!**************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dropdowns_menus.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dropdowns_menus.js ***!
   \**************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1257,6 +1550,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": function() { return /* binding */ fixDropdownMenus; }
 /* harmony export */ });
 /* eslint-disable require-jsdoc */
+
 // This will apply some fixes for the Foundation dropdown menu element
 // according to W3C instructions at:
 // https://www.w3.org/TR/wai-aria-practices/examples/menu-button/menu-button-links.html
@@ -1270,15 +1564,16 @@ function fixDropdownMenus() {
     // user to focus on the li element instead of the <a> element where we
     // actually need the focus to be in.
     $("li.is-dropdown-submenu-parent", element).removeAttr("aria-haspopup").removeAttr("aria-label");
-    $("li.is-dropdown-submenu-parent > a:first", element).removeAttr("aria-label"); // Foundation marks the wrong role for the submenu elements
-
+    $("li.is-dropdown-submenu-parent > a:first", element).removeAttr("aria-label");
+    // Foundation marks the wrong role for the submenu elements
     $("ul.is-dropdown-submenu", element).attr("role", "menu");
   });
-} // Ensure the first element is always focused when a dropdown is opened as
+}
+
+// Ensure the first element is always focused when a dropdown is opened as
 // this would not always happen when using a screen reader. If this is not
 // done, the screen reader will stay quiet when the menu opens which can lead
 // to the blind user not understanding the menu has opened.
-
 $(function () {
   $("[data-dropdown-menu]").on("show.zf.dropdownMenu", function (_i, element) {
     $("li:first > a", element).focus();
@@ -1287,9 +1582,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_domain_warning.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_domain_warning.js":
 /*!**********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_domain_warning.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_domain_warning.js ***!
   \**********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1299,32 +1594,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": function() { return /* binding */ updateExternalDomainLinks; }
 /* harmony export */ });
 /* eslint-disable require-jsdoc */
+
 function updateExternalDomainLinks($target) {
   var whitelist = window.Decidim.config.get("external_domain_whitelist");
-
   if (window.location.pathname === "/link") {
     return;
   }
-
   $("a", $target).filter(function (_i, link) {
     var $link = $(link);
-
-    if (!$link[0].hasAttribute("href") || $link.parents(".ql-editor").length > 0) {
+    if (!$link[0].hasAttribute("href") || $link.parents(".editor-container").length > 0) {
       return false;
     }
-
     var parts = $link.attr("href").match(/^(([a-z]+):)?\/\/([^/:]+)(:[0-9]*)?(\/.*)?$/) || null;
-
     if (!parts) {
       return false;
     }
-
     var domain = parts[3].replace(/^www\./, "");
-
     if (whitelist.includes(domain)) {
       return false;
     }
-
     return true;
   }).each(function (_n, link) {
     var $link = $(link);
@@ -1336,9 +1624,9 @@ function updateExternalDomainLinks($target) {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_link.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_link.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_link.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_link.js ***!
   \************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1347,13 +1635,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ ExternalLink; }
 /* harmony export */ });
-/* harmony import */ var src_decidim_icon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/icon */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/icon.js");
+/* harmony import */ var src_decidim_icon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/icon */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/icon.js");
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -1363,7 +1650,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -1373,7 +1659,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 
-
 var EXCLUDE_CLASSES = ["card--list__data__icon", "footer-social__icon", "logo-cityhall"];
 var EXCLUDE_ANCESTOR_CLASSES = ["editor-container"];
 var EXCLUDE_REL = ["license", "decidim"];
@@ -1381,48 +1666,48 @@ var DEFAULT_MESSAGES = {
   externalLink: "External link"
 };
 var MESSAGES = DEFAULT_MESSAGES;
-
 var ExternalLink = /*#__PURE__*/function () {
   function ExternalLink(link) {
     _classCallCheck(this, ExternalLink);
-
     this.$link = link;
     this.setup();
   }
-
   _createClass(ExternalLink, [{
     key: "setup",
     value: function setup() {
       var _this = this;
-
       if (EXCLUDE_CLASSES.some(function (cls) {
         return _this.$link.hasClass(cls);
       })) {
         return;
       }
-
       if (EXCLUDE_ANCESTOR_CLASSES.some(function (cls) {
         return _this.$link.parents().hasClass(cls);
       })) {
         return;
       }
-
       if (EXCLUDE_REL.some(function (rel) {
         var linkRels = "".concat(_this.$link.attr("rel")).split(" ");
         return linkRels.indexOf(rel) > -1;
       })) {
         return;
       }
-
-      this.$link.addClass("external-link-container");
+      var $target = this.$link;
+      if (this.$link[0].hasAttribute("data-external-link-target")) {
+        $target = $(this.$link.data("external-link-target"), this.$link);
+        if ($target.length < 1) {
+          $target = this.$link;
+        }
+      }
+      $target.addClass("external-link-container");
       var spacer = "&nbsp;";
-
-      if (this.$link.text().trim().length < 1) {
+      if (this.$link[0].hasAttribute("data-external-link-spacer")) {
+        spacer = this.$link.data("external-link-spacer");
+      } else if ($target.text().trim().length < 1) {
         // Fixes image links extra space
         spacer = "";
       }
-
-      this.$link.append("".concat(spacer).concat(this.generateElement()));
+      $target.append("".concat(spacer).concat(this.generateElement()));
     }
   }, {
     key: "generateElement",
@@ -1446,28 +1731,24 @@ var ExternalLink = /*#__PURE__*/function () {
       MESSAGES = $.extend(DEFAULT_MESSAGES, messages);
     }
   }]);
-
   return ExternalLink;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/floating_help.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/floating_help.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/floating_help.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/floating_help.js ***!
   \************************************************************************************************************************/
 /***/ (function() {
 
 function _toConsumableArray(arr) {
   return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
 }
-
 function _nonIterableSpread() {
   throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
-
 function _unsupportedIterableToArray(o, minLen) {
   if (!o) return;
   if (typeof o === "string") return _arrayLikeToArray(o, minLen);
@@ -1476,55 +1757,42 @@ function _unsupportedIterableToArray(o, minLen) {
   if (n === "Map" || n === "Set") return Array.from(o);
   if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
 }
-
 function _iterableToArray(iter) {
   if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
 }
-
 function _arrayWithoutHoles(arr) {
   if (Array.isArray(arr)) return _arrayLikeToArray(arr);
 }
-
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;
-
   for (var i = 0, arr2 = new Array(len); i < len; i++) {
     arr2[i] = arr[i];
   }
-
   return arr2;
 }
-
 $(function () {
   if (!window.localStorage) {
     return;
   }
-
   var getDismissedHelpers = function getDismissedHelpers() {
     var serialized = localStorage.getItem("dismissedHelpers");
-
     if (!serialized) {
       return [];
     }
-
     return serialized.split(",");
   };
-
   var addDismissedHelper = function addDismissedHelper(id) {
     var dismissedHelpers = getDismissedHelpers();
-
     if (!dismissedHelpers.includes(id)) {
       localStorage.setItem("dismissedHelpers", [].concat(_toConsumableArray(dismissedHelpers), [id]).join(","));
     }
   };
-
   var dismissedHelpers = getDismissedHelpers();
   $(".floating-helper-container").each(function (_index, elem) {
     var id = $(elem).data("help-id");
     $(".floating-helper__trigger, .floating-helper__content-close", elem).on("click", function (ev) {
       ev.preventDefault();
     });
-
     if (!dismissedHelpers.includes(id)) {
       $(".floating-helper", elem).foundation("toggle");
       $(".floating-helper__wrapper", elem).foundation("toggle");
@@ -1537,9 +1805,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/focus_guard.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/focus_guard.js":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/focus_guard.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/focus_guard.js ***!
   \**********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1554,7 +1822,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -1564,7 +1831,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -1574,42 +1840,36 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 
-
 var focusGuardClass = "focusguard";
 var focusableNodes = ["A", "IFRAME", "OBJECT", "EMBED"];
 var focusableDisableableNodes = ["BUTTON", "INPUT", "TEXTAREA", "SELECT"];
-
 var FocusGuard = /*#__PURE__*/function () {
   function FocusGuard(container) {
     _classCallCheck(this, FocusGuard);
-
     this.container = container;
     this.guardedElement = null;
   }
-
   _createClass(FocusGuard, [{
     key: "trap",
     value: function trap(element) {
       if (this.guardedElement) {
         foundation_sites__WEBPACK_IMPORTED_MODULE_0__.Keyboard.releaseFocus($(this.guardedElement));
       }
-
       this.enable();
-      this.guardedElement = element; // Call the release focus first so that we don't accidentally add the
+      this.guardedElement = element;
+
+      // Call the release focus first so that we don't accidentally add the
       // keyboard trap twice. Note that the Foundation methods expect the elements
       // to be jQuery elements which is why we pass them through jQuery.
-
       foundation_sites__WEBPACK_IMPORTED_MODULE_0__.Keyboard.releaseFocus($(element));
       foundation_sites__WEBPACK_IMPORTED_MODULE_0__.Keyboard.trapFocus($(element));
     }
   }, {
     key: "enable",
     value: function enable() {
-      var _this = this; // Check if the guards already exists due to some other dialog
-
-
+      var _this = this;
+      // Check if the guards already exists due to some other dialog
       var guards = this.container.querySelectorAll(":scope > .".concat(focusGuardClass));
-
       if (guards.length > 0) {
         // Make sure the guards are the first and last element as there have
         // been changes in the DOM.
@@ -1621,10 +1881,10 @@ var FocusGuard = /*#__PURE__*/function () {
           }
         });
         return;
-      } // Add guards at the start and end of the document and attach their focus
+      }
+
+      // Add guards at the start and end of the document and attach their focus
       // listeners
-
-
       var startGuard = this.createFocusGuard("start");
       var endGuard = this.createFocusGuard("end");
       this.container.prepend(startGuard);
@@ -1643,7 +1903,6 @@ var FocusGuard = /*#__PURE__*/function () {
       guards.forEach(function (guard) {
         return guard.remove();
       });
-
       if (this.guardedElement) {
         // Note that the Foundation methods expect the elements to be jQuery
         // elements which is why we pass them through jQuery.
@@ -1665,17 +1924,14 @@ var FocusGuard = /*#__PURE__*/function () {
     key: "handleContainerFocus",
     value: function handleContainerFocus(guard) {
       var _this2 = this;
-
       if (!this.guardedElement) {
         guard.blur();
         return;
       }
-
       var visibleNodes = Array.from(this.guardedElement.querySelectorAll("*")).filter(function (item) {
         return _this2.isVisible(item);
       });
       var target = null;
-
       if (guard.dataset.position === "start") {
         // Focus at the start guard, so focus the first focusable element after that
         for (var ind = 0; ind < visibleNodes.length; ind += 1) {
@@ -1693,7 +1949,6 @@ var FocusGuard = /*#__PURE__*/function () {
           }
         }
       }
-
       if (target) {
         target.focus();
       } else {
@@ -1717,35 +1972,28 @@ var FocusGuard = /*#__PURE__*/function () {
       if (focusableNodes.indexOf(element.nodeName) > -1) {
         return true;
       }
-
       if (focusableDisableableNodes.indexOf(element.nodeName) > -1 || element.getAttribute("contenteditable")) {
         if (element.getAttribute("disabled")) {
           return false;
         }
-
         return true;
       }
-
       var tabindex = parseInt(element.getAttribute("tabindex"), 10);
-
       if (!isNaN(tabindex) && tabindex >= 0) {
         return true;
       }
-
       return false;
     }
   }]);
-
   return FocusGuard;
 }();
 
 
-
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_attachments.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_attachments.js":
 /*!***************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_attachments.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_attachments.js ***!
   \***************************************************************************************************************************/
 /***/ (function() {
 
@@ -1757,9 +2005,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_remote.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_remote.js":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_remote.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_remote.js ***!
   \**********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1767,14 +2015,14 @@ $(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rails/ujs */ "./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs-exposed.js");
 /* harmony import */ var _rails_ujs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_rails_ujs__WEBPACK_IMPORTED_MODULE_0__);
- // Make the remote form submit buttons disabled when the form is being
-// submitted to avoid multiple submits.
 
+
+// Make the remote form submit buttons disabled when the form is being
+// submitted to avoid multiple submits.
 document.addEventListener("ajax:beforeSend", function (ev) {
   if (!ev.target.matches("form[data-remote]")) {
     return;
   }
-
   ev.target.querySelectorAll("[type=submit]").forEach(function (submit) {
     submit.disabled = true;
   });
@@ -1783,32 +2031,30 @@ document.addEventListener("ajax:complete", function (ev) {
   if (!ev.target.matches("form[data-remote]")) {
     return;
   }
-
   ev.target.querySelectorAll("[type=submit]").forEach(function (submit) {
     submit.disabled = false;
   });
-}); // The forms that are attached to Foundation Abide do not work properly with
+});
+
+// The forms that are attached to Foundation Abide do not work properly with
 // Rails UJS Ajax forms that have the `data-remote` attribute attached to
 // them. The reason is that in case Foundation Abide sees the form as valid,
 // it will submit it normally bypassing the Rails UJS functionality.
 // The submit events happens through jQuery in Foundation Abide which is why
 // we need to bind the event with jQuery.
-
 $(document).on("submit", "form[data-remote][data-abide]", function (ev) {
   ev.preventDefault();
-
   if (ev.target.querySelectorAll("[data-invalid]").length > 0) {
     return;
   }
-
   Reflect.apply((_rails_ujs__WEBPACK_IMPORTED_MODULE_0___default().handleRemote), ev.target, [ev]);
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_validator.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_validator.js":
 /*!*************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_validator.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_validator.js ***!
   \*************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1822,7 +2068,6 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
     var descriptor = props[i];
@@ -1832,7 +2077,6 @@ function _defineProperties(target, props) {
     Object.defineProperty(target, descriptor.key, descriptor);
   }
 }
-
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
@@ -1841,30 +2085,26 @@ function _createClass(Constructor, protoProps, staticProps) {
   });
   return Constructor;
 }
-
 var DEFAULT_MESSAGES = {
   correctErrors: "There are errors on the form, please correct them."
 };
 var MESSAGES = DEFAULT_MESSAGES;
-
 var FormValidator = /*#__PURE__*/function () {
   function FormValidator(form) {
     var _this = this;
-
     _classCallCheck(this, FormValidator);
-
     this.$form = form;
     this.$form.on("form-error.decidim", function () {
       _this.handleError();
     });
   }
-
   _createClass(FormValidator, [{
     key: "handleError",
     value: function handleError() {
       this.announceFormError();
       $(".is-invalid-input:first", this.$form).focus();
     }
+
     /**
      * This announces immediately to the screen reader that there are errors on
      * the form that need to be fixed. Does not work on all screen readers but
@@ -1873,16 +2113,13 @@ var FormValidator = /*#__PURE__*/function () {
      *
      * @returns {undefined}
      */
-
   }, {
     key: "announceFormError",
     value: function announceFormError() {
       var $announce = $(".sr-announce", this.$form);
-
       if ($announce.length > 0) {
         $announce.remove();
       }
-
       $announce = $("<div />");
       $announce.attr("class", "sr-announce show-for-sr");
       $announce.attr("aria-live", "assertive");
@@ -1897,10 +2134,8 @@ var FormValidator = /*#__PURE__*/function () {
       MESSAGES = $.extend(DEFAULT_MESSAGES, messages);
     }
   }]);
-
   return FormValidator;
 }();
-
 
 $(function () {
   $("form").each(function (_i, el) {
@@ -1913,9 +2148,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/icon.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/icon.js":
 /*!***************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/icon.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/icon.js ***!
   \***************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -1928,6 +2163,7 @@ var DEFAULT_ATTRIBUTES = {
   role: "img",
   "aria-hidden": "true"
 };
+
 /**
  * Generates a Decidim icon element and returns it as a string.
  * @param {String} iconKey - the key of the icon to be generated
@@ -1936,7 +2172,6 @@ var DEFAULT_ATTRIBUTES = {
  * @private
  * @returns {Void} - Returns nothing.
  */
-
 function icon(iconKey) {
   var attributes = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   var iconAttributes = $.extend(DEFAULT_ATTRIBUTES, attributes);
@@ -1950,7 +2185,6 @@ function icon(iconKey) {
     var newKey = key.replace(/([A-Z])/g, function (ucw) {
       return "-".concat(ucw[0].toLowerCase());
     });
-
     if (typeof htmlAttributes[key] === "undefined") {
       htmlAttributes[newKey] = iconAttributes[key];
     } else {
@@ -1960,38 +2194,35 @@ function icon(iconKey) {
   var iconsPath = window.Decidim.config.get("icons_path");
   var elHtml = "<svg><use href=\"".concat(iconsPath, "#icon-").concat(iconKey, "\"></use></svg>");
   var $el = $(elHtml);
-
   if (title) {
     $el.prepend("<title>".concat(title, "</title>"));
   } else {
     // This keeps accessibility audit tools happy
-    $el.prepend("<title>".concat(iconKey, "</title>")); // Force hidden if title is not defined
-
+    $el.prepend("<title>".concat(iconKey, "</title>"));
+    // Force hidden if title is not defined
     htmlAttributes["aria-hidden"] = "true";
   }
-
   $el.attr(htmlAttributes);
   return $("<div />").append($el).html();
 }
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/identity_selector_dialog.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/identity_selector_dialog.js":
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/identity_selector_dialog.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/identity_selector_dialog.js ***!
   \***********************************************************************************************************************************/
 /***/ (function() {
 
 /**
  * Makes the #select-identity-button to open a popup for the user to
- * select with which identity he wants to perform an action.
+ * select with which identity they want to perform an action.
  *
  */
 $(function () {
   var button = $("#select-identity-button"),
-      identitiesUrl = null,
-      userIdentitiesDialog = $("#user-identities");
-
+    identitiesUrl = null,
+    userIdentitiesDialog = $("#user-identities");
   if (userIdentitiesDialog.length) {
     identitiesUrl = userIdentitiesDialog.data("reveal-identities-url");
     button.click(function () {
@@ -2002,11 +2233,11 @@ $(function () {
     });
   }
 });
+
 /**
  * Manage the identity selector for endorsements.
  *
  */
-
 $(function () {
   $("#select-identity-button").on("ajax:success", function () {
     // once reveal popup has been rendered register event callbacks
@@ -2014,14 +2245,12 @@ $(function () {
       var liTag = $(elem);
       liTag.on("click", function () {
         var method = liTag.data("method"),
-            urlDataAttr = null;
-
+          urlDataAttr = null;
         if (method === "POST") {
           urlDataAttr = "create_url";
         } else {
           urlDataAttr = "destroy_url";
         }
-
         $.ajax({
           url: liTag.data(urlDataAttr),
           method: method,
@@ -2045,32 +2274,31 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/impersonation.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/impersonation.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/impersonation.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/impersonation.js ***!
   \************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dayjs */ "./node_modules/dayjs/dayjs.min.js");
+/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(dayjs__WEBPACK_IMPORTED_MODULE_0__);
 
 $(function () {
   var $impersonationWarning = $(".impersonation-warning");
-
   if ($impersonationWarning.length) {
-    var endsAt = moment__WEBPACK_IMPORTED_MODULE_0___default()($impersonationWarning.data("session-ends-at"));
+    var endsAt = dayjs__WEBPACK_IMPORTED_MODULE_0___default()($impersonationWarning.data("session-ends-at"));
     var exitInterval = setInterval(function () {
-      var diff = (endsAt - moment__WEBPACK_IMPORTED_MODULE_0___default()()) / 60000;
+      var diff = (endsAt - dayjs__WEBPACK_IMPORTED_MODULE_0___default()()) / 60000;
       var diffInMinutes = Math.round(diff);
       $impersonationWarning.find(".minutes").html(diffInMinutes);
-
       if (diff <= 0) {
         window.location.reload();
       }
-    }, 1000); // Prevent reload when page is already unloading, otherwise it may cause infinite reloads.
+    }, 1000);
 
+    // Prevent reload when page is already unloading, otherwise it may cause infinite reloads.
     window.addEventListener("beforeunload", function () {
       clearInterval(exitInterval);
       return;
@@ -2080,9 +2308,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/index.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/index.js":
 /*!****************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/index.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/index.js ***!
   \****************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -2090,22 +2318,23 @@ $(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svg4everybody__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svg4everybody */ "./node_modules/svg4everybody/dist/svg4everybody.js");
 /* harmony import */ var svg4everybody__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(svg4everybody__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var src_decidim_form_datepicker__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/form_datepicker */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_datepicker.js");
-/* harmony import */ var src_decidim_dropdowns_menus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/dropdowns_menus */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dropdowns_menus.js");
-/* harmony import */ var src_decidim_editor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/editor */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/editor.js");
-/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/configuration.js");
-/* harmony import */ var src_decidim_external_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/decidim/external_link */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_link.js");
-/* harmony import */ var src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/decidim/external_domain_warning */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/external_domain_warning.js");
-/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_character_counter.js");
-/* harmony import */ var src_decidim_form_validator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/decidim/form_validator */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_validator.js");
-/* harmony import */ var src_decidim_comments_comments_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/decidim/comments/comments.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-comments-0.26.2/app/packs/src/decidim/comments/comments.component.js");
-/* harmony import */ var src_decidim_data_picker__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/decidim/data_picker */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/data_picker.js");
-/* harmony import */ var src_decidim_form_filter__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/decidim/form_filter */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/form_filter.js");
-/* harmony import */ var src_decidim_input_emoji__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! src/decidim/input_emoji */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_emoji.js");
-/* harmony import */ var src_decidim_dialog_mode__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! src/decidim/dialog_mode */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/dialog_mode.js");
-/* harmony import */ var src_decidim_focus_guard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! src/decidim/focus_guard */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/focus_guard.js");
-/* harmony import */ var src_decidim_back_to_list__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! src/decidim/back_to_list */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/back_to_list.js");
+/* harmony import */ var src_decidim_form_datepicker__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/form_datepicker */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_datepicker.js");
+/* harmony import */ var src_decidim_dropdowns_menus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/dropdowns_menus */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dropdowns_menus.js");
+/* harmony import */ var src_decidim_editor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/editor */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/editor.js");
+/* harmony import */ var src_decidim_configuration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/configuration */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/configuration.js");
+/* harmony import */ var src_decidim_external_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/decidim/external_link */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_link.js");
+/* harmony import */ var src_decidim_external_domain_warning__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/decidim/external_domain_warning */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/external_domain_warning.js");
+/* harmony import */ var src_decidim_input_character_counter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/decidim/input_character_counter */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_character_counter.js");
+/* harmony import */ var src_decidim_form_validator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/decidim/form_validator */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_validator.js");
+/* harmony import */ var src_decidim_comments_comments_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/decidim/comments/comments.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-comments-0.27.0/app/packs/src/decidim/comments/comments.component.js");
+/* harmony import */ var src_decidim_data_picker__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/decidim/data_picker */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/data_picker.js");
+/* harmony import */ var src_decidim_form_filter__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/decidim/form_filter */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/form_filter.js");
+/* harmony import */ var src_decidim_input_emoji__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! src/decidim/input_emoji */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_emoji.js");
+/* harmony import */ var src_decidim_dialog_mode__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! src/decidim/dialog_mode */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/dialog_mode.js");
+/* harmony import */ var src_decidim_focus_guard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! src/decidim/focus_guard */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/focus_guard.js");
+/* harmony import */ var src_decidim_back_to_list__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! src/decidim/back_to_list */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/back_to_list.js");
 /* eslint-disable no-invalid-this */
+
 
 
 
@@ -2136,10 +2365,11 @@ $(function () {
   $(document).foundation();
   $(document).on("open.zf.reveal", function (ev) {
     (0,src_decidim_dialog_mode__WEBPACK_IMPORTED_MODULE_13__["default"])($(ev.target));
-  }); // Trap the focus within the mobile menu if the user enters it. This is an
+  });
+
+  // Trap the focus within the mobile menu if the user enters it. This is an
   // accessibility feature forcing the focus within the offcanvas container
   // which holds the mobile menu.
-
   $("#offCanvas").on("openedEnd.zf.offCanvas", function (ev) {
     ev.target.querySelector(".main-nav a").focus();
     window.focusGuard.trap(ev.target);
@@ -2147,9 +2377,10 @@ $(function () {
     window.focusGuard.disable();
   });
   (0,src_decidim_dropdowns_menus__WEBPACK_IMPORTED_MODULE_2__["default"])();
-  svg4everybody__WEBPACK_IMPORTED_MODULE_0___default()(); // Prevent data-open buttons e.g. from submitting the underlying form in
-  // authorized action buttons.
+  svg4everybody__WEBPACK_IMPORTED_MODULE_0___default()();
 
+  // Prevent data-open buttons e.g. from submitting the underlying form in
+  // authorized action buttons.
   $("[data-open]").on("click", function (event) {
     event.preventDefault();
   });
@@ -2160,8 +2391,9 @@ $(function () {
   $('a[target="_blank"]').each(function (_i, elem) {
     var $link = $(elem);
     $link.data("external-link", new src_decidim_external_link__WEBPACK_IMPORTED_MODULE_5__["default"]($link));
-  }); // Mount comments component
+  });
 
+  // Mount comments component
   $("[data-decidim-comments]").each(function (_i, el) {
     var $el = $(el);
     var comments = new src_decidim_comments_comments_component__WEBPACK_IMPORTED_MODULE_9__["default"]($el, $el.data("decidim-comments"));
@@ -2179,22 +2411,22 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_autojump.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_autojump.js":
 /*!*************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_autojump.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_autojump.js ***!
   \*************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
   var $inputs = $("input[data-autojump]");
-  var DELETE_KEY_CODE = 8; // Initialize
+  var DELETE_KEY_CODE = 8;
 
+  // Initialize
   $inputs.on("keydown", function (event) {
     // Don't do anything if there is selected text
     if (event.target.selectionStart !== event.target.selectionEnd) {
       return;
     }
-
     if (event.originalEvent.key.length === 1 && event.target.dataset.jumpNext) {
       if (event.target.value.length === parseInt(event.target.dataset.maxLength, 10)) {
         event.preventDefault();
@@ -2219,9 +2451,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_emoji.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_emoji.js":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_emoji.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_emoji.js ***!
   \**********************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -2231,28 +2463,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": function() { return /* binding */ addInputEmoji; }
 /* harmony export */ });
 /* harmony import */ var _joeattardi_emoji_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @joeattardi/emoji-button */ "./node_modules/@joeattardi/emoji-button/dist/index.js");
- // eslint-disable-next-line require-jsdoc
 
+
+// eslint-disable-next-line require-jsdoc
 function addInputEmoji() {
   var containers = document.querySelectorAll("[data-input-emoji]");
-
   if (containers.length) {
     containers.forEach(function (elem) {
       var _elem$closest;
-
       var picker = new _joeattardi_emoji_button__WEBPACK_IMPORTED_MODULE_0__.EmojiButton({
         position: "bottom-end",
         rootElement: ((_elem$closest = elem.closest("form")) === null || _elem$closest === void 0 ? void 0 : _elem$closest.parentElement) || document.body,
         zIndex: 2000
-      }); // if the selector is inside a modal window
+      });
+
+      // if the selector is inside a modal window
       // this allows shows the emoji menu uncut
-
       var reveal = elem.closest("[data-reveal]");
-
       if (reveal) {
         reveal.style.overflowY = "unset";
       }
-
       var wrapper = document.createElement("div");
       wrapper.className = "emoji__container";
       var btnContainer = document.createElement("div");
@@ -2264,17 +2494,16 @@ function addInputEmoji() {
       parent.insertBefore(wrapper, elem);
       wrapper.appendChild(elem);
       wrapper.appendChild(btnContainer);
-      btnContainer.appendChild(btn); // The form errors need to be in the same container with the field they
-      // belong to for Foundation Abide to show them automatically.
+      btnContainer.appendChild(btn);
 
+      // The form errors need to be in the same container with the field they
+      // belong to for Foundation Abide to show them automatically.
       parent.querySelectorAll(".form-error").forEach(function (el) {
         return wrapper.appendChild(el);
       });
-
       var handlerPicker = function handlerPicker() {
         picker.togglePicker(btnContainer);
       };
-
       btnContainer.addEventListener("click", handlerPicker);
       elem.addEventListener("characterCounter", function (event) {
         if (event.detail.remaining >= 4) {
@@ -2298,252 +2527,106 @@ function addInputEmoji() {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_multiple_mentions.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_multiple_mentions.js":
 /*!**********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/input_multiple_mentions.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/input_multiple_mentions.js ***!
   \**********************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/vendor/tribute */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/tribute.js");
-/* harmony import */ var src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0__);
-/* eslint no-unused-vars: 0 */
-
+/* harmony import */ var src_decidim_autocomplete__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/autocomplete */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/autocomplete.js");
 
 var updateSubmitButton = function updateSubmitButton($fieldContainer, $selectedItems) {
   var $form = $fieldContainer.closest("form");
-
   if ($form.length < 1) {
     return;
   }
-
   var $submitButton = $form.find("button[type='submit']");
-
   if ($selectedItems.children().length === 0) {
     $submitButton.prop("disabled", true);
   } else {
     $submitButton.prop("disabled", false);
   }
 };
-
 $(function () {
-  var $multipleMentionContainer = $(".js-multiple-mentions");
-  var $multipleMentionRecipientsContainer = $(".js-multiple-mentions-recipients");
-  var nodatafound = $multipleMentionContainer.attr("data-noresults");
-  var directMessageDisabled = $multipleMentionContainer.attr("data-direct-messages-disabled");
-  var maxRecipients = 9;
-  var mentionsCount = 0;
-  /* eslint no-unused-vars: 0 */
-
-  var deleteRecipient = function deleteRecipient(element) {
-    // Remove recipient
-    element.remove();
-    mentionsCount -= 1; // In case mentions container disable, enable again
-
-    if ($multipleMentionContainer.prop("disabled")) {
-      $multipleMentionContainer.prop("disabled", false);
-    }
-  };
-
-  var noMatchTemplate = null;
-
-  if (nodatafound) {
-    noMatchTemplate = function noMatchTemplate() {
-      return "<li>".concat(nodatafound, "</li>");
-    };
-  } // Returns a function, that, as long as it continues to be invoked, will not
-  // be triggered. The function will be called after it stops being called for
-  // N milliseconds
-
-  /* eslint no-invalid-this: 0 */
-
-  /* eslint consistent-this: 0 */
-
-  /* eslint prefer-reflect: 0 */
-
-
-  var debounce = function debounce(callback, wait) {
-    var _this = this;
-
-    var timeout = null;
-    return function () {
-      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      var context = _this;
-      clearTimeout(timeout);
-      timeout = setTimeout(function () {
-        return callback.apply(context, args);
-      }, wait);
-    };
-  };
-  /* eslint no-use-before-define: ["error", { "variables": false }]*/
-
-  /* eslint no-unused-expressions: 0 */
-
-
-  var remoteSearch = function remoteSearch(text, cb) {
-    var exclusionIds = [];
-    $multipleMentionRecipientsContainer.find("input[name^='recipient_id']").each(function (index) {
-      exclusionIds.push($(this).val());
-    });
-    var query = "{users(filter:{wildcard:\"".concat(text, "\",excludeIds:[").concat(exclusionIds, "]}){id,nickname,name,avatarUrl,__typename,...on UserGroup{membersCount},...on User{directMessagesEnabled}}}");
-    $.post("/api", {
-      query: query
-    }).then(function (response) {
-      var data = response.data.users || {};
-      cb(data);
-    }).fail(function () {
-      cb([]);
-    }).always(function () {
-      // This function runs Tribute every single time you type something
-      // So we must evalute DOM properties after each
-      var $parent = $(tribute.current.element).parent();
-      $parent.addClass("is-active"); // We need to move the container to the wrapper selected
-
-      var $tribute = $parent.find(".tribute-container"); // Remove the inline styles, relative to absolute positioning
-
-      $tribute.removeAttr("style");
-    });
-  }; // tribute.js docs - http://github.com/zurb/tribute
-
-  /* global Tribute*/
-
-  /* eslint multiline-ternary: 0 */
-
-  /* eslint no-ternary: 0 */
-
-
-  var tribute = new (src_decidim_vendor_tribute__WEBPACK_IMPORTED_MODULE_0___default())({
-    autocompleteMode: true,
-    // avoid overloading the API if the user types too fast
-    values: debounce(function (text, cb) {
-      remoteSearch(text, function (users) {
-        return cb(users);
+  var $fieldContainer = $(".multiple-mentions");
+  if ($fieldContainer.length < 1) {
+    return;
+  }
+  var allMessages = window.Decidim.config.get("messages");
+  var messages = allMessages.mentionsModal || {};
+  var $searchInput = $("input", $fieldContainer);
+  var $selectedItems = $("ul.".concat($searchInput.data().selected));
+  var options = $fieldContainer.data();
+  var selected = [];
+  var iconsPath = window.Decidim.config.get("icons_path");
+  var removeLabel = messages.removeRecipient || "Remove recipient %name%";
+  var emptyFocusElement = $fieldContainer[0].querySelector(".empty-list");
+  if (!emptyFocusElement) {
+    emptyFocusElement = document.createElement("div");
+    emptyFocusElement.tabIndex = "-1";
+    emptyFocusElement.className = "empty-list";
+    $selectedItems.before(emptyFocusElement);
+  }
+  updateSubmitButton($fieldContainer, $selectedItems);
+  var autoComplete = new src_decidim_autocomplete__WEBPACK_IMPORTED_MODULE_0__["default"]($searchInput[0], {
+    dataMatchKeys: ["name", "nickname"],
+    dataSource: function dataSource(query, callback) {
+      $.post("/api", {
+        "query": "\n          {\n            users(filter:{wildcard:\"".concat(query, "\",excludeIds:[]})\n              {\n                id,nickname,name,avatarUrl,__typename,...on UserGroup{membersCount},...on User{\n                  directMessagesEnabled\n                }\n              }\n          }")
+      }).then(function (response) {
+        callback(response.data.users);
       });
-    }, 250),
-    positionMenu: true,
-    menuContainer: null,
-    menuItemLimit: 10,
-    fillAttr: "nickname",
-    noMatchTemplate: noMatchTemplate,
-    lookup: function lookup(item) {
-      return item.nickname + item.name;
     },
-    selectTemplate: function selectTemplate(item) {
-      mentionsCount += 1;
-
-      if (mentionsCount >= maxRecipients) {
-        $multipleMentionContainer.prop("disabled", true);
-      }
-
-      if (typeof item === "undefined") {
-        return null;
-      } // Set recipient profile view
-
-
-      var recipientLabel = "\n        <label style=\"padding: 0 0 10px 0\">\n          <img src=\"".concat(item.original.avatarUrl, "\" alt=\"").concat(item.original.name, "\" height=\"35\" width=\"35\" style=\"border-radius: 50%;\" aria-label=\"").concat(item.original.name, "\">&nbsp;\n          <b>").concat(item.original.name, "</b>\n          <input type=\"hidden\" name=\"recipient_id[]\" value=\"").concat(item.original.id, "\">\n          <div class=\"float-right\">&times;</div>\n        </label>\n      "); // Append new recipient to DOM
-
-      if (item.original.__typename === "UserGroup" || item.original.directMessagesEnabled === "true") {
-        $multipleMentionRecipientsContainer.append($(recipientLabel));
-        $multipleMentionContainer.val("");
-      } // In order to add tabindex accessibility control to each recipient in list
-
-
-      $multipleMentionRecipientsContainer.find("label").each(function (index) {
-        $(this).find("div").attr("tabIndex", 0).attr("aria-controls", 0).attr("aria-label", "Close").attr("role", "tab");
+    dataFilter: function dataFilter(list) {
+      return list.filter(function (item) {
+        return !selected.includes(item.value.id);
       });
-      updateSubmitButton($multipleMentionContainer, $multipleMentionRecipientsContainer); // Clean input
-
-      return "";
     },
-    menuItemTemplate: function menuItemTemplate(item) {
-      var svg = "";
-      var enabled = item.original.directMessagesEnabled === "true";
-
-      if (window.Decidim && item.original.__typename === "UserGroup") {
-        enabled = true;
-        var iconsPath = window.Decidim.config.get("icons_path");
-        svg = "<span class=\"is-group\">".concat(item.original.membersCount, "x <svg class=\"icon--members icon\"><use href=\"").concat(iconsPath, "#icon-members\"/></svg></span>");
+    modifyResult: function modifyResult(element, value) {
+      $(element).html("\n        <span class=\"author__avatar\"><img src=\"".concat(value.avatarUrl, "\" alt=\"").concat(value.name, "\"></span>\n        <strong>").concat(value.nickname, "</strong>\n        <small>").concat(value.name, "</small>\n      "));
+      if (value.directMessagesEnabled === "false") {
+        $(element).addClass("disabled");
+        $(element).append("<span>".concat($searchInput.data().directMessagesDisabled, "</span>"));
       }
-
-      var disabledElementClass = enabled ? "" : "disabled-tribute-element";
-      var disabledElementMessage = enabled ? "" : "&nbsp;<span class=\"disabled-tribute-element-info\">".concat(directMessageDisabled, "</span>");
-      return "<div class=\"tribute-item ".concat(item.original.__typename, " ").concat(disabledElementClass, "\">\n      <span class=\"author__avatar\"><img src=\"").concat(item.original.avatarUrl, "\" alt=\"author-avatar\"></span>\n        <strong>").concat(item.original.nickname, "</strong>\n        <small>").concat(item.original.name, "</small>\n        ").concat(svg, "\n        ").concat(disabledElementMessage, "\n      </div>");
+      if (value.membersCount) {
+        $(element).append("<span class=\"is-group\">".concat(value.membersCount, "x <svg class=\"icon--members icon\"><use href=\"").concat(iconsPath, "#icon-members\"/></svg></span>"));
+      }
     }
   });
-
-  var setupEvents = function setupEvents($element) {
-    updateSubmitButton($multipleMentionContainer, $multipleMentionRecipientsContainer); // DOM manipulation
-
-    $element.on("focusin", function (event) {
-      // Set the parent container relative to the current element
-      tribute.menuContainer = event.target.parentNode;
-    });
-    $element.on("focusout", function (event) {
-      var $parent = $(event.target).parent();
-
-      if ($parent.hasClass("is-active")) {
-        $parent.removeClass("is-active");
+  $searchInput.on("selection", function (event) {
+    var feedback = event.detail;
+    var selection = feedback.selection;
+    var id = selection.value.id;
+    if (selected.length >= 9 || selection.value.directMessagesEnabled === "false") {
+      return;
+    }
+    var label = removeLabel.replace("%name%", selection.value.name);
+    $selectedItems.append("\n      <li tabindex=\"-1\">\n        <input type=\"hidden\" name=\"".concat(options.name, "\" value=\"").concat(id, "\">\n        <img src=\"").concat(selection.value.avatarUrl, "\" class=\"author__avatar\" alt=\"").concat(selection.value.name, "\">\n        <b>").concat(selection.value.name, "</b>\n        <button type=\"button\" class=\"float-right\" data-remove=\"").concat(id, "\" tabindex=\"0\" aria-controls=\"0\" aria-label=\"").concat(label, "\">&times;</button>\n      </li>\n    "));
+    autoComplete.setInput("");
+    selected.push(id);
+    updateSubmitButton($fieldContainer, $selectedItems);
+    $selectedItems.find("*[data-remove=\"".concat(id, "\"]")).on("keypress click", function (evt) {
+      var target = evt.target.parentNode;
+      if (target.tagName === "LI") {
+        var focusElement = target.nextElementSibling || target.previousElementSibling || emptyFocusElement;
+        selected = selected.filter(function (identifier) {
+          return identifier !== id;
+        });
+        target.remove();
+        updateSubmitButton($fieldContainer, $selectedItems);
+        focusElement.focus();
       }
     });
-    $element.on("input", function (event) {
-      var $parent = $(event.target).parent();
-
-      if (tribute.isActive) {
-        // We need to move the container to the wrapper selected
-        var $tribute = $(".tribute-container");
-        $tribute.appendTo($parent); // Remove the inline styles, relative to absolute positioning
-
-        $tribute.removeAttr("style"); // Parent adaptation
-
-        $parent.addClass("is-active");
-      } else {
-        $parent.removeClass("is-active");
-      }
-    });
-  };
-
-  var setupRecipientEvents = function setupRecipientEvents($element) {
-    // Allow delete with click on element in recipients list
-    $element.on("click", function (event) {
-      var $target = event.target.parentNode;
-
-      if ($target.tagName === "LABEL") {
-        deleteRecipient($target);
-        updateSubmitButton($multipleMentionContainer, $multipleMentionRecipientsContainer);
-      }
-    }); // Allow delete with keypress on element in recipients list
-
-    $element.on("keypress", function (event) {
-      var $target = event.target.parentNode;
-
-      if ($target.tagName === "LABEL") {
-        deleteRecipient($target);
-        updateSubmitButton($multipleMentionContainer, $multipleMentionRecipientsContainer);
-      }
-    });
-  }; // Call only if we have containter to bind events to
-
-
-  if ($multipleMentionContainer.length) {
-    setupEvents($multipleMentionContainer);
-    tribute.attach($multipleMentionContainer);
-  } // Call only if we have containter to bind events to
-
-
-  if ($multipleMentionRecipientsContainer.length) {
-    setupRecipientEvents($multipleMentionRecipientsContainer);
-  }
+  });
 });
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/notifications.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/notifications.js":
 /*!************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/notifications.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/notifications.js ***!
   \************************************************************************************************************************/
 /***/ (function() {
 
@@ -2554,18 +2637,15 @@ $(function () {
   var $noNotificationsText = $(".empty-notifications");
   var $pagination = $wrapper.find("ul.pagination");
   var FADEOUT_TIME = 500;
-
   var anyNotifications = function anyNotifications() {
     return $wrapper.find(".card--widget").length > 0;
   };
-
   var emptyNotifications = function emptyNotifications() {
     if (!anyNotifications()) {
       $section.remove();
       $noNotificationsText.removeClass("hide");
     }
   };
-
   $section.on("click", ".mark-as-read-button", function (event) {
     var $item = $(event.target).parents(".card--widget");
     $item.fadeOut(FADEOUT_TIME, function () {
@@ -2586,9 +2666,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/represent_user_group.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/represent_user_group.js":
 /*!*******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/represent_user_group.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/represent_user_group.js ***!
   \*******************************************************************************************************************************/
 /***/ (function() {
 
@@ -2597,11 +2677,9 @@ $(function () {
   var $userGroupFields = $(".user-group-fields");
   $checkbox.click(function () {
     var $select = $userGroupFields.find("select");
-
     if (!$select.val()) {
       $userGroupFields.toggle();
     }
-
     if ($userGroupFields.is(":visible")) {
       $checkbox.prop("checked", true);
     } else {
@@ -2612,9 +2690,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/responsive_horizontal_tabs.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/responsive_horizontal_tabs.js":
 /*!*************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/responsive_horizontal_tabs.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/responsive_horizontal_tabs.js ***!
   \*************************************************************************************************************************************/
 /***/ (function() {
 
@@ -2623,7 +2701,6 @@ $(function () {
   $responsiveTabBlock.click(function (event) {
     if (event.target.closest(".is-active") !== null) {
       event.preventDefault();
-
       if (window.innerWidth <= 639) {
         $responsiveTabBlock.toggleClass("expanded");
       }
@@ -2633,16 +2710,15 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/results_listing.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/results_listing.js":
 /*!**************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/results_listing.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/results_listing.js ***!
   \**************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_history__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/history */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/history.js");
-
+/* harmony import */ var src_decidim_history__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/history */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/history.js");
 
 var initializeListingOptionsMenu = function initializeListingOptionsMenu(options) {
   $(document).on("click", "".concat(options.containerSelector, " a"), function (event) {
@@ -2655,16 +2731,13 @@ var initializeListingOptionsMenu = function initializeListingOptionsMenu(options
     var match = url.match(/${options.urlParameter}=([^&]*)/);
     var $targetMenu = $("".concat(options.containerSelector, " .menu"));
     var value = $targetMenu.find(".menu a:first").data(options.dataAttribute);
-
     if (match) {
       value = match[1];
     }
-
     var linkText = $targetMenu.find(".menu a[data-".concat(options.dataAttribute, "=\"").concat(value, "\"]")).text();
     $targetMenu.find("a:first").text(linkText);
   });
 };
-
 $(function () {
   initializeListingOptionsMenu({
     containerSelector: ".order-by",
@@ -2682,24 +2755,25 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/security/selfxss_warning.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/security/selfxss_warning.js":
 /*!***********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/security/selfxss_warning.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/security/selfxss_warning.js ***!
   \***********************************************************************************************************************************/
 /***/ (function() {
 
-/* eslint-disable no-console */
+/* eslint-disable no-console, no-process-env, no-undef */
+
 $(function () {
   if (!console) {
     return;
   }
-
+  if (true) {
+    return;
+  }
   var allMessages = window.Decidim.config.get("messages");
-
   if (!allMessages) {
     return;
   }
-
   var messages = allMessages.selfxssWarning;
   console.log("%c".concat(messages.title), "color:#f00;font-weight:bold;font-size:50px;");
   console.log("%c".concat(messages.description), "font-size:24px;");
@@ -2707,17 +2781,17 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/start_conversation_dialog.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/start_conversation_dialog.js":
 /*!************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/start_conversation_dialog.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/start_conversation_dialog.js ***!
   \************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
   var addUsersConversationDialog = $("#user-conversations-add-modal"),
-      button = $("#start-conversation-dialog-button");
-  /* eslint no-unused-vars: 0 */
+    button = $("#start-conversation-dialog-button");
 
+  /* eslint no-unused-vars: 0 */
   if (addUsersConversationDialog.length) {
     var refreshUrl = addUsersConversationDialog.data("refresh-url");
     button.click(function () {
@@ -2728,13 +2802,14 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/tooltip_keep_on_hover.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/tooltip_keep_on_hover.js":
 /*!********************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/tooltip_keep_on_hover.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/tooltip_keep_on_hover.js ***!
   \********************************************************************************************************************************/
 /***/ (function() {
 
 /* eslint-disable no-invalid-this */
+
 $(function () {
   // Foundation requires plugins to be initializated
   setTimeout(function () {
@@ -2749,9 +2824,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/user_registrations.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/user_registrations.js":
 /*!*****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/user_registrations.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/user_registrations.js ***!
   \*****************************************************************************************************************************/
 /***/ (function() {
 
@@ -2761,7 +2836,6 @@ $(function () {
   var inputSelector = 'input[name="user[sign_up_as]"]';
   var newsletterSelector = 'input[type="checkbox"][name="user[newsletter]"]';
   var $newsletterModal = $("#sign-up-newsletter-modal");
-
   var setGroupFieldsVisibility = function setGroupFieldsVisibility(value) {
     if (value === "user") {
       $userGroupFields.hide();
@@ -2769,14 +2843,12 @@ $(function () {
       $userGroupFields.show();
     }
   };
-
   var checkNewsletter = function checkNewsletter(check) {
     $userRegistrationForm.find(newsletterSelector).prop("checked", check);
     $newsletterModal.data("continue", true);
     $newsletterModal.foundation("close");
     $userRegistrationForm.submit();
   };
-
   setGroupFieldsVisibility($userRegistrationForm.find("".concat(inputSelector, ":checked")).val());
   $userRegistrationForm.on("change", inputSelector, function (event) {
     var value = event.target.value;
@@ -2784,7 +2856,6 @@ $(function () {
   });
   $userRegistrationForm.on("submit", function (event) {
     var newsletterChecked = $userRegistrationForm.find(newsletterSelector);
-
     if (!$newsletterModal.data("continue")) {
       if (!newsletterChecked.prop("checked")) {
         event.preventDefault();
@@ -2799,9 +2870,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/modernizr.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/modernizr.js":
 /*!***************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/modernizr.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/modernizr.js ***!
   \***************************************************************************************************************************/
 /***/ (function() {
 
@@ -2818,91 +2889,79 @@ function _typeof(obj) {
 
 /*! modernizr 3.3.1 (Custom Build) | MIT *
  * https://modernizr.com/download/?-setclasses !*/
-
-
 !function (n, e, s) {
   function o(n, e) {
     return _typeof(n) === e;
   }
-
   function a() {
     var n, e, s, a, i, l, r;
-
     for (var c in f) {
       if (f.hasOwnProperty(c)) {
         if (n = [], e = f[c], e.name && (n.push(e.name.toLowerCase()), e.options && e.options.aliases && e.options.aliases.length)) for (s = 0; s < e.options.aliases.length; s++) {
           n.push(e.options.aliases[s].toLowerCase());
         }
-
         for (a = o(e.fn, "function") ? e.fn() : e.fn, i = 0; i < n.length; i++) {
           l = n[i], r = l.split("."), 1 === r.length ? Modernizr[r[0]] = a : (!Modernizr[r[0]] || Modernizr[r[0]] instanceof Boolean || (Modernizr[r[0]] = new Boolean(Modernizr[r[0]])), Modernizr[r[0]][r[1]] = a), t.push((a ? "" : "no-") + r.join("-"));
         }
       }
     }
   }
-
   function i(n) {
     var e = r.className,
-        s = Modernizr._config.classPrefix || "";
-
+      s = Modernizr._config.classPrefix || "";
     if (c && (e = e.baseVal), Modernizr._config.enableJSClass) {
       var o = new RegExp("(^|\\s)" + s + "no-js(\\s|$)");
       e = e.replace(o, "$1" + s + "js$2");
     }
-
     Modernizr._config.enableClasses && (e += " " + s + n.join(" " + s), c ? r.className.baseVal = e : r.className = e);
   }
-
   var t = [],
-      f = [],
-      l = {
-    _version: "3.3.1",
-    _config: {
-      classPrefix: "",
-      enableClasses: !0,
-      enableJSClass: !0,
-      usePrefixes: !0
+    f = [],
+    l = {
+      _version: "3.3.1",
+      _config: {
+        classPrefix: "",
+        enableClasses: !0,
+        enableJSClass: !0,
+        usePrefixes: !0
+      },
+      _q: [],
+      on: function on(n, e) {
+        var s = this;
+        setTimeout(function () {
+          e(s[n]);
+        }, 0);
+      },
+      addTest: function addTest(n, e, s) {
+        f.push({
+          name: n,
+          fn: e,
+          options: s
+        });
+      },
+      addAsyncTest: function addAsyncTest(n) {
+        f.push({
+          name: null,
+          fn: n
+        });
+      }
     },
-    _q: [],
-    on: function on(n, e) {
-      var s = this;
-      setTimeout(function () {
-        e(s[n]);
-      }, 0);
-    },
-    addTest: function addTest(n, e, s) {
-      f.push({
-        name: n,
-        fn: e,
-        options: s
-      });
-    },
-    addAsyncTest: function addAsyncTest(n) {
-      f.push({
-        name: null,
-        fn: n
-      });
-    }
-  },
-      Modernizr = function Modernizr() {};
-
+    Modernizr = function Modernizr() {};
   Modernizr.prototype = l, Modernizr = new Modernizr();
   var r = e.documentElement,
-      c = "svg" === r.nodeName.toLowerCase();
+    c = "svg" === r.nodeName.toLowerCase();
   a(), i(t), delete l.addTest, delete l.addAsyncTest;
-
   for (var u = 0; u < Modernizr._q.length; u++) {
     Modernizr._q[u]();
   }
-
   n.Modernizr = Modernizr;
 }(window, document);
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/social-share-button.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/social-share-button.js":
 /*!*************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/src/decidim/vendor/social-share-button.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/src/decidim/vendor/social-share-button.js ***!
   \*************************************************************************************************************************************/
 /***/ (function() {
 
@@ -2929,11 +2988,9 @@ window.SocialShareButton = {
     if (width === null) {
       width = 640;
     }
-
     if (height === null) {
       height = 480;
     }
-
     var left = screen.width / 2 - width / 2;
     var top = screen.height * 0.3 - height / 2;
     var opt = "width=".concat(width, ",height=").concat(height, ",left=").concat(left, ",top=").concat(top, ",menubar=no,status=no,location=no");
@@ -2944,7 +3001,6 @@ window.SocialShareButton = {
     if (el.getAttribute === null) {
       el = document.querySelector(el);
     }
-
     var site = el.getAttribute("data-site");
     var appkey = el.getAttribute("data-appkey") || "";
     var $parent = el.parentNode;
@@ -2952,105 +3008,83 @@ window.SocialShareButton = {
     var img = encodeURIComponent($parent.getAttribute("data-img") || "");
     var url = encodeURIComponent($parent.getAttribute("data-url") || "");
     var via = encodeURIComponent($parent.getAttribute("data-via") || "");
-    var desc = encodeURIComponent($parent.getAttribute("data-desc") || " "); // tracking click events if google analytics enabled
+    var desc = encodeURIComponent($parent.getAttribute("data-desc") || " ");
 
+    // tracking click events if google analytics enabled
     var ga = window[window.GoogleAnalyticsObject || "ga"];
-
     if (typeof ga === "function") {
       ga("send", "event", "Social Share Button", "click", site);
     }
-
     if (url.length === 0) {
       url = encodeURIComponent(location.href);
     }
-
     switch (site) {
       case "email":
         location.href = "mailto:?subject=".concat(title, "&body=").concat(url);
         break;
-
       case "weibo":
         this.openUrl("http://service.weibo.com/share/share.php?url=".concat(url, "&type=3&pic=").concat(img, "&title=").concat(title, "&appkey=").concat(appkey), 620, 370);
         break;
-
       case "twitter":
         {
           var hashtags = encodeURIComponent(el.getAttribute("data-".concat(site, "-hashtags")) || $parent.getAttribute("data-hashtags") || "");
           var viaStr = "";
-
           if (via.length > 0) {
             viaStr = "&via=".concat(via);
           }
-
           this.openUrl("https://twitter.com/intent/tweet?url=".concat(url, "&text=").concat(title, "&hashtags=").concat(hashtags).concat(viaStr), 650, 300);
           break;
         }
-
       case "douban":
         this.openUrl("http://shuo.douban.com/!service/share?href=".concat(url, "&name=").concat(title, "&image=").concat(img, "&sel=").concat(desc), 770, 470);
         break;
-
       case "facebook":
         this.openUrl("http://www.facebook.com/sharer/sharer.php?u=".concat(url), 555, 400);
         break;
-
       case "qq":
         this.openUrl("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=".concat(url, "&title=").concat(title, "&pics=").concat(img, "&summary=").concat(desc, "&site=").concat(appkey));
         break;
-
       case "google_bookmark":
         this.openUrl("https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=".concat(url, "&title=").concat(title));
         break;
-
       case "delicious":
         this.openUrl("https://del.icio.us/save?url=".concat(url, "&title=").concat(title, "&jump=yes&pic=").concat(img));
         break;
-
       case "pinterest":
         this.openUrl("http://www.pinterest.com/pin/create/button/?url=".concat(url, "&media=").concat(img, "&description=").concat(title));
         break;
-
       case "linkedin":
         this.openUrl("https://www.linkedin.com/shareArticle?mini=true&url=".concat(url, "&title=").concat(title, "&summary=").concat(desc));
         break;
-
       case "xing":
         this.openUrl("https://www.xing.com/spi/shares/new?url=".concat(url));
         break;
-
       case "vkontakte":
         this.openUrl("http://vk.com/share.php?url=".concat(url, "&title=").concat(title, "&image=").concat(img));
         break;
-
       case "odnoklassniki":
         this.openUrl("https://connect.ok.ru/offer?url=".concat(url, "&title=").concat(title, "&description=").concat(desc, "&imageUrl=").concat(img));
         break;
-
       case "wechat":
         if (!window.SocialShareWeChatButton) {
           throw new Error("You should require social-share-button/wechat to your application.js");
         }
-
         window.SocialShareWeChatButton.qrcode({
           url: decodeURIComponent(url),
           header: el.getAttribute("title"),
           footer: el.getAttribute("data-wechat-footer")
         });
         break;
-
       case "tumblr":
         {
           var getTumblrExtra = function getTumblrExtra(param) {
             var cutomData = el.getAttribute("data-".concat(param));
-
             if (cutomData) {
               return encodeURIComponent(cutomData);
             }
           };
-
           var tumblrParams = function tumblrParams() {
             var path = getTumblrExtra("type") || "link";
-
             var params = function () {
               switch (path) {
                 case "text":
@@ -3058,24 +3092,19 @@ window.SocialShareButton = {
                     title = getTumblrExtra("title") || title;
                     return "title=".concat(title);
                   }
-
                 case "photo":
                   {
                     title = getTumblrExtra("caption") || title;
                     var source = getTumblrExtra("source") || img;
                     return "caption=".concat(title, "&source=").concat(source);
                   }
-
                 case "quote":
                   {
                     var quote = getTumblrExtra("quote") || title;
-
                     var _source = getTumblrExtra("source") || "";
-
                     return "quote=".concat(quote, "&source=").concat(_source);
                   }
                 // actually, it's a link clause
-
                 default:
                   {
                     title = getTumblrExtra("title") || title;
@@ -3084,38 +3113,30 @@ window.SocialShareButton = {
                   }
               }
             }();
-
             return "/".concat(path, "?").concat(params);
           };
-
           this.openUrl("http://www.tumblr.com/share".concat(tumblrParams()));
           break;
         }
-
       case "reddit":
         this.openUrl("http://www.reddit.com/submit?url=".concat(url, "&newwindow=1"), 555, 400);
         break;
-
       case "hacker_news":
         this.openUrl("http://news.ycombinator.com/submitlink?u=".concat(url, "&t=").concat(title), 770, 500);
         break;
-
       case "telegram":
         this.openUrl("https://telegram.me/share/url?text=".concat(title, "&url=").concat(url));
         break;
-
       case "whatsapp_app":
         {
           var whatsappAppUrl = "whatsapp://send?text=".concat(title, "%0A").concat(url);
           window.open(whatsappAppUrl, "_top");
           break;
         }
-
       case "whatsapp_web":
         this.openUrl("https://web.whatsapp.com/send?text=".concat(title, "%0A").concat(url));
         break;
     }
-
     return false;
   }
 };
@@ -3130,14 +3151,15 @@ window.SocialShareButton = {
 
 // This file is compiled inside Decidim core pack. Code can be added here and will be executed
 // as part of that pack
+
 // Load images
 __webpack_require__("./app/packs/images sync recursive ^\\.\\/.*$");
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.scss":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.scss":
 /*!*************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.scss ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.scss ***!
   \*************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -3148,9 +3170,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/avatar-multiuser.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/avatar-multiuser.png":
 /*!*******************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/avatar-multiuser.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/avatar-multiuser.png ***!
   \*******************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3159,9 +3181,9 @@ module.exports = __webpack_require__.p + "media/images/avatar-multiuser-67c042db
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/brands/google.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/brands/google.svg":
 /*!****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/brands/google.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/brands/google.svg ***!
   \****************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3170,9 +3192,9 @@ module.exports = __webpack_require__.p + "media/images/google-b8225d6a9b718fa174
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/cc-badge.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/cc-badge.png":
 /*!***********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/cc-badge.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/cc-badge.png ***!
   \***********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3181,9 +3203,9 @@ module.exports = __webpack_require__.p + "media/images/cc-badge-afa3eec02a18f532
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/decidim-logo.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/decidim-logo.svg":
 /*!***************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/decidim-logo.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/decidim-logo.svg ***!
   \***************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3192,9 +3214,9 @@ module.exports = __webpack_require__.p + "media/images/decidim-logo-318879ac2f9a
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/default-avatar.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/default-avatar.svg":
 /*!*****************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/default-avatar.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/default-avatar.svg ***!
   \*****************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3203,9 +3225,9 @@ module.exports = __webpack_require__.p + "media/images/default-avatar-aaa9e55bac
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg":
 /*!************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_followers.svg ***!
   \************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3214,9 +3236,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg":
 /*!**************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/gamification/badges/decidim_gamification_badges_invitations.svg ***!
   \**************************************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3225,9 +3247,9 @@ module.exports = __webpack_require__.p + "media/images/decidim_gamification_badg
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/icons.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/icons.svg":
 /*!********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/icons.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/icons.svg ***!
   \********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3236,9 +3258,9 @@ module.exports = __webpack_require__.p + "media/images/icons-c4fd0f43651700b0c76
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/pattern.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/pattern.png":
 /*!**********************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/pattern.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/pattern.png ***!
   \**********************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3247,9 +3269,9 @@ module.exports = __webpack_require__.p + "media/images/pattern-9e37fb0574a565bf2
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/placeholder.jpg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/placeholder.jpg":
 /*!**************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/placeholder.jpg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/placeholder.jpg ***!
   \**************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3258,9 +3280,9 @@ module.exports = __webpack_require__.p + "media/images/placeholder-61ceac35d772d
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers-2x.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers-2x.png":
 /*!***************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers-2x.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers-2x.png ***!
   \***************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3269,9 +3291,9 @@ module.exports = __webpack_require__.p + "media/images/layers-2x-8f2c4d11474275f
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers.png":
 /*!************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/layers.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/layers.png ***!
   \************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3280,9 +3302,9 @@ module.exports = __webpack_require__.p + "media/images/layers-416d91365b44e4b4f4
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png":
 /*!********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon-2x.png ***!
   \********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3291,9 +3313,9 @@ module.exports = __webpack_require__.p + "media/images/marker-icon-2x-680f69f3c2
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon.png":
 /*!*****************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-icon.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-icon.png ***!
   \*****************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3302,9 +3324,9 @@ module.exports = __webpack_require__.p + "media/images/marker-icon-2b3e1faf89f94
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-shadow.png":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-shadow.png":
 /*!*******************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/leaflet/marker-shadow.png ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/leaflet/marker-shadow.png ***!
   \*******************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3313,9 +3335,9 @@ module.exports = __webpack_require__.p + "media/images/marker-shadow-a0c6cc1401c
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/delicious.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/delicious.svg":
 /*!***************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/delicious.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/delicious.svg ***!
   \***************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3324,9 +3346,9 @@ module.exports = __webpack_require__.p + "media/images/delicious-645ddfaca5163af
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/douban.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/douban.svg":
 /*!************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/douban.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/douban.svg ***!
   \************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3335,9 +3357,9 @@ module.exports = __webpack_require__.p + "media/images/douban-59306a4ec1a7595eda
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/email.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/email.svg":
 /*!***********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/email.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/email.svg ***!
   \***********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3346,9 +3368,9 @@ module.exports = __webpack_require__.p + "media/images/email-d79a53d1d223015094d
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/facebook.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/facebook.svg":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/facebook.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/facebook.svg ***!
   \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3357,9 +3379,9 @@ module.exports = __webpack_require__.p + "media/images/facebook-0ada3788990cda55
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg":
 /*!*********************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_bookmark.svg ***!
   \*********************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3368,9 +3390,9 @@ module.exports = __webpack_require__.p + "media/images/google_bookmark-524f99e4f
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_plus.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_plus.svg":
 /*!*****************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/google_plus.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/google_plus.svg ***!
   \*****************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3379,9 +3401,9 @@ module.exports = __webpack_require__.p + "media/images/google_plus-4118815a76b76
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg":
 /*!*****************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/hacker_news.svg ***!
   \*****************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3390,9 +3412,9 @@ module.exports = __webpack_require__.p + "media/images/hacker_news-b117e036a0247
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/linkedin.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/linkedin.svg":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/linkedin.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/linkedin.svg ***!
   \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3401,9 +3423,9 @@ module.exports = __webpack_require__.p + "media/images/linkedin-96905a0a4097dc97
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg":
 /*!*******************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/odnoklassniki.svg ***!
   \*******************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3412,9 +3434,9 @@ module.exports = __webpack_require__.p + "media/images/odnoklassniki-cef3146ee2d
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/pinterest.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/pinterest.svg":
 /*!***************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/pinterest.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/pinterest.svg ***!
   \***************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3423,9 +3445,9 @@ module.exports = __webpack_require__.p + "media/images/pinterest-e1a7ea454b158f6
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/qq.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/qq.svg":
 /*!********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/qq.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/qq.svg ***!
   \********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3434,9 +3456,9 @@ module.exports = __webpack_require__.p + "media/images/qq-883b6ea8c69ef9ce093c.s
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/reddit.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/reddit.svg":
 /*!************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/reddit.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/reddit.svg ***!
   \************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3445,9 +3467,9 @@ module.exports = __webpack_require__.p + "media/images/reddit-f39b812702e7016a01
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/telegram.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/telegram.svg":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/telegram.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/telegram.svg ***!
   \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3456,9 +3478,9 @@ module.exports = __webpack_require__.p + "media/images/telegram-ca65ba180088505e
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/tumblr.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/tumblr.svg":
 /*!************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/tumblr.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/tumblr.svg ***!
   \************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3467,9 +3489,9 @@ module.exports = __webpack_require__.p + "media/images/tumblr-4d59e5b74838fa10b5
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/twitter.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/twitter.svg":
 /*!*************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/twitter.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/twitter.svg ***!
   \*************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3478,9 +3500,9 @@ module.exports = __webpack_require__.p + "media/images/twitter-ee390c342f9f90074
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg":
 /*!***************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/vkontakte.svg ***!
   \***************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3489,9 +3511,9 @@ module.exports = __webpack_require__.p + "media/images/vkontakte-e41f3b3192e8f0e
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/wechat.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/wechat.svg":
 /*!************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/wechat.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/wechat.svg ***!
   \************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3500,9 +3522,9 @@ module.exports = __webpack_require__.p + "media/images/wechat-28b576b3290e9cb551
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/weibo.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/weibo.svg":
 /*!***********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/weibo.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/weibo.svg ***!
   \***********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3511,9 +3533,9 @@ module.exports = __webpack_require__.p + "media/images/weibo-20a80f206cb23e64c55
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg":
 /*!**************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/whatsapp.svg ***!
   \**************************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3522,9 +3544,9 @@ module.exports = __webpack_require__.p + "media/images/whatsapp-8f3586f10ca30504
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/xing.svg":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/xing.svg":
 /*!**********************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/images/decidim/vendor/social-share-button/xing.svg ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/images/decidim/vendor/social-share-button/xing.svg ***!
   \**********************************************************************************************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -3726,7 +3748,7 @@ module.exports = __webpack_require__.p + "media/images/xing-dc9a2b2304a9d39eea11
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_jquery_dist_jquery-exposed_js","vendors-node_modules_bootstrap-tagsinput_dist_bootstrap-tagsinput_js-node_modules_core-js_mod-e2f942","vendors-node_modules_d3_index_js","vendors-node_modules_foundation-datepicker_js_locales_foundation-datepicker_ar_js-node_module-679306","vendors-node_modules_joeattardi_emoji-button_dist_index_js-node_modules_zeitiger_appendaround-3ddad2","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-core-0_26_2_app_packs_src_decidim_editor_js","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-core-0_26_2_app_packs_src_decidim_vendor_tr-fb39ec","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-core-0_26_2_app_packs_src_decidim_ajax_moda-025fc5"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-core-0.26.2/app/packs/entrypoints/decidim_core.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_rails_activestorage_app_assets_javascripts_activestorage_js-node_modules-03f302","vendors-node_modules_d3-array_src_index_js-node_modules_d3-collection_src_index_js-node_modul-f618e0","vendors-node_modules_tarekraafat_autocomplete_js_dist_autoComplete_min_js-node_modules_d3-axi-b5cfa0","vendors-node_modules_joeattardi_emoji-button_dist_index_js-node_modules_zeitiger_appendaround-4df22f","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_editor_js","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_autocomplete_js","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_configura-dbcbee","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-core-0_27_0_app_packs_src_decidim_ajax_moda-fb562f"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-core-0.27.0/app/packs/entrypoints/decidim_core.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

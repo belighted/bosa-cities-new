@@ -1,35 +1,35 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/entrypoints/decidim_term_customizer_admin.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/entrypoints/decidim_term_customizer_admin.js":
 /*!************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/entrypoints/decidim_term_customizer_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/entrypoints/decidim_term_customizer_admin.js ***!
   \************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_term_customizer_admin_multifield_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/term_customizer/admin/multifield/component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/multifield/component.js");
-/* harmony import */ var src_decidim_term_customizer_admin_constraint_fields__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/term_customizer/admin/constraint_fields */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/constraint_fields.js");
+/* harmony import */ var src_decidim_term_customizer_admin_multifield_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/term_customizer/admin/multifield/component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/multifield/component.js");
+/* harmony import */ var src_decidim_term_customizer_admin_constraint_fields__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/term_customizer/admin/constraint_fields */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/constraint_fields.js");
 /* harmony import */ var src_decidim_term_customizer_admin_constraint_fields__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(src_decidim_term_customizer_admin_constraint_fields__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var src_decidim_term_customizer_admin_translation_sets_admin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translation_sets_admin */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js");
+/* harmony import */ var src_decidim_term_customizer_admin_translation_sets_admin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translation_sets_admin */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js");
 /* harmony import */ var src_decidim_term_customizer_admin_translation_sets_admin__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(src_decidim_term_customizer_admin_translation_sets_admin__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var src_decidim_term_customizer_admin_translations_admin_bulk__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translations_admin_bulk */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js");
+/* harmony import */ var src_decidim_term_customizer_admin_translations_admin_bulk__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translations_admin_bulk */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js");
 /* harmony import */ var src_decidim_term_customizer_admin_translations_admin_bulk__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(src_decidim_term_customizer_admin_translations_admin_bulk__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var src_decidim_term_customizer_admin_translations_admin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translations_admin */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin.js");
+/* harmony import */ var src_decidim_term_customizer_admin_translations_admin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/decidim/term_customizer/admin/translations_admin */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin.js");
 /* harmony import */ var src_decidim_term_customizer_admin_translations_admin__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(src_decidim_term_customizer_admin_translations_admin__WEBPACK_IMPORTED_MODULE_4__);
 
- // import "app/packs/src/decidim/term_customizer/admin/multifield"
 
+// import "app/packs/src/decidim/term_customizer/admin/multifield"
 
 
 
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/constraint_fields.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/constraint_fields.js":
 /*!**********************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/constraint_fields.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/constraint_fields.js ***!
   \**********************************************************************************************************************************************************************************/
 /***/ (function() {
 
@@ -37,15 +37,13 @@ $(function () {
   var initConstraintFields = function initConstraintFields($section) {
     var $select = $("select.constraint-subject-selector", $section);
     var $modelSelect = $("select.constraint-subject-model-selector", $section);
-    $select.on("change init",
-    /* @this HTMLElement */
+    $select.on("change init", /* @this HTMLElement */
     function () {
       var val = $(this).val();
       $("[data-manifest]", $section).hide();
       $("[data-manifest=\"".concat(val, "\"]"), $section).show();
     }).trigger("init");
-    $modelSelect.on("change init",
-    /* @this HTMLElement */
+    $modelSelect.on("change init", /* @this HTMLElement */
     function () {
       var $container = $(this).parents(".manifest-container");
       var val = $(this).val();
@@ -53,7 +51,6 @@ $(function () {
       $("[data-components=\"".concat(val, "\"]"), $container).show();
     }).trigger("init");
   };
-
   $.fn.constraintSection = function () {
     $(this).each(
     /**
@@ -69,18 +66,18 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/multifield/component.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/multifield/component.js":
 /*!*************************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/multifield/component.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/multifield/component.js ***!
   \*************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var src_decidim_admin_auto_label_by_position_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/auto_label_by_position.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/auto_label_by_position.component.js");
-/* harmony import */ var src_decidim_admin_auto_buttons_by_position_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/admin/auto_buttons_by_position.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/auto_buttons_by_position.component.js");
-/* harmony import */ var src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/admin/dynamic_fields.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/dynamic_fields.component.js");
-/* harmony import */ var src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/admin/sort_list.component */ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/gems/decidim-admin-0.26.2/app/packs/src/decidim/admin/sort_list.component.js");
+/* harmony import */ var src_decidim_admin_auto_label_by_position_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/decidim/admin/auto_label_by_position.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/auto_label_by_position.component.js");
+/* harmony import */ var src_decidim_admin_auto_buttons_by_position_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/decidim/admin/auto_buttons_by_position.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/auto_buttons_by_position.component.js");
+/* harmony import */ var src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/decidim/admin/dynamic_fields.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/dynamic_fields.component.js");
+/* harmony import */ var src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/decidim/admin/sort_list.component */ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/gems/decidim-admin-0.27.0/app/packs/src/decidim/admin/sort_list.component.js");
 
 
 
@@ -102,7 +99,6 @@ $(function () {
       hideOnFirstSelector: ".move-up-field",
       hideOnLastSelector: ".move-down-field"
     });
-
     var createSortableList = function createSortableList() {
       (0,src_decidim_admin_sort_list_component__WEBPACK_IMPORTED_MODULE_3__["default"])("".concat(wrapperSelector, " .fields-list:not(.published)"), {
         handle: ".multifield-field-divider",
@@ -113,16 +109,13 @@ $(function () {
         }
       });
     };
-
     var hideDeletedSection = function hideDeletedSection($target) {
       var inputDeleted = $target.find("input[name$=\\[deleted\\]]").val();
-
       if (inputDeleted === "true") {
         $target.addClass("hidden");
         $target.hide();
       }
     };
-
     (0,src_decidim_admin_dynamic_fields_component__WEBPACK_IMPORTED_MODULE_2__["default"])({
       placeholderId: placeholderId,
       wrapperSelector: wrapperSelector,
@@ -159,7 +152,6 @@ $(function () {
     autoLabelByPosition.run();
     autoButtonsByPosition.run();
   };
-
   $.fn.multifield = function () {
     $(this).each(
     /**
@@ -169,12 +161,10 @@ $(function () {
     function () {
       var $elem = $(this);
       var id = $elem.attr("id");
-
       if (!id || id.length < 1) {
         id = "multifield-".concat(Math.random().toString(16).slice(2));
         $elem.attr("id", id);
       }
-
       initMultifield($elem);
     });
   };
@@ -182,17 +172,16 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js":
 /*!***************************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translation_sets_admin.js ***!
   \***************************************************************************************************************************************************************************************/
 /***/ (function() {
 
 $(function () {
   var $fields = $("form.translation-sets-form .multifield-fields");
   $fields.multifield();
-  $fields.on("add-field-section",
-  /* @this HTMLElement */
+  $fields.on("add-field-section", /* @this HTMLElement */
   function (ev, newField) {
     $(newField).constraintSection();
   });
@@ -203,9 +192,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin.js":
 /*!***********************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin.js ***!
   \***********************************************************************************************************************************************************************************/
 /***/ (function() {
 
@@ -218,13 +207,15 @@ $(function () {
   var selectedTerms = [];
   $search.on("keyup", function () {
     currentSearch = $search.val();
-  }); // Prevent accidental submit on the autocomplete field
+  });
 
+  // Prevent accidental submit on the autocomplete field
   $form.on("submit", function (ev) {
     return ev.preventDefault();
-  }); // jquery.autocomplete is calling this method which is apparently removed from
-  // newer jQuery versions.
+  });
 
+  // jquery.autocomplete is calling this method which is apparently removed from
+  // newer jQuery versions.
   $.isObject = $.isPlainObject; // eslint-disable-line id-length
 
   var customizeAutocomplete = function customizeAutocomplete(ac) {
@@ -237,16 +228,17 @@ $(function () {
     $acWrap.css({
       position: "relative"
     });
-    $acWrap.append($ac); // Move the element to correct position in the DOM to control its alignment
+    $acWrap.append($ac);
+
+    // Move the element to correct position in the DOM to control its alignment
     // better.
+    $search.after($acWrap);
 
-    $search.after($acWrap); // Do not set the top and left CSS attributes on the element
+    // Do not set the top and left CSS attributes on the element
+    ac.fixPosition = function () {};
 
-    ac.fixPosition = function () {}; // Hack the suggest method to exclude values that are already selected.
-
-
+    // Hack the suggest method to exclude values that are already selected.
     ac.origSuggest = ac.suggest;
-
     ac.suggest = function () {
       // Filter out the selected items from the list
       ac.suggestions = ac.suggestions.filter(function (val) {
@@ -256,24 +248,22 @@ $(function () {
         return !selectedTerms.includes(val.value);
       });
       return ac.origSuggest();
-    }; // Customize the onKeyPress to allow spaces because we do not want
+    };
+
+    // Customize the onKeyPress to allow spaces because we do not want
     // selection to happen on space press.
     //
     // Original code at: https://git.io/JzjAM
-
-
     ac.onKeyPress = function (ev) {
       if (ac.disabled || !ac.enabled) {
         return;
       }
-
       switch (ev.keyCode) {
         case 27:
           // ESC
           ac.el.val(ac.currentValue);
           ac.hide();
           break;
-
         case 9:
         case 13:
           // TAB or RETURN
@@ -285,18 +275,14 @@ $(function () {
           } else {
             ac.select(ac.selectedIndex);
           }
-
           if (ev.keyCode === 9) {
             return;
           }
-
           break;
-
         case 38:
           // UP
           ac.moveUp();
           break;
-
         case 40:
           // DOWN
           ac.moveDown();
@@ -309,19 +295,16 @@ $(function () {
         //   }
         //   ac.select(ac.selectedIndex);
         //   break;
-
         default:
           return;
       }
-
       ev.stopImmediatePropagation();
       ev.preventDefault();
     };
-
     return ac;
-  }; // Customized methods for the autocomplete to add our hacks
+  };
 
-
+  // Customized methods for the autocomplete to add our hacks
   $.fn.tcAutocomplete = function (options) {
     $(this).each(function (_i, el) {
       var $el = $(el);
@@ -329,7 +312,6 @@ $(function () {
       $el.data("autocomplete", ac);
     });
   };
-
   $search.tcAutocomplete({
     width: "100%",
     minChars: 2,
@@ -347,19 +329,22 @@ $(function () {
     },
     onSelect: function onSelect(suggestion, itemData) {
       var modelId = itemData.data;
-      var title = itemData.value; // Mark the term as selected
+      var title = itemData.value;
 
+      // Mark the term as selected
       selectedTerms.push(suggestion);
       var template = $template.html();
       template = template.replace(new RegExp("{{translation_key}}", "g"), modelId);
       template = template.replace(new RegExp("{{translation_term}}", "g"), title);
       var $newRow = $(template);
       $("table tbody", $results).append($newRow);
-      $results.removeClass("hide"); // Add it to the autocomplete form
+      $results.removeClass("hide");
 
+      // Add it to the autocomplete form
       var $field = $("<input type=\"hidden\" name=\"keys[]\" value=\"".concat(modelId, "\">"));
-      $form.append($field); // Listen to the click event on the remove button
+      $form.append($field);
 
+      // Listen to the click event on the remove button
       $(".remove-translation-key", $newRow).on("click", function (ev) {
         ev.preventDefault();
         $newRow.remove();
@@ -367,7 +352,6 @@ $(function () {
         selectedTerms = selectedTerms.filter(function (val) {
           return val !== suggestion;
         });
-
         if ($("table tbody tr", $results).length < 1) {
           $results.addClass("hide");
         }
@@ -382,9 +366,9 @@ $(function () {
 
 /***/ }),
 
-/***/ "../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js":
+/***/ "../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js":
 /*!****************************************************************************************************************************************************************************************!*\
-  !*** ../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js ***!
+  !*** ../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/src/decidim/term_customizer/admin/translations_admin_bulk.js ***!
   \****************************************************************************************************************************************************************************************/
 /***/ (function() {
 
@@ -393,7 +377,6 @@ $(document).ready(function () {
   var selectedTranslationsCount = function selectedTranslationsCount() {
     return $(".table-list .js-check-all-translation:checked").length;
   };
-
   window.selectedTranslationsCountUpdate = function () {
     if (selectedTranslationsCount() === 0) {
       $("#js-selected-translation-count").text("");
@@ -401,41 +384,33 @@ $(document).ready(function () {
       $("#js-selected-translation-count").text(selectedTranslationsCount());
     }
   };
-
   var showBulkActionsButton = function showBulkActionsButton() {
     if (selectedTranslationsCount() > 0) {
       $("#js-bulk-actions-button").removeClass("hide");
     }
   };
-
   var hideBulkActionsButton = function hideBulkActionsButton() {
     var force = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
     if (selectedTranslationsCount() === 0 || force === true) {
       $("#js-bulk-actions-button").addClass("hide");
       $("#js-bulk-actions-dropdown").removeClass("is-open");
     }
   };
-
   window.showOtherActionsButtons = function () {
     $("#js-other-actions-wrapper").removeClass("hide");
   };
-
   var hideOtherActionsButtons = function hideOtherActionsButtons() {
     $("#js-other-actions-wrapper").addClass("hide");
   };
-
   window.hideBulkActionForms = function () {
     return $(".js-bulk-action-form").addClass("hide");
   };
-
   if ($(".js-bulk-action-form").length) {
     window.hideBulkActionForms();
     $("#js-bulk-actions-button").addClass("hide");
     $("#js-bulk-actions-dropdown ul li button").click(function (ev) {
       ev.preventDefault();
       var action = $(ev.target).data("action");
-
       if (action) {
         $("#js-form-".concat(action)).submit(function () {
           $(".layout-content > .callout-wrapper").html("");
@@ -444,11 +419,11 @@ $(document).ready(function () {
         hideBulkActionsButton(true);
         hideOtherActionsButtons();
       }
-    }); // select all checkboxes
+    });
 
+    // select all checkboxes
     $(".js-check-all").change(function () {
       $(".js-check-all-translation").prop("checked", $(this).prop("checked"));
-
       if ($(this).prop("checked")) {
         $(".js-check-all-translation").closest("tr").addClass("selected");
         showBulkActionsButton();
@@ -456,24 +431,23 @@ $(document).ready(function () {
         $(".js-check-all-translation").closest("tr").removeClass("selected");
         hideBulkActionsButton();
       }
-
       window.selectedTranslationsCountUpdate();
-    }); // translation checkbox change
+    });
 
+    // translation checkbox change
     $(".table-list").on("change", ".js-check-all-translation", function () {
       var translationId = $(this).val();
-      var checked = $(this).prop("checked"); // uncheck "select all", if one of the listed checkbox item is unchecked
+      var checked = $(this).prop("checked");
 
+      // uncheck "select all", if one of the listed checkbox item is unchecked
       if ($(this).prop("checked") === false) {
         $(".js-check-all").prop("checked", false);
-      } // check "select all" if all checkbox translations are checked
-
-
+      }
+      // check "select all" if all checkbox translations are checked
       if ($(".js-check-all-translation:checked").length === $(".js-check-all-translation").length) {
         $(".js-check-all").prop("checked", true);
         showBulkActionsButton();
       }
-
       if ($(this).prop("checked")) {
         showBulkActionsButton();
         $(this).closest("tr").addClass("selected");
@@ -481,11 +455,9 @@ $(document).ready(function () {
         hideBulkActionsButton();
         $(this).closest("tr").removeClass("selected");
       }
-
       if ($(".js-check-all-translation:checked").length === 0) {
         hideBulkActionsButton();
       }
-
       $(".js-bulk-action-form").find(".js-translation-id-".concat(translationId)).prop("checked", checked);
       window.selectedTranslationCountUpdate();
     });
@@ -663,7 +635,7 @@ $(document).ready(function () {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_html5sortable_dist_html5sortable_es_js","_rvm_gems_ruby-2_7_5_bosa-cities-new_gems_decidim-admin-0_26_2_app_packs_src_decidim_admin_au-b0aa54"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-2.7.5@bosa-cities-new/bundler/gems/decidim-module-term_customizer-9540a2ab20b8/app/packs/entrypoints/decidim_term_customizer_admin.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_html5sortable_dist_html5sortable_es_js","_rvm_gems_ruby-3_0_2_bosa-cities-new_gems_decidim-admin-0_27_0_app_packs_src_decidim_admin_au-f709d2"], function() { return __webpack_require__("../../../../.rvm/gems/ruby-3.0.2@bosa-cities-new/bundler/gems/decidim-module-term_customizer-b90885ad9419/app/packs/entrypoints/decidim_term_customizer_admin.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
