@@ -30,4 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  decidim:
+    authorization_handlers:
+      participant_impersonation_handler:
+        name: Participants impersonations authorization
+        explanation: Auth handler for participants impersonations
