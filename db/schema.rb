@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_10_094318) do
+ActiveRecord::Schema.define(version: 2022_10_20_123232) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -993,6 +993,8 @@ ActiveRecord::Schema.define(version: 2022_10_10_094318) do
     t.string "machine_translation_display_priority", default: "original", null: false
     t.string "external_domain_whitelist", default: [], array: true
     t.boolean "enable_participatory_space_filters", default: true
+    t.string "basic_auth_username"
+    t.string "basic_auth_password"
     t.index ["host"], name: "index_decidim_organizations_on_host", unique: true
     t.index ["name"], name: "index_decidim_organizations_on_name", unique: true
   end
