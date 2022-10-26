@@ -30,6 +30,7 @@
 node_modules/
 
 # Ignore precompiled javascript packs
+/public/decidim-packs
 /public/packs
 /public/packs-test
 /public/assets
