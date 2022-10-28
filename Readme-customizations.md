@@ -1,7 +1,7 @@
 # List of configurations
 
 ## Modules
-#### Term Customizer Module
+
 ```
 gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer'
 ```
@@ -11,26 +11,31 @@ gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-te
 - Enable participants impersonations authorization
 
 ## Settings in app
-##### Activate HTML snippets in header
-Set ENV variable `DECIDIM_ENABLE_HTML_HEADER_SNIPPETS=true`
-
-##### Auth handler for participants impersonations (Managed participants)
-[PR](https://github.com/belighted/bosa-cities-new/pull/8)
-
-##### Configure active storage to use minio in production env
-[Commit](https://github.com/belighted/bosa-cities-new/commit/dac40c0c01117e5ece62039c396a71435312839f)
-
-Set ENV variable `STORAGE_PROVIDER=minio`
-
-If not set, by default it also falls back to `:minio` in production environment (`config/environments/production.rb`):
+- Activate HTML snippets in header - set ENV variable `DECIDIM_ENABLE_HTML_HEADER_SNIPPETS=true`
+- Auth handler for participants impersonations (Managed participants) - [PR](https://github.com/belighted/bosa-cities-new/pull/8)
+- Configure active storage to use minio in production env:
+  - [Commit](https://github.com/belighted/bosa-cities-new/commit/dac40c0c01117e5ece62039c396a71435312839f)
+  - Set ENV variable `STORAGE_PROVIDER=minio`
+  - If not set, by default it also falls back to `:minio` in production environment (`config/environments/production.rb`):
 ```
 config.active_storage.service = Rails.application.secrets.dig(:storage, :provider) || :minio
 ```
+- 
 
 ---
 
 # List of customizations
 
-Basic auth: 
-App level basic auth - [commit](https://github.com/belighted/bosa-cities-new/commit/0008810e75a0ef972e773b4745b81a12ec50468e)
-Org level basic auth - [PR](https://github.com/belighted/bosa-cities-new/pull/10)
+### Additional functionalities
+- App level basic auth - [commit](https://github.com/belighted/bosa-cities-new/commit/0008810e75a0ef972e773b4745b81a12ec50468e)
+- Org level basic auth - [PR](https://github.com/belighted/bosa-cities-new/pull/10)
+
+### Bugfixes
+###### Temporary fixes (to remove after it is fixed in decidim)
+- Fix participatory processes counter shows wrong amount of processes - [PR](https://github.com/belighted/bosa-cities-new/pull/13)
+- Video doesn't appear in font end (sanitizers usage):
+  - [PR](https://github.com/belighted/bosa-cities-new/pull/11)
+  - [PR to decidim](https://github.com/decidim/decidim/pull/10007)
+###### Fixed locally that won't be applied in decidim
+- None
+
