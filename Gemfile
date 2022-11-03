@@ -54,3 +54,5 @@ end
 group :production do
   gem "aws-sdk-s3", require: false
 end
+
+gem "logtail-rails", "~> 0.1.7"
