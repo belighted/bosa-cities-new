@@ -10,6 +10,12 @@ gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-te
 - Set SMTP credentials
 - Enable participants impersonations authorization
 
+## UAT only
+- Given we're using Mailtrap on UAT and that smtp_authentication is not configurable in system panel:
+```
+SMTP_AUTHENTICATION = cram_md5
+```
+
 ## Settings in app and configurations
 - Activate HTML snippets in header - set ENV variable `DECIDIM_ENABLE_HTML_HEADER_SNIPPETS=true`
 - Auth handler for participants impersonations (Managed participants) - [PR](https://github.com/belighted/bosa-cities-new/pull/8)
