@@ -3,14 +3,17 @@
 source "https://rubygems.org"
 
 ruby RUBY_VERSION
+DECIDIM_GIT = "https://github.com/decidim/decidim"
+DECIDIM_BRANCH = "release/0.27-stable"
 DECIDIM_VERSION = "0.27.0"
 
-gem "decidim", DECIDIM_VERSION
-# gem "decidim-conferences", DECIDIM_VERSION
-# gem "decidim-consultations", DECIDIM_VERSION
-# gem "decidim-elections", DECIDIM_VERSION
-# gem "decidim-initiatives", DECIDIM_VERSION
-# gem "decidim-templates", DECIDIM_VERSION
+gem "decidim", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+
+# gem "decidim-conferences", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+# gem "decidim-consultations", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+# gem "decidim-elections", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+# gem "decidim-initiatives", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+# gem "decidim-templates", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 
 gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: 'develop'
 
@@ -40,7 +43,7 @@ group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "brakeman"
-  gem "decidim-dev", DECIDIM_VERSION
+  gem "decidim-dev", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 end
 
 group :development do

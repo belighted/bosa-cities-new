@@ -52,3 +52,6 @@ public/uploads
 # Ignore service worker files
 public/sw.js
 public/sw.js.map
+
+# Tests
+.rspec-failures
