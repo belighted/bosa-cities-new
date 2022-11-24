@@ -42,8 +42,13 @@ gem "sentry-sidekiq"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "brakeman"
   gem "decidim-dev", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
+
+  gem "brakeman", "~> 5.2"
+  gem "net-imap", "~> 0.2.3"
+  gem "net-pop", "~> 0.1.1"
+  gem "net-smtp", "~> 0.3.1"
+  gem "parallel_tests", "~> 3.7"
 end
 
 group :development do
