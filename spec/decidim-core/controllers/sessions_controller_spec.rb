@@ -35,7 +35,7 @@ module Decidim
               context "when there is participant_impersonation_handler" do
                 before do
                   allow(user.organization).to receive(:available_authorizations)
-                                                .and_return(["participant_impersonation_handler"])
+                    .and_return(["participant_impersonation_handler"])
                 end
 
                 it { is_expected.to eq("/") } # should skip visiting `/authorizations/first_login`

@@ -1,7 +1,9 @@
-require 'sidekiq/web'
-require 'sidekiq-scheduler/web'
+# frozen_string_literal: true
 
-REDIS_URL = ENV.fetch('REDIS_URL') { 'redis://localhost:6379/1' }
+require "sidekiq/web"
+require "sidekiq-scheduler/web"
+
+REDIS_URL = ENV.fetch("REDIS_URL", "redis://localhost:6379/1")
 
 Sidekiq.configure_server do |config|
   config.redis = { url: REDIS_URL }

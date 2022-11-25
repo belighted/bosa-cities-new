@@ -15,7 +15,7 @@ gem "decidim", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 # gem "decidim-initiatives", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 # gem "decidim-templates", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 
-gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: 'develop'
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
 
 gem "bootsnap", "~> 1.3"
 
@@ -35,8 +35,8 @@ gem "sidekiq-scheduler"
 ## Debugging and Monitoring
 gem "appsignal"
 gem "pry-rails"
-gem "sentry-ruby"
 gem "sentry-rails"
+gem "sentry-ruby"
 gem "sentry-sidekiq"
 
 group :development, :test do

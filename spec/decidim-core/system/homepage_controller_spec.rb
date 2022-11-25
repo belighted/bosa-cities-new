@@ -5,8 +5,8 @@ require "spec_helper"
 module Decidim
   describe HomepageController, type: :system do
     let(:organization) { create(:organization) }
-    let(:basic_auth_username) { 'username' }
-    let(:basic_auth_password) { 'password' }
+    let(:basic_auth_username) { "username" }
+    let(:basic_auth_password) { "password" }
 
     before do
       switch_to_host(organization.host)
@@ -15,7 +15,7 @@ module Decidim
 
     describe "basic auth" do
       context "when not set" do
-        it { expect(page).to have_content(organization.name)}
+        it { expect(page).to have_content(organization.name) }
       end
 
       context "when set in ENV variables" do
@@ -34,7 +34,7 @@ module Decidim
         end
 
         context "when providing invalid credentials" do
-          before { visit_with_basic_auth(current_url, 'wrong_username', 'wrong_password') }
+          before { visit_with_basic_auth(current_url, "wrong_username", "wrong_password") }
 
           it { expect(page).to have_content("HTTP Basic: Access denied.") }
         end
@@ -46,18 +46,20 @@ module Decidim
         end
 
         context "and when set in organization as well" do
-          let(:org_basic_auth_username) { 'org_username' }
-          let(:org_basic_auth_password) { 'org_password' }
-          let(:organization) { create(:organization,
-                                      basic_auth_username: org_basic_auth_username,
-                                      basic_auth_password: org_basic_auth_password) }
+          let(:org_basic_auth_username) { "org_username" }
+          let(:org_basic_auth_password) { "org_password" }
+          let(:organization) do
+            create(:organization,
+                   basic_auth_username: org_basic_auth_username,
+                   basic_auth_password: org_basic_auth_password)
+          end
 
           context "when not providing any credentials" do
             it { expect(page).to have_content("HTTP Basic: Access denied.") }
           end
 
           context "when providing invalid credentials" do
-            before { visit_with_basic_auth(current_url, 'wrong_username', 'wrong_password') }
+            before { visit_with_basic_auth(current_url, "wrong_username", "wrong_password") }
 
             it { expect(page).to have_content("HTTP Basic: Access denied.") }
           end
@@ -77,16 +79,18 @@ module Decidim
       end
 
       context "when set in organization" do
-        let(:organization) { create(:organization,
-                                    basic_auth_username: basic_auth_username,
-                                    basic_auth_password: basic_auth_password) }
+        let(:organization) do
+          create(:organization,
+                 basic_auth_username: basic_auth_username,
+                 basic_auth_password: basic_auth_password)
+        end
 
         context "when not providing any credentials" do
           it { expect(page).to have_content("HTTP Basic: Access denied.") }
         end
 
         context "when providing invalid credentials" do
-          before { visit_with_basic_auth(current_url, 'wrong_username', 'wrong_password') }
+          before { visit_with_basic_auth(current_url, "wrong_username", "wrong_password") }
 
           it { expect(page).to have_content("HTTP Basic: Access denied.") }
         end
