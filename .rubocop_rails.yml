@@ -1,0 +1,119 @@
+require: rubocop-rails
+
+Rails:
+  Enabled: true
+  Exclude:
+    - decidim-*/lib/**/*.rake
+    - lib/extends/decidim-*/lib/**/*.rake
+
+Rails/ActionFilter:
+  Include:
+    - decidim-*/app/controllers/**/*.rb
+    - lib/extends/decidim-*/app/controllers/**/*.rb
+
+Rails/ContentTag:
+  Enabled: false
+
+Rails/CreateTableWithTimestamps:
+  Enabled: false
+
+Rails/EnumUniqueness:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/Exit:
+  Include:
+    - decidim-*/app/**/*.rb
+    - lib/extends/decidim-*/app/**/*.rb
+    - decidim-*/config/**/*.rb
+    - lib/extends/decidim-*/config/**/*.rb
+    - decidim-*/lib/**/*.rb
+    - lib/extends/decidim-*/lib/**/*.rb
+  Exclude:
+    - decidim-*/lib/**/*.rake
+    - lib/extends/decidim-*/lib/**/*.rake
+
+Rails/FindBy:
+  Include:
+    - "**/*.rb"
+
+Rails/FindEach:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/HasAndBelongsToMany:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/HasManyOrHasOneDependent:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/InverseOf:
+  Enabled: false
+
+Rails/LexicallyScopedActionFilter:
+  Include:
+    - decidim-*/app/controllers/**/*.rb
+    - lib/extends/decidim-*/app/controllers/**/*.rb
+
+Rails/NotNullColumn:
+  Enabled: false
+
+Rails/Output:
+  Include:
+    - decidim-*/app/**/*.rb
+    - lib/extends/decidim-*/app/**/*.rb
+    - decidim-*/config/**/*.rb
+    - lib/extends/decidim-*/config/**/*.rb
+    - decidim-*/db/**/*.rb
+    - lib/extends/decidim-*/db/**/*.rb
+    - decidim-*/lib/**/*.rb
+    - lib/extends/decidim-*/lib/**/*.rb
+  Exclude:
+    - decidim-core/db/seeds.rb
+    - lib/extends/decidim-core/db/seeds.rb
+    - decidim-core/lib/decidim/core.rb
+    - lib/extends/decidim-core/lib/decidim/core.rb
+    - decidim-core/lib/decidim/component_manifest.rb
+    - lib/extends/decidim-core/lib/decidim/component_manifest.rb
+    - decidim-core/lib/decidim/participatory_space_manifest.rb
+    - lib/extends/decidim-core/lib/decidim/participatory_space_manifest.rb
+    - decidim-system/db/seeds.rb
+    - lib/extends/decidim-system/db/seeds.rb
+    - decidim-templates/db/seeds.rb
+    - lib/extends/decidim-templates/db/seeds.rb
+
+Rails/OutputSafety:
+  Enabled: false
+
+Rails/Pluck:
+  Enabled: false
+
+Rails/RakeEnvironment:
+  Enabled: false
+
+Rails/ReadWriteAttribute:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/ReversibleMigration:
+  Enabled: false
+
+Rails/ScopeArgs:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
+
+Rails/SkipsModelValidations:
+  Enabled: true
+
+Rails/Validation:
+  Include:
+    - decidim-*/app/models/**/*.rb
+    - lib/extends/decidim-*/app/models/**/*.rb
