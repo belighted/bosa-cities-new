@@ -6,7 +6,6 @@ module ParticipatoryProcessesProcessFiltersCellExtend
   extend ActiveSupport::Concern
 
   included do
-
     def filtered_processes(date_filter, filter_with_type: true)
       query = Decidim::ParticipatoryProcess.ransack(
         {
@@ -20,8 +19,7 @@ module ParticipatoryProcessesProcessFiltersCellExtend
 
       query.published.visible_for(current_user)
     end
-
   end
 end
 
-Decidim::ParticipatoryProcesses::ProcessFiltersCell.send(:include, ParticipatoryProcessesProcessFiltersCellExtend)
+Decidim::ParticipatoryProcesses::ProcessFiltersCell.include ParticipatoryProcessesProcessFiltersCellExtend

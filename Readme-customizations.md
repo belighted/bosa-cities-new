@@ -45,9 +45,6 @@ config.maximum_attempts = 5
 ### Bugfixes
 ###### Temporary fixes (to remove after it is fixed in decidim)
 - Fix participatory processes counter shows wrong amount of processes - [PR](https://github.com/belighted/bosa-cities-new/pull/13)
-- Video doesn't appear in font end (sanitizers usage):
-  - [PR](https://github.com/belighted/bosa-cities-new/pull/11)
-  - [PR to decidim](https://github.com/decidim/decidim/pull/10007)
 ###### Fixed locally that won't be applied in decidim
 - None
 

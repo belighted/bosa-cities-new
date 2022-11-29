@@ -6,7 +6,6 @@ module SystemUpdateOrganizationExtend
   extend ActiveSupport::Concern
 
   included do
-
     private
 
     def save_organization
@@ -24,8 +23,7 @@ module SystemUpdateOrganizationExtend
 
       organization.save!
     end
-
   end
 end
 
-Decidim::System::UpdateOrganization.send(:include, SystemUpdateOrganizationExtend)
+Decidim::System::UpdateOrganization.include SystemUpdateOrganizationExtend

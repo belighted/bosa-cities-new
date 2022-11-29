@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module BasicAuthConcern
   extend ActiveSupport::Concern
 
@@ -24,5 +26,4 @@ module BasicAuthConcern
   def current_organization_basic_auth_enabled?
     current_organization&.basic_auth_username.present? || current_organization&.basic_auth_password.present?
   end
-
 end
