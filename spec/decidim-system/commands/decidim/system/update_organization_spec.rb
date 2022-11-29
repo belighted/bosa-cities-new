@@ -14,8 +14,8 @@ module Decidim
         end
         let(:organization) { create :organization, name: "My organization" }
         let(:command) { described_class.new(organization.id, form) }
-        let(:basic_auth_username) { 'username' }
-        let(:basic_auth_password) { 'password' }
+        let(:basic_auth_username) { "username" }
+        let(:basic_auth_password) { "password" }
 
         context "when the form is valid and has basic auth params" do
           let(:params) do
@@ -43,7 +43,6 @@ module Decidim
             expect(organization.basic_auth_username).to eq(basic_auth_username)
             expect(organization.basic_auth_password).to eq(basic_auth_password)
           end
-
         end
 
         private

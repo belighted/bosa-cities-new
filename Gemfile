@@ -15,7 +15,7 @@ gem "decidim", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 # gem "decidim-initiatives", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 # gem "decidim-templates", git: DECIDIM_GIT, branch: DECIDIM_BRANCH
 
-gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: 'develop'
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
 
 gem "bootsnap", "~> 1.3"
 
@@ -35,8 +35,8 @@ gem "sidekiq-scheduler"
 ## Debugging and Monitoring
 gem "appsignal"
 gem "pry-rails"
-gem "sentry-ruby"
 gem "sentry-rails"
+gem "sentry-ruby"
 gem "sentry-sidekiq"
 
 group :development, :test do
@@ -54,6 +54,7 @@ end
 group :development do
   gem "letter_opener_web", "~> 2.0"
   gem "listen", "~> 3.1"
+  gem "rubocop-faker"
   gem "spring", "~> 2.0"
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 4.2"

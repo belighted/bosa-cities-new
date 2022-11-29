@@ -52,8 +52,8 @@ jobs:
       - run: bundle exec brakeman --rails6 --force-scan .
         name: Scanning Security issues
         shell: "bash"
-#      - run: bundle exec rubocop -P
-#        name: Lint Ruby files
+      - run: bundle exec rubocop -P
+        name: Lint Ruby files
 #      - run: npm run lint
 #        name: Lint JS files
 #      - run: npm run stylelint
