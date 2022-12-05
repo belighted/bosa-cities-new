@@ -29,7 +29,7 @@ gem "wicked_pdf", "~> 2.1"
 gem "dotenv-rails"
 
 ## Sidekiq
-gem "sidekiq"
+gem "sidekiq", "<7"
 gem "sidekiq-scheduler"
 
 ## Debugging and Monitoring

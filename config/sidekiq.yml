@@ -17,3 +17,6 @@
   PreloadOpenData:
     cron: '0 17 * * *'
     class: PreloadOpenDataJob
+  DeleteInactiveUsers:
+    cron: '0 1 * * *'
+    class: DeleteInactiveUsersJob

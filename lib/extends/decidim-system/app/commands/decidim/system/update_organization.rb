@@ -20,6 +20,7 @@ module SystemUpdateOrganizationExtend
       organization.omniauth_settings = form.encrypted_omniauth_settings
       organization.smtp_settings = form.encrypted_smtp_settings
       organization.file_upload_settings = form.file_upload_settings.final
+      organization.users_auto_deletion_settings = form.users_auto_deletion_settings
 
       organization.save!
     end

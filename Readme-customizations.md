@@ -41,6 +41,8 @@ config.maximum_attempts = 5
 ### Additional functionalities
 - App level basic auth - [commit](https://github.com/belighted/bosa-cities-new/commit/0008810e75a0ef972e773b4745b81a12ec50468e)
 - Org level basic auth - [PR](https://github.com/belighted/bosa-cities-new/pull/10)
+- Automatically delete user account when not used for a certain period of time (data retention) - [PR](https://github.com/belighted/bosa-cities-new/pull/15)
+
 
 ### Bugfixes
 ###### Temporary fixes (to remove after it is fixed in decidim)
