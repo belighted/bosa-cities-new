@@ -1,0 +1,12 @@
+nl:
+  decidim:
+    events:
+      users:
+        user_marked_for_auto_deletion:
+          email_intro: Uw account wordt verwijderd op %{date}.
+          email_outro: Log opnieuw in om te voorkomen dat uw account automatisch wordt verwijderd - %{sign_in_url}.
+          email_subject: Uw account wordt verwijderd op %{date}.
+        user_auto_deleted:
+          email_intro: Uw account is verwijderd.
+          email_outro: Uw account is verwijderd.
+          email_subject: Uw account is verwijderd.

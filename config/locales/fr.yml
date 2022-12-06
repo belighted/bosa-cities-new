@@ -1,0 +1,12 @@
+fr:
+  decidim:
+    events:
+      users:
+        user_marked_for_auto_deletion:
+          email_intro: Votre compte sera supprimé le %{date}.
+          email_outro: Veuillez vous reconnecter pour empêcher la suppression automatique de votre compte - %{sign_in_url}.
+          email_subject: Votre compte sera supprimé le %{date}.
+        user_auto_deleted:
+          email_intro: Votre compte a été supprimé.
+          email_outro: Votre compte a été supprimé.
+          email_subject: Votre compte a été supprimé.

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_20_123232) do
+ActiveRecord::Schema.define(version: 2022_11_29_160156) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -995,6 +995,7 @@ ActiveRecord::Schema.define(version: 2022_10_20_123232) do
     t.boolean "enable_participatory_space_filters", default: true
     t.string "basic_auth_username"
     t.string "basic_auth_password"
+    t.jsonb "users_auto_deletion_settings"
     t.index ["host"], name: "index_decidim_organizations_on_host", unique: true
     t.index ["name"], name: "index_decidim_organizations_on_name", unique: true
   end
@@ -1577,6 +1578,7 @@ ActiveRecord::Schema.define(version: 2022_10_20_123232) do
     t.datetime "digest_sent_at"
     t.datetime "password_updated_at"
     t.string "previous_passwords", default: [], array: true
+    t.date "marked_for_auto_deletion_at"
     t.index ["confirmation_token"], name: "index_decidim_users_on_confirmation_token", unique: true
     t.index ["decidim_organization_id"], name: "index_decidim_users_on_decidim_organization_id"
     t.index ["email", "decidim_organization_id"], name: "index_decidim_users_on_email_and_decidim_organization_id", unique: true, where: "((deleted_at IS NULL) AND (managed = false) AND ((type)::text = 'Decidim::User'::text))"

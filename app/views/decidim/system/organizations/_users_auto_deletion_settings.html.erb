@@ -1,0 +1,36 @@
+<div class="fieldset">
+  <h4><%= t("decidim.system.models.organization.fields.users_auto_deletion_settings") %></h4>
+  <%= f.fields_for :users_auto_deletion_settings do %>
+    <div class="field">
+      <%= f.check_box :enabled %>
+      <p class="help-text"><%= t(".instructions.enabled") %></p>
+    </div>
+    <fieldset class="fieldset">
+      <legend><%= t(".fieldsets.mark_for_deletion_after") %></legend>
+      <p class="help-text"><%= t(".instructions.mark_for_deletion_after") %></p>
+      <%= f.number_field :mark_for_deletion_after, { label: t(".fields.mark_for_deletion_after") } %>
+      <%= f.select :mark_for_deletion_after_unit,
+                   Decidim::System::UpdateOrganizationForm::USERS_AUTO_DELETION_UNITS.map { |unit| [t(".units.#{unit}"), unit] },
+                   { include_blank: false, label: false },
+                   { multiple: false } %>
+      <div class="field">
+        <%= f.check_box :send_email_on_mark_for_deletion %>
+      </div>
+    </fieldset>
+    <fieldset class="fieldset">
+      <legend><%= t(".fieldsets.delete_marked_after") %></legend>
+      <p class="help-text"><%= t(".instructions.delete_marked_after") %></p>
+      <%= f.number_field :delete_marked_after, { label: t(".fields.delete_marked_after") } %>
+      <%= f.select :delete_marked_after_unit,
+                   Decidim::System::UpdateOrganizationForm::USERS_AUTO_DELETION_UNITS.map { |unit| [t(".units.#{unit}"), unit] },
+                   { include_blank: false, label: false },
+                   { multiple: false } %>
+      <div class="field">
+        <%= f.check_box :delete_admin_users %>
+      </div>
+      <div class="field">
+        <%= f.check_box :send_email_on_deletion %>
+      </div>
+    </fieldset>
+  <% end %>
+</div>
