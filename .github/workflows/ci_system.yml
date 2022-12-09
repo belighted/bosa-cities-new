@@ -9,8 +9,6 @@ on:
   pull_request:
     branches-ignore:
       - "chore/l10n*"
-    paths:
-      - "*"
 
 env:
   CI: "true"
