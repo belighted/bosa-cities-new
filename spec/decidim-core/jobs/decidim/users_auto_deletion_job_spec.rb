@@ -29,13 +29,6 @@ describe Decidim::UsersAutoDeletionJob do
   let(:send_email_on_mark_for_deletion) { true }
   let(:send_email_on_deletion) { true }
 
-  let(:mailer) { double(deliver_later: true) }
-
-  before do
-    clear_enqueued_jobs
-    allow(Decidim::NotificationMailer).to receive(:event_received).and_return(mailer)
-  end
-
   describe "queue" do
     it "is queued to events" do
       expect(subject.queue_name).to eq "default"
@@ -43,6 +36,11 @@ describe Decidim::UsersAutoDeletionJob do
   end
 
   describe "perform" do
+    before do
+      allow(Decidim::NotificationMailer).to receive(:event_received).and_return(mailer)
+    end
+
+    let(:mailer) { double(deliver_later: true, deliver_now: true) }
     let(:mark_date) { Time.zone.today - mark_for_deletion_after.send(mark_for_deletion_after_unit) }
     let(:delete_date) { Time.zone.today - mark_date - delete_marked_after.send(delete_marked_after_unit) }
     let!(:active_user) { create(:user, :confirmed, organization: organization, last_sign_in_at: mark_date) }
@@ -248,6 +246,40 @@ describe Decidim::UsersAutoDeletionJob do
     end
   end
 
+  describe "#perform should send an email" do
+    let(:mark_date) { Time.zone.today - mark_for_deletion_after.send(mark_for_deletion_after_unit) }
+    let(:delete_date) { Time.zone.today - mark_date - delete_marked_after.send(delete_marked_after_unit) }
+
+    context "when marks user" do
+      let!(:inactive_user) { create(:user, :confirmed, organization: organization, last_sign_in_at: mark_date - 1.day) }
+
+      it "schedule `user_marked_for_auto_deletion` event email" do
+        ActiveJob::Base.queue_adapter = :test
+        clear_enqueued_jobs
+        expect { subject.perform_now(organization) }.to have_enqueued_job(ActionMailer::MailDeliveryJob)
+        expect(mailers_enqueued_jobs.count).to eq 1
+        expect { perform_enqueued_jobs }.to change(emails, :count).by(1)
+
+        expect(last_email.to).to include(inactive_user.email)
+        expect(last_email.subject).to include("Your account will be deleted on #{deletion_date_formatted}.")
+        expect(last_email.body.encoded).to include("Your account will be deleted on #{deletion_date_formatted}.")
+        expect(last_email.body.encoded).to include("Please log in again to prevent automatic deletion of your account")
+        expect(last_email.body.encoded).to include("<a href=\"#{Decidim::Core::Engine.routes.url_helpers.user_session_url(host: organization.host)}\"")
+      end
+    end
+
+    context "when deletes user" do
+      let!(:marked_inactive_user) { create(:user, :confirmed, organization: organization, last_sign_in_at: delete_date - 1.day, marked_for_auto_deletion_at: mark_date) }
+
+      it "schedules `user_auto_deleted` event email" do
+        expect { subject.perform_now(organization) }.to change(emails, :count).by(1)
+        expect(last_email.to).to include(marked_inactive_user.email)
+        expect(last_email.subject).to include("Your account has been deleted.")
+        expect(last_email.body.encoded).to include("Your account has been deleted.")
+      end
+    end
+  end
+
   def mark_event_mailer_params_for(user)
     [
       "decidim.events.users.user_marked_for_auto_deletion",
@@ -256,7 +288,7 @@ describe Decidim::UsersAutoDeletionJob do
       user,
       "affected_user",
       {
-        date: I18n.l(Time.zone.today + delete_marked_after.send(delete_marked_after_unit), format: :default),
+        date: deletion_date_formatted,
         sign_in_url: Decidim::Core::Engine.routes.url_helpers.user_session_url(host: organization.host)
       }
     ]
@@ -271,5 +303,13 @@ describe Decidim::UsersAutoDeletionJob do
       "affected_user",
       {}
     ]
+  end
+
+  def deletion_date_formatted
+    I18n.l(Time.zone.today + delete_marked_after.send(delete_marked_after_unit), format: :default)
+  end
+
+  def mailers_enqueued_jobs
+    enqueued_jobs.select { |j| j[:queue] == "mailers" }
   end
 end

@@ -4,7 +4,7 @@ fr:
       users:
         user_marked_for_auto_deletion:
           email_intro: Votre compte sera supprimé le %{date}.
-          email_outro: Veuillez vous reconnecter pour empêcher la suppression automatique de votre compte - %{sign_in_url}.
+          email_outro: Veuillez vous reconnecter pour empêcher la suppression automatique de votre compte - <a href="%{sign_in_url}">S'identifier</a>.
           email_subject: Votre compte sera supprimé le %{date}.
         user_auto_deleted:
           email_intro: Votre compte a été supprimé.
