@@ -9,7 +9,7 @@ en:
       users:
         user_marked_for_auto_deletion:
           email_intro: Your account will be deleted on %{date}.
-          email_outro: Please log in again to prevent automatic deletion of your account - %{sign_in_url}.
+          email_outro: Please log in again to prevent automatic deletion of your account - <a href="%{sign_in_url}">Sign In</a>.
           email_subject: Your account will be deleted on %{date}.
         user_auto_deleted:
           email_intro: Your account has been deleted.

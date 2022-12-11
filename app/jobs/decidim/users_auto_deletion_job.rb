@@ -12,7 +12,7 @@ module Decidim
       @organization = organization
       @settings = (organization.users_auto_deletion_settings || {}).with_indifferent_access
 
-      return unless @settings[:enabled]
+      return unless settings[:enabled]
 
       delete_marked_users
       mark_users_for_deletion
@@ -27,7 +27,7 @@ module Decidim
           user.update_column(:marked_for_auto_deletion_at, Time.zone.today)
           # rubocop:enable Rails/SkipsModelValidations
 
-          next unless @settings[:send_email_on_mark_for_deletion]
+          next unless settings[:send_email_on_mark_for_deletion]
 
           Decidim::NotificationMailer.event_received(
             "decidim.events.users.user_marked_for_auto_deletion", # event
@@ -50,7 +50,7 @@ module Decidim
           next if cleared_mark_for_deletion?(user)
 
           f = form(Decidim::DeleteAccountForm).from_params({ delete_reason: "Automatically deleted due to inactivity" })
-          Decidim::DestroyAccount.call(user, f) do
+          Decidim::DestroyAccount.call(user.clone, f) do
             on(:ok) do
               next unless settings[:send_email_on_deletion]
 
@@ -61,7 +61,7 @@ module Decidim
                 user, # user
                 "affected_user", # user_role
                 {} # extra
-              ).deliver_later
+              ).deliver_now
             end
           end
         end
@@ -86,15 +86,15 @@ module Decidim
     end
 
     def delete_admin_users?
-      @settings[:delete_admin_users]
+      settings[:delete_admin_users]
     end
 
     def mark_for_deletion_after
-      @settings[:mark_for_deletion_after].to_i.send(@settings[:mark_for_deletion_after_unit])
+      settings[:mark_for_deletion_after].to_i.send(settings[:mark_for_deletion_after_unit])
     end
 
     def delete_marked_after
-      @settings[:delete_marked_after].to_i.send(@settings[:delete_marked_after_unit])
+      settings[:delete_marked_after].to_i.send(settings[:delete_marked_after_unit])
     end
   end
 end

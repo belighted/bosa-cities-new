@@ -5,6 +5,9 @@
       <%= f.check_box :enabled %>
       <p class="help-text"><%= t(".instructions.enabled") %></p>
     </div>
+    <div class="field">
+      <%= f.check_box :delete_admin_users %>
+    </div>
     <fieldset class="fieldset">
       <legend><%= t(".fieldsets.mark_for_deletion_after") %></legend>
       <p class="help-text"><%= t(".instructions.mark_for_deletion_after") %></p>
@@ -25,9 +28,6 @@
                    Decidim::System::UpdateOrganizationForm::USERS_AUTO_DELETION_UNITS.map { |unit| [t(".units.#{unit}"), unit] },
                    { include_blank: false, label: false },
                    { multiple: false } %>
-      <div class="field">
-        <%= f.check_box :delete_admin_users %>
-      </div>
       <div class="field">
         <%= f.check_box :send_email_on_deletion %>
       </div>

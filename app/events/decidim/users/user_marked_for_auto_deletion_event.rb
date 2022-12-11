@@ -3,7 +3,7 @@
 module Decidim
   module Users
     class UserMarkedForAutoDeletionEvent < Decidim::Events::SimpleEvent
-      i18n_attributes :date
+      i18n_attributes :date, :sign_in_url
 
       def resource_path
         ""
