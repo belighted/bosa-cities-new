@@ -1,6 +1,9 @@
 # bosa_cities_new
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/7cf3bc92360f76a4dc07/maintainability)](https://codeclimate.com/github/belighted/bosa-cities-new/maintainability)
+[![[CI] Lint code](https://github.com/belighted/bosa-cities-new/actions/workflows/lint_code.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/lint_code.yml)
+[![[CI] Core](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_core.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_core.yml)
+[![[CI] System](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_system.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_system.yml)
 
 Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
 
