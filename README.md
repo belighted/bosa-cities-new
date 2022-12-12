@@ -1,5 +1,7 @@
 # bosa_cities_new
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/7cf3bc92360f76a4dc07/maintainability)](https://codeclimate.com/github/belighted/bosa-cities-new/maintainability)
+
 Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
 
 This is the open-source repository for bosa_cities_new, based on [Decidim](https://github.com/decidim/decidim).
