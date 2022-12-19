@@ -55,3 +55,4 @@ public/sw.js.map
 
 # Tests
 .rspec-failures
+coverage
