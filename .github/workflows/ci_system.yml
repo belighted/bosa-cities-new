@@ -60,8 +60,8 @@ jobs:
         working-directory: .
         env:
           SIMPLECOV: "true"
-#      - run: ./.github/upload_coverage.sh $DECIDIM_MODULE $GITHUB_EVENT_PATH
-#        name: Upload coverage
+      - run: ./.github/upload_coverage.sh $DECIDIM_MODULE $GITHUB_EVENT_PATH
+        name: Upload coverage
       - uses: actions/upload-artifact@v2
         if: always()
         with:

@@ -4,6 +4,7 @@
 [![[CI] Lint code](https://github.com/belighted/bosa-cities-new/actions/workflows/lint_code.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/lint_code.yml)
 [![[CI] Core](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_core.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_core.yml)
 [![[CI] System](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_system.yml/badge.svg)](https://github.com/belighted/bosa-cities-new/actions/workflows/ci_system.yml)
+[![codecov](https://codecov.io/gh/belighted/bosa-cities-new/branch/master/graph/badge.svg?token=TUVERZ4NBU)](https://codecov.io/gh/belighted/bosa-cities-new)
 
 Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
 
