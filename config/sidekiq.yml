@@ -9,6 +9,7 @@
   - exports
   - active_storage_analysis
   - active_storage_purge
+  - vote_reminder
 
 :schedule:
   CalculateAllMetrics:
